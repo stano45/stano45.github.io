@@ -1,3 +1,94 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "prettier",
+    "next/core-web-vitals",
+    "airbnb"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "ignorePatterns": [".eslintrc.js", ".eslintrc.cjs"],
+  "plugins": ["@typescript-eslint", "import", "jsx-a11y", "prettier", "react"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "import/no-default-export": "error",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": ["**/index"],
+        "paths": [
+          {
+            "name": "moment",
+            "message": "Moment is not allowed, use Dayjs instead."
+          }
+        ]
+      }
+    ],
+    "prettier/prettier": "error",
+    "react/function-component-definition": "error",
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn"]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": "**/*.{ts,tsx}",
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:import/typescript"
+      ],
+      "rules": {
+        "@typescript-eslint/explicit-member-accessibility": "error",
+        "@typescript-eslint/member-delimiter-style": "error",
+        "@typescript-eslint/method-signature-style": "error",
+        "@typescript-eslint/explicit-module-boundary-types": "error",
+        "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+        "@typescript-eslint/no-unnecessary-condition": "error",
+        "@typescript-eslint/prefer-optional-chain": "error",
+        "@typescript-eslint/require-array-sort-compare": "error"
+      }
+    },
+    {
+      "files": "**/*.{js,jsx,ts,tsx}",
+      "excludedFiles": "*.test.{js,jsx,ts,tsx}",
+      "rules": {
+        "import/no-internal-modules": [
+          "error",
+          {
+            "allow": ["**/assets/*"]
+          }
+        ]
+      }
+    }
+  ]
 }
