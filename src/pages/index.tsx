@@ -1,5 +1,4 @@
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import Link from 'next/link';
+import React from 'react';
 
 export default function Home() {
   return (
@@ -8,13 +7,4 @@ export default function Home() {
       <p>This is the home section.</p>
     </div>
   );
-}
-
-export async function getStaticProps({ locale }: { locale: string }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ['navbar'])),
-      // Will be passed to the page component as props
-    },
-  };
 }
