@@ -10,35 +10,37 @@ export default function Contact() {
   return (
     <>
       <NextSeo title={t('contact.title')} description={t('contact.description')} />
-      <div
-        id="contact"
-        className="relative flex flex-row items-start top-44 justify-center w-full min-h-screen bg-black"
-      >
-        <Tooltip content={<span className="text-2xl">{t('contact.linkedin')}</span>}>
-          <a
-            className="mx-10 flex items-center justify-center"
-            href="https://www.linkedin.com/in/stanislav-kosorin-b88452170/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillLinkedin size="20em" />
-          </a>
-        </Tooltip>
-        <Tooltip content={<span className="text-2xl">{t('contact.github')}</span>}>
-          <a
-            className="mx-10 flex items-center justify-center"
-            href="https://github.com/stano45"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillGithub size="20em" />
-          </a>
-        </Tooltip>
-        <Tooltip content={<span className="text-2xl">{t('contact.email')}</span>}>
-          <a className="mx-10 flex items-center justify-center" href="mailto:stanokosorin4@gmail.com">
-            <AiOutlineMail size="20em" />
-          </a>
-        </Tooltip>
+      <div id="contact" className="flex flex-col justify-center items-center w-full h-5/6 bg-black">
+        <div className="flex flex-row justify-center items-center">
+          <Tooltip content={<span className="text-2xl">{t('contact.linkedin')}</span>}>
+            <a
+              className="opacity-0 fade-in-first mx-10 flex items-center justify-center"
+              href="https://www.linkedin.com/in/stanislav-kosorin-b88452170/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin size="20em" />
+            </a>
+          </Tooltip>
+          <Tooltip content={<span className="text-2xl">{t('contact.github')}</span>}>
+            <a
+              className="opacity-0 fade-in-second mx-10 flex items-center justify-center"
+              href="https://github.com/stano45"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub size="20em" />
+            </a>
+          </Tooltip>
+          <Tooltip content={<span className="text-2xl">{t('contact.email')}</span>}>
+            <a
+              className="opacity-0 fade-in-third mx-10 flex items-center justify-center"
+              href="mailto:stanokosorin4@gmail.com"
+            >
+              <AiOutlineMail size="20em" />
+            </a>
+          </Tooltip>
+        </div>
       </div>
     </>
   );

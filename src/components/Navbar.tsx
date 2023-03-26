@@ -2,10 +2,19 @@ import React from 'react';
 import Link from 'next/link';
 import LanguagePicker from './LanguagePicker';
 import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
+import { useRouter } from 'next/router';
 
 export default function Navbar() {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
+  const router = useRouter();
+  const navbarOptions = [
+    { title: t('about.title'), path: '/about' },
+    { title: t('blog.title'), path: '/blog' },
+    { title: t('cv.title'), path: '/cv' },
+    { title: t('contact.title'), path: '/contact' },
+  ];
+  console.log(router.asPath);
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -19,32 +28,21 @@ export default function Navbar() {
           </svg>
         </button>
       </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div className="w-full block text-2xl lg:flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-2xl lg:flex-grow">
-          <Link href={{ pathname: '/about', query: query }} passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
-              {t('about.title')}
-            </button>
-          </Link>
-          <Link href={{ pathname: '/blog', query: query }} passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
-              {t('blog.title')}
-            </button>
-          </Link>
-          <Link href={{ pathname: '/cv', query: query }} passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
-              {t('cv.title')}
-            </button>
-          </Link>
-          <Link href={{ pathname: '/contact', query: query }} passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white">
-              {t('contact.title')}
-            </button>
-          </Link>
+          {navbarOptions.map((option) => (
+            <Link href={{ pathname: option.path, query: query }} passHref>
+              <button
+                className={`block mt-4 lg:inline-block lg:mt-0 ${
+                  router.asPath.startsWith(option.path) ? 'text-white' : 'text-pink-200'
+                }  hover:text-white mr-6`}
+              >
+                {option.title}
+              </button>
+            </Link>
+          ))}
         </div>
-        <div>
-          <LanguagePicker />
-        </div>
+        <LanguagePicker />
       </div>
     </nav>
   );

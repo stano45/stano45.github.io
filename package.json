@@ -16,6 +16,7 @@
     "@typescript-eslint/parser": "^5.56.0",
     "eslint": "^8.0.1",
     "eslint-config-next": "13.2.4",
+    "framer-motion": "^10.9.1",
     "next": "13.2.4",
     "next-export-i18n": "^2.1.0",
     "next-seo": "^5.15.0",
