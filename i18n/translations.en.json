@@ -17,6 +17,9 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "The contact page of Stanislav Kosorin, including his email address and social media profiles"
+    "description": "The contact page of Stanislav Kosorin, including his email address and social media profiles",
+    "linkedin": "Connect with me on LinkedIn 🌍",
+    "github": "Check out my projects on Github 🐱‍💻",
+    "email": "Send me an email 📧"
   }
 }

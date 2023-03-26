@@ -17,6 +17,9 @@
   },
   "contact": {
     "title": "Kontakt",
-    "description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer"
+    "description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer",
+    "linkedin": "Vernetzen Sie sich mit mir auf LinkedIn 🌍",
+    "github": "Schauen Sie sich meine Projekte auf Github an 🐱‍💻",
+    "email": "Schicken Sie mir eine E-Mail 📧"
   }
 }

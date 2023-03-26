@@ -17,6 +17,9 @@
   },
   "contact": {
     "title": "Kontakt",
-    "description": "Kontaktinformation för Stanislav Kosorin, hans sociala nätverk och e-post"
+    "description": "Kontaktinformation för Stanislav Kosorin, hans sociala nätverk och e-post",
+    "linkedin": "Anslut till mig på LinkedIn 🌍",
+    "github": "Kolla in mina projekt på Github 🐱‍💻",
+    "email": "Skicka mig ett e-postmeddelande 📧"
   }
 }

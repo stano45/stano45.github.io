@@ -17,6 +17,9 @@
   },
   "contact": {
     "title": "Kontakt",
-    "description": "Kontakt na Stanislava Kosorina, jeho sociálne siete a email"
+    "description": "Kontakt na Stanislava Kosorina, jeho sociálne siete a email",
+    "linkedin": "Spojte sa so mnou na LinkedIn 🌍",
+    "github": "Pozrite si moje projekty na GitHube 🐱‍💻",
+    "email": "Pošlite mi e-mail 📧"
   }
 }
