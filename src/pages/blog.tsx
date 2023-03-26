@@ -1,4 +1,3 @@
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React from 'react';
 
 export default function Blog() {
@@ -8,13 +7,4 @@ export default function Blog() {
       <p>This is the Blog section.</p>
     </div>
   );
-}
-
-export async function getStaticProps({ locale }: { locale: string }) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ['navbar'])),
-      // Will be passed to the page component as props
-    },
-  };
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import { useTranslation } from 'next-i18next';
 import LanguagePicker from './LanguagePicker';
+import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 
 export default function Navbar() {
-  const { t } = useTranslation('navbar');
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -20,22 +21,22 @@ export default function Navbar() {
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-2xl lg:flex-grow">
-          <Link href="/about" passHref>
+          <Link href={{ pathname: '/about', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
               {t('about')}
             </button>
           </Link>
-          <Link href="/blog" passHref>
+          <Link href={{ pathname: '/blog', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
               {t('blog')}
             </button>
           </Link>
-          <Link href="/cv" passHref>
+          <Link href={{ pathname: '/cv', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
               {t('cv')}
             </button>
           </Link>
-          <Link href="/contact" passHref>
+          <Link href={{ pathname: '/contact', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white">
               {t('contact')}
             </button>
