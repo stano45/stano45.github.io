@@ -1,7 +1,22 @@
 {
-  "about": "O mne",
-  "blog": "Blog",
-  "cv": "Životopis",
-  "contact": "Kontakt",
-  "language": "Jazyk"
+  "home": {
+    "title": "Stanislav Kosorin",
+    "description": "Informačná stránka o Stanislav Kosorinovi: blog, životopis, kontakt"
+  },
+  "about": {
+    "title": "O mne",
+    "description": "Informačná stránka o Stanislav Kosorinovi: blog, životopis, kontakt"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Blog Stanislav Kosorin, kde sa môžete dozvedieť viac o jeho záujmoch, zážitkoch a nápadoch"
+  },
+  "cv": {
+    "title": "Životopis",
+    "description": "Interaktívny životopis Stanislava Kosorina, zahrňujúci jeho predošlé skúsenosti a vzdelanie"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Kontakt na Stanislava Kosorina, jeho sociálne siete a email"
+  }
 }

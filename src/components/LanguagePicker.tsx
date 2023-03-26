@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import ReactCountryFlag from 'react-country-flag';
-import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
+import { useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 
 interface Language {
   code: string;
@@ -10,9 +10,7 @@ interface Language {
 }
 
 export default function LanguagePicker() {
-  const { t } = useTranslation();
   const [query] = useLanguageQuery();
-  const router = useRouter();
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const languages: Language[] = [
@@ -21,9 +19,13 @@ export default function LanguagePicker() {
     { code: 'sk', name: 'Slovenčina', flag: 'SK' },
     { code: 'sv', name: 'Svenska', flag: 'SE' },
   ];
-  const [selectedLang, setSelectedLang] = useState(languages[0]);
+  const [selectedLang, setSelectedLang] = useState(languages.find((lang) => lang.code === query?.lang) ?? languages[0]);
 
-  const onToggleLanguageClick = (lang: Language) => {
+  useEffect(() => {
+    setSelectedLang(languages.find((lang) => lang.code === query?.lang) ?? languages[0]);
+  }, [query?.lang]);
+
+  const onSelectLang = (lang: Language) => {
     setSelectedLang(lang);
     setDropdownOpen(false);
   };
@@ -69,7 +71,10 @@ export default function LanguagePicker() {
             {languages.map((lang) => (
               <li key={lang.code} className="hover:bg-blue-500 hover:text-white">
                 <LanguageSwitcher lang={lang.code}>
-                  <div className="inline-flex justify-between items-center w-full px-4 py-1 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500">
+                  <button
+                    onClick={() => onSelectLang(lang)}
+                    className="inline-flex justify-between items-center w-full px-4 py-1 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+                  >
                     <span className="mr-4 p-2">{lang.name}</span>
                     <ReactCountryFlag
                       countryCode={lang.flag}
@@ -80,7 +85,7 @@ export default function LanguagePicker() {
                       }}
                       title={lang.flag}
                     />
-                  </div>
+                  </button>
                 </LanguageSwitcher>
               </li>
             ))}

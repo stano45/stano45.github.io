@@ -1,7 +1,22 @@
 {
-  "about": "Über mich",
-  "blog": "Blog",
-  "cv": "Lebenslauf",
-  "contact": "Kontakt",
-  "language": "Sprache"
+  "home": {
+    "title": "Stanislav Kosorin",
+    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen"
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Der Blog von Stanislav Kosorin, inklusive Beiträge über seine Arbeit, Projekte und Interessen"
+  },
+  "cv": {
+    "title": "Lebenslauf",
+    "description": "Der Lebenslauf von Stanislav Kosorin, inklusive seiner Ausbildung, Arbeitserfahrung und Interessen"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer"
+  }
 }

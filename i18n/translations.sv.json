@@ -1,7 +1,22 @@
 {
-  "about": "Om mig",
-  "blog": "Blogg",
-  "cv": "CV",
-  "contact": "Kontakt",
-  "language": "Språk"
+  "home": {
+    "title": "Stanislav Kosorin",
+    "description": "Informationssida om Stanislav Kosorin: blogg, biografi, kontakt"
+  },
+  "about": {
+    "title": "Om mig",
+    "description": "Informationssida om Stanislav Kosorin: blogg, biografi, kontakt"
+  },
+  "blog": {
+    "title": "Blogg",
+    "description": "Stanislav Kosorins blogg, där du kan lära dig mer om hans intressen, upplevelser och idéer"
+  },
+  "cv": {
+    "title": "Biografi",
+    "description": "Interaktiv biografi om Stanislav Kosorin, inklusive hans tidigare erfarenheter och utbildning"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Kontaktinformation för Stanislav Kosorin, hans sociala nätverk och e-post"
+  }
 }

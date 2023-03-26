@@ -23,22 +23,22 @@ export default function Navbar() {
         <div className="text-2xl lg:flex-grow">
           <Link href={{ pathname: '/about', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
-              {t('about')}
+              {t('about.title')}
             </button>
           </Link>
           <Link href={{ pathname: '/blog', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
-              {t('blog')}
+              {t('blog.title')}
             </button>
           </Link>
           <Link href={{ pathname: '/cv', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
-              {t('cv')}
+              {t('cv.title')}
             </button>
           </Link>
           <Link href={{ pathname: '/contact', query: query }} passHref>
             <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white">
-              {t('contact')}
+              {t('contact.title')}
             </button>
           </Link>
         </div>

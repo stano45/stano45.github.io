@@ -1,8 +1,22 @@
 {
-    "about": "About",
-    "blog": "Blog",
-    "cv": "Resume",
-    "contact": "Contact",
-    "language": "Language"
+  "home": {
+    "title": "Stanislav Kosorin",
+    "description": "The personal website of Stanislav Kosorin, including his portfolio, blog, and resume"
+  },
+  "about": {
+    "title": "About",
+    "description": "The about page of Stanislav Kosorin, describing his background, skills, and interests"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "The personal blog of Stanislav Kosorin, including articles about programming, web development, and other topics"
+  },
+  "cv": {
+    "title": "Resume",
+    "description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "The contact page of Stanislav Kosorin, including his email address and social media profiles"
   }
-  
+}
