@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
+import LanguagePicker from './LanguagePicker';
 
 export default function Navbar() {
+  const { t } = useTranslation('navbar');
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -18,25 +21,28 @@ export default function Navbar() {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-2xl lg:flex-grow">
           <Link href="/about" passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">About</button>
+            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
+              {t('about')}
+            </button>
           </Link>
           <Link href="/blog" passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">Blog</button>
+            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
+              {t('blog')}
+            </button>
           </Link>
           <Link href="/cv" passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">CV</button>
+            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-6">
+              {t('cv')}
+            </button>
           </Link>
           <Link href="/contact" passHref>
-            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white">Contact</button>
+            <button className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white">
+              {t('contact')}
+            </button>
           </Link>
         </div>
         <div>
-          <a
-            href="#"
-            className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-          >
-            Language
-          </a>
+          <LanguagePicker />
         </div>
       </div>
     </nav>
