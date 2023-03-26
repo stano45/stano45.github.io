@@ -15,8 +15,6 @@ export default function LanguagePicker() {
   const router = useRouter();
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  console.log('query', query);
-
   const languages: Language[] = [
     { code: 'en', name: 'English', flag: 'GB' },
     { code: 'de', name: 'Deutsch', flag: 'DE' },
