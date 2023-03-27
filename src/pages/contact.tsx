@@ -11,33 +11,33 @@ export default function Contact() {
     <>
       <NextSeo title={t('contact.title')} description={t('contact.description')} />
       <div id="contact" className="flex flex-col justify-center items-center w-full h-5/6 bg-black">
-        <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-col md:flex-row justify-center items-center">
           <Tooltip content={<span className="text-2xl">{t('contact.linkedin')}</span>}>
             <a
-              className="opacity-0 fade-in-first mx-10 flex items-center justify-center"
+              className="opacity-0 fade-in-first mx-10 my-6 md:my-0 flex items-center justify-center"
               href="https://www.linkedin.com/in/stanislav-kosorin-b88452170/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillLinkedin size="20em" />
+              <AiFillLinkedin size="5em" className="md:text-5xl" />
             </a>
           </Tooltip>
           <Tooltip content={<span className="text-2xl">{t('contact.github')}</span>}>
             <a
-              className="opacity-0 fade-in-second mx-10 flex items-center justify-center"
+              className="opacity-0 fade-in-second mx-10 my-6 md:my-0 flex items-center justify-center"
               href="https://github.com/stano45"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <AiFillGithub size="20em" />
+              <AiFillGithub size="5em" className="md:text-5xl" />
             </a>
           </Tooltip>
           <Tooltip content={<span className="text-2xl">{t('contact.email')}</span>}>
             <a
-              className="opacity-0 fade-in-third mx-10 flex items-center justify-center"
+              className="opacity-0 fade-in-third mx-10 my-6 md:my-0 flex items-center justify-center"
               href="mailto:stanokosorin4@gmail.com"
             >
-              <AiOutlineMail size="20em" />
+              <AiOutlineMail size="5em" className="md:text-5xl" />
             </a>
           </Tooltip>
         </div>
