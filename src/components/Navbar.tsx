@@ -38,8 +38,8 @@ export default function Navbar() {
         </button>
       </div>
       <div
-        className={`${isMenuOpen ? 'block' : 'hidden'} w-full text-2xl lg:flex-grow lg:flex lg:items-center lg:w-auto`}
-      > 
+        className={`${isMenuOpen ? 'flex' : 'hidden'} w-full text-2xl lg:flex-grow lg:flex lg:items-center lg:w-auto`}
+      >
         <div className="text-2xl lg:flex-grow">
           {navbarOptions.map((option) => (
             <Link href={{ pathname: option.path, query: query }} passHref>
@@ -54,7 +54,9 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <LanguagePicker />
+        <div className={`${isMenuOpen && 'self-end'}`}>
+          <LanguagePicker />
+        </div>
       </div>
     </nav>
   );

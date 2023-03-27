@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useRouter } from 'next/router';
 import ReactCountryFlag from 'react-country-flag';
 import { useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 
@@ -49,20 +48,19 @@ export default function LanguagePicker() {
   }, [ref]);
 
   return (
-    <div className="relative w-44 z-10" ref={ref}>
+    <div className="relative z-10 w-16" ref={ref}>
       <button
         onClick={() => setDropdownOpen(!dropdownOpen)}
-        className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+        className="inline-flex justify-between items-center w-full px-4 py-1 text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
       >
-        <span className="mr-4">{selectedLang?.name ?? 'English'}</span>
         <ReactCountryFlag
           countryCode={selectedLang?.flag ?? 'GB'}
           svg
           style={{
-            width: '1.5em',
-            height: '1.5em',
+            width: '2em',
+            height: '2em',
           }}
-          title={selectedLang?.flag ?? 'GB'}
+          title={selectedLang?.name ?? 'English'}
         />
       </button>
       {dropdownOpen && (
@@ -73,15 +71,14 @@ export default function LanguagePicker() {
                 <LanguageSwitcher lang={lang.code}>
                   <button
                     onClick={() => onSelectLang(lang)}
-                    className="inline-flex justify-between items-center w-full px-4 py-1 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+                    className="inline-flex justify-between items-center w-full px-4 py-2 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
                   >
-                    <span className="mr-4 p-2">{lang.name}</span>
                     <ReactCountryFlag
                       countryCode={lang.flag}
                       svg
                       style={{
-                        width: '1.5em',
-                        height: '1.5em',
+                        width: '2em',
+                        height: '2em',
                       }}
                       title={lang.flag}
                     />
