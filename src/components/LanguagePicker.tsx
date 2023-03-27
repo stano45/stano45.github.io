@@ -49,7 +49,7 @@ export default function LanguagePicker() {
   }, [ref]);
 
   return (
-    <div className="relative w-44" ref={ref}>
+    <div className="relative w-44 z-10" ref={ref}>
       <button
         onClick={() => setDropdownOpen(!dropdownOpen)}
         className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
