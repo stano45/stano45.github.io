@@ -1,25 +1,21 @@
+import { useLanguageQuery } from 'next-export-i18n';
+import Link from 'next/link';
 import React from 'react';
-
-export interface BlogPostMeta {
-  title: string;
-  date: string;
-  image: string;
-  tags: string[];
-}
-
-export interface BlogPostListProps {
-  posts: BlogPostMeta[];
-}
+import { BlogPostListProps } from './types';
 
 export function BlogPostList({ posts }: BlogPostListProps) {
+  const [query] = useLanguageQuery();
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:ml-44 mt-16 lg:mt-20">
       {posts.map((post, index) => (
-        <div
+        <Link
           key={index}
-          className=" lg:w-10/12 h-96 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group"
+          href={{ pathname: `/blog/${post.id}`, query: query }}
+          className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group"
+          passHref
         >
-          <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg h-96 shrink-0" />\
+          <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg h-80 shrink-0" />\
           <div className="w-1/2 m-4  justify-start items-center">
             <h2 className="text-2xl text-black font-semibold">{post.title}</h2>
             <span className="text-sm text-black">{post.date}</span>
@@ -34,7 +30,7 @@ export function BlogPostList({ posts }: BlogPostListProps) {
               ))}
             </ul>
           </div>
-        </div>
+        </Link>
       ))}
     </div>
   );

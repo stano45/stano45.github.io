@@ -22,9 +22,9 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-4">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-4xl tracking-tight">Stanislav Kosorin</span>
+        <span className="font-semibold text-3xl tracking-tight">Stanislav Kosorin</span>
       </div>
       <div className="lg:hidden">
         <button
@@ -38,14 +38,14 @@ export default function Navbar() {
         </button>
       </div>
       <div
-        className={`${isMenuOpen ? 'flex' : 'hidden'} w-full text-2xl lg:flex-grow lg:flex lg:items-center lg:w-auto`}
+        className={`${isMenuOpen ? 'flex' : 'hidden'} w-full text-lg lg:flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-2xl lg:flex-grow">
-          {navbarOptions.map((option) => (
-            <Link href={{ pathname: option.path, query: query }} passHref>
+        <div className="lg:flex-grow">
+          {navbarOptions.map((option, idx) => (
+            <Link key={idx} href={{ pathname: option.path, query: query }} passHref>
               <button
                 onClick={toggleMenu}
-                className={`block mt-4 lg:inline-block lg:mt-0 ${
+                className={`block mt-4 lg:inline-block  lg:mt-0 ${
                   router.asPath.startsWith(option.path) ? 'text-white' : 'text-pink-200'
                 }  hover:text-white mr-6`}
               >

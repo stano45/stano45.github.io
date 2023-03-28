@@ -48,17 +48,17 @@ export default function LanguagePicker() {
   }, [ref]);
 
   return (
-    <div className="relative z-10 w-16" ref={ref}>
+    <div className="relative z-10" ref={ref}>
       <button
         onClick={() => setDropdownOpen(!dropdownOpen)}
-        className="inline-flex justify-between items-center w-full px-4 py-1 text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
+        className="p-1 inline-flex justify-between items-center w-full text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
       >
         <ReactCountryFlag
           countryCode={selectedLang?.flag ?? 'GB'}
           svg
           style={{
-            width: '2em',
-            height: '2em',
+            width: '1.5em',
+            height: '1.5em',
           }}
           title={selectedLang?.name ?? 'English'}
         />
@@ -71,14 +71,14 @@ export default function LanguagePicker() {
                 <LanguageSwitcher lang={lang.code}>
                   <button
                     onClick={() => onSelectLang(lang)}
-                    className="inline-flex justify-between items-center w-full px-4 py-2 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+                    className="inline-flex justify-between items-center w-full p-1 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
                   >
                     <ReactCountryFlag
                       countryCode={lang.flag}
                       svg
                       style={{
-                        width: '2em',
-                        height: '2em',
+                        width: '1.5em',
+                        height: '1.5em',
                       }}
                       title={lang.flag}
                     />
