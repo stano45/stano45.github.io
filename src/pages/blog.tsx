@@ -24,6 +24,18 @@ export default function Blog() {
               image: 'https://picsum.photos/200/300',
               tags: ['test', 'test2'],
             },
+            {
+              title: 'Internationalization for statically exported Next.js sites',
+              date: '2021-01-01',
+              image: 'https://cdn.pixabay.com/photo/2015/04/03/18/56/font-705667_1280.jpg',
+              tags: ['test', 'test2'],
+            },
+            {
+              title: 'Test',
+              date: '2021-01-01',
+              image: 'https://picsum.photos/200/300',
+              tags: ['test', 'test2'],
+            },
           ]}
         />
       </div>
