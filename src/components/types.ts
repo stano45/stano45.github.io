@@ -6,14 +6,11 @@ export interface BlogPostMeta {
   id: string;
 }
 
-export interface BlogPostContent extends BlogPostMeta {
-  content: string;
-}
-
 export interface BlogPostListProps {
   posts: BlogPostMeta[];
 }
 
 export interface BlogPostProps {
-  post: BlogPostContent;
+  post: BlogPostMeta;
+  children: React.ReactNode;
 }

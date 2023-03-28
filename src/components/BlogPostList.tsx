@@ -12,12 +12,12 @@ export function BlogPostList({ posts }: BlogPostListProps) {
         <Link
           key={index}
           href={{ pathname: `/blog/${post.id}`, query: query }}
-          className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group"
+          className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words"
           passHref
         >
           <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg h-80 shrink-0" />\
-          <div className="w-1/2 m-4  justify-start items-center">
-            <h2 className="text-2xl text-black font-semibold">{post.title}</h2>
+          <div className="w-1/2 m-4 p-4 justify-start items-center wrap break-all shrink-0">
+            <h2 className="text-2xl text-black font-semibold break-normal">{post.title}</h2>
             <span className="text-sm text-black">{post.date}</span>
             <ul className="flex flex-wrap mt-2">
               {post.tags.map((tag, idx) => (

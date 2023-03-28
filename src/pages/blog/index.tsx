@@ -13,11 +13,11 @@ export default function Blog() {
         <BlogPostList
           posts={[
             {
-              title: 'Internationalization for statically exported Next.js sites',
+              title: 'Internationalization for static Next.js',
               date: '2023-03-27',
               image: 'https://cdn.pixabay.com/photo/2015/04/03/18/56/font-705667_1280.jpg',
               tags: ['Frontend', 'Next.js', 'Typescript'],
-              id: '0',
+              id: 'internationalizaton-for-static-nextjs',
             },
           ]}
         />
