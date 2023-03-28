@@ -17,13 +17,13 @@ export function BlogPostList({ posts }: BlogPostListProps) {
         >
           <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg h-80 shrink-0" />\
           <div className="w-1/2 m-4 p-4 justify-start items-center wrap break-all shrink-0">
-            <h2 className="text-2xl text-black font-semibold break-normal">{post.title}</h2>
-            <span className="text-sm text-black">{post.date}</span>
+            <h2 className="text-lg lg:text-2xl text-black font-semibold break-normal">{post.title}</h2>
+            <span className="text-xs lg:text-sm text-black">{post.date}</span>
             <ul className="flex flex-wrap mt-2">
               {post.tags.map((tag, idx) => (
                 <li
                   key={idx}
-                  className="bg-orange-100 text-gray-700 px-2 py-1 mr-2 mb-2 rounded-md text-sm group-hover:bg-white"
+                  className="bg-orange-100 text-gray-700 px-2 py-1 mr-2 mb-2 rounded-md text-xs lg:text-sm group-hover:bg-white"
                 >
                   {tag}
                 </li>
