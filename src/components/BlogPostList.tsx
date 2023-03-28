@@ -7,7 +7,7 @@ export function BlogPostList({ posts }: BlogPostListProps) {
   const [query] = useLanguageQuery();
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:ml-44 mt-16 lg:mt-20">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:ml-44 mt-8 lg:mt-20">
       {posts.map((post, index) => (
         <Link
           key={index}
@@ -15,7 +15,7 @@ export function BlogPostList({ posts }: BlogPostListProps) {
           className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words"
           passHref
         >
-          <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg h-80 shrink-0" />\
+          <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg lg:h-80 shrink-0" />\
           <div className="w-1/2 p-4 justify-start items-center">
             <h2 className="text-lg lg:text-2xl text-black font-semibold break-normal">{post.title}</h2>
             <span className="text-xs lg:text-sm text-black">{post.date}</span>
