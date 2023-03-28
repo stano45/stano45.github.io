@@ -16,7 +16,7 @@ export function BlogPostList({ posts }: BlogPostListProps) {
           passHref
         >
           <img src={post.image} alt={post.title} className="w-1/2 object-cover rounded-lg h-80 shrink-0" />\
-          <div className="w-1/2 m-4 p-4 justify-start items-center wrap break-all shrink-0">
+          <div className="w-1/2 p-4 justify-start items-center">
             <h2 className="text-lg lg:text-2xl text-black font-semibold break-normal">{post.title}</h2>
             <span className="text-xs lg:text-sm text-black">{post.date}</span>
             <ul className="flex flex-wrap mt-2">
