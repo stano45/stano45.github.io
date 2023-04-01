@@ -7,7 +7,7 @@ export default function BlogPostPage() {
   const blogPost: BlogPostMeta = {
     title: 'Internationalization for static Next.js',
     date: '2023-03-27',
-    image: 'https://cdn.pixabay.com/photo/2015/04/03/18/56/font-705667_1280.jpg',
+    image: '/internationalization.png',
     tags: ['Frontend', 'Next.js', 'Typescript'],
     id: 'internationalizaton-for-static-nextjs',
   };

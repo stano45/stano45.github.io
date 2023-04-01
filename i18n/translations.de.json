@@ -13,8 +13,56 @@
   },
   "cv": {
     "title": "Lebenslauf",
-    "description": "Der Lebenslauf von Stanislav Kosorin, inklusive seiner Ausbildung, Arbeitserfahrung und Interessen"
+    "description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
+    "legend": {
+      "work": "Berufserfahrung",
+      "education": "Ausbildung",
+      "project": "Persönliches Projekt"
+    },
+    "content": [
+      {
+        "title": "Full Stack Software Engineer @ Cresta",
+        "date": "Nov 2022 - Gegenwart",
+        "description": "Bei Cresta revolutionieren wir die Kontaktcenter-Industrie, indem wir eine KI-gesteuerte Plattform entwickeln, die Kundenerlebnisse verbessert. Unsere hochmoderne Lösung ermöglicht es Kunden, ihre Kundeninteraktionen durch fortschrittliche Analyse und kontinuierliche Verbesserung zu optimieren und die Qualität des von ihnen bereitgestellten Services zu erhöhen.",
+        "details": "Meine Hauptaufgaben umfassen die Gestaltung und Implementierung neuer Funktionen für unsere Frontend-Webanwendung mit React und TypeScript. Neben der Frontend-Entwicklung trage ich auch zur Backend-Entwicklung bei, indem ich mit Go arbeite, um robuste undeffiziente serverseitige Lösungen zu schaffen.",
+        "urlLabel": "Die Website von Cresta",
+        "url": "https://www.cresta.ai/",
+        "urlName": "cresta.ai",
+        "type": "work"
+      },
+      {
+        "title": "Computer Vision Engineer @ PTX tech GmbH",
+        "date": "Nov 2021- Nov 2022",
+        "description": "Bei PTX habe ich zur Entwicklung eines hochmodernen Echtzeit-3D-Detektionssystems beigetragen, das fortschrittliche Computer Vision-Algorithmen nutzt. Zu meinen Aufgaben gehörten die Verbesserung der Systemleistung durch Optimierung der vorhandenen Codebasis sowie die Einführung neuer Funktionen zur weiteren Verfeinerung seiner Fähigkeiten.",
+        "details": "Konkret habe ich eine effiziente, mehrfädige Pipeline in C++ (Qt5 Framework) entworfen, um 3D-Punktwolken effektiv zu verarbeiten. Ich habe auch einen GPU-beschleunigten Simultaneous Localization and Mapping (SLAM)-Algorithmus in das System integriert. Diese erfolgreiche Integration führte zu einer 10-fachen Beschleunigung der Verarbeitungszeit und verbesserte damit die Gesamtleistung unseres 3D-Detektionssystems erheblich.",
+        "urlLabel": "Die Webseite von PTX",
+        "url": "https://www.ptx-tech.de/",
+        "urlName": "ptx-tech.de",
+        "type": "work"
+      },
+      {
+        "title": "BSc Informatik @ Technische Universität Berlin",
+        "date": "Okt 2020 - Gegenwart",
+        "description": "Ich studiere derzeit Informatik im Bachelor an der Technischen Universität Berlin. Mein Schwerpunkt liegt auf der Softwareentwicklung und verteilten Systemen. Mein voraussichtliches Abschlussdatum ist im Frühjahr 2024.",
+        "details": "Ich habe mich mit einer Menge Themen auseinandergesetzt, wie z. B. Algorithmen und Datenstrukturen, Computerarchitektur, Netzwerke, verteilte Systeme, Systemprogrammierung, Datenbanken und Softwareentwicklung. Darüber hinaus habe ich auch Kenntnisse in den theoretischen Aspekten der Informatik erworben, wie formale Sprachen und Automatentheorie, Berechenbarkeit, Komplexitätstheorie und Logik.",
+        "urlLabel": "Universitätswebseite (Informatik)",
+        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "urlName": "tu.berlin",
+        "type": "education"
+      },
+      {
+        "title": "Gymnasium @ Gymnázium Ladislava Sáru, Bratislava",
+        "date": "2012 - 2020",
+        "description": "Ich besuchte ein allgemeines Gymnasium mit Schwerpunkt auf Sprachen (Deutsch in meinem Fall). Ich schloss mit der Note 1,0 (bestmögliche Note) in den Fächern Mathematik, Informatik, Englisch und Slowakisch ab.",
+        "details": "Neben einigen großartigen Erinnerungen erwarb ich eine solide Grundlage in Naturwissenschaften sowie eine Einführung in die Programmierung. Ich lernte auch Deutsch und erwarb ein C1-Sprachzertifikat, das mir ermöglichte, weiterführende Studien in Deutschland zu absolvieren.",
+        "urlLabel": "Schulwebseite (leider nur auf Slowakisch)",
+        "url": "https://gymlsba.edupage.org/?lang=en",
+        "urlName": "gymlsba.edupage.org",
+        "type": "education"
+      }
+    ]
   },
+
   "contact": {
     "title": "Kontakt",
     "description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer",

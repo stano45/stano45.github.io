@@ -12,9 +12,57 @@
     "description": "Stanislav Kosorins blogg, där du kan lära dig mer om hans intressen, upplevelser och idéer"
   },
   "cv": {
-    "title": "Biografi",
-    "description": "Interaktiv biografi om Stanislav Kosorin, inklusive hans tidigare erfarenheter och utbildning"
+    "title": "CV",
+    "description": "En interaktiv CV för Stanislav Kosorin, som beskriver hans utbildning, arbetslivserfarenhet och färdigheter",
+    "legend": {
+      "work": "Arbetslivserfarenhet",
+      "education": "Utbildning",
+      "project": "Personligt projekt"
+    },
+    "content": [
+      {
+        "title": "Full Stack Software Engineer @ Cresta",
+        "date": "Nov 2022 - Nuvarande",
+        "description": "På Cresta revolutionerar vi kontaktcenterindustrin genom att utveckla en AI-driven plattform som förbättrar kundupplevelser. Vår moderna lösning ger klienter möjlighet att optimera sina kundinteraktioner genom avancerad analys och kontinuerlig förbättring, vilket höjer kvaliteten på den service de tillhandahåller.",
+        "details": "Mina huvudsakliga ansvarsområden innefattar design och implementation av nya funktioner för vår frontend-webbapplikation med React och TypeScript. Utöver frontend-utveckling bidrar jag även till backend-utveckling genom att arbeta med Go för att skapa robusta och effektiva serverlösningar.",
+        "urlLabel": "Besök Crestas webbplats",
+        "url": "https://www.cresta.ai/",
+        "urlName": "cresta.ai",
+        "type": "work"
+      },
+      {
+        "title": "Computer Vision Engineer @ PTX tech GmbH",
+        "date": "Nov 2021 - Nov 2022",
+        "description": "På PTX bidrog jag till utvecklingen av ett toppmodernt, realtids 3D-detektionssystem som utnyttjade avancerade datorseendealgoritmer. Mina ansvarsområden inkluderade förbättring av systemets prestanda genom optimering av den befintliga kodbasen, samt införande av nya funktioner för att ytterligare förbättra dess förmågor.",
+        "details": "Jag designade specifikt en effektiv, multi-trådad pipeline i C++ (framework Qt5) för att effektivt bearbeta 3D-punktmoln. Jag integrerade också en GPU-accelererad Simultaneous Localization and Mapping (SLAM) -algoritm i systemet. Denna lyckade integration resulterade i en 10x ökning av bearbetningstiden, vilket starkt förbättrade prestandan hos vårt 3D-detektionssystem.",
+        "urlLabel": "Besök PTX webbplats",
+        "url": "https://www.ptx-tech.de/",
+        "urlName": "ptx-tech.de",
+        "type": "work"
+      },
+      {
+        "title": "BSc Computer Science @ Technische Universität Berlin",
+        "date": "Oct 2020 - Nuvarande",
+        "description": "Jag studerar för närvarande för en kandidatexamen i datavetenskap vid Technical University of Berlin. Mitt huvudfokus är på mjukvaruutveckling och distribuerade system. Mitt förväntade examensdatum är våren 2024",
+        "details": "Jag har studerat en rad datavetenskapliga ämnen, såsom algoritmer och datastrukturer, datorarkitektur, nätverk, distribuerade system, systemprogrammering, databaser och mjukvaruutveckling. Dessutom har jag fått kunskaper inom teoretiska aspekter av datavetenskapen, såsom formella språk och automatteori, beräkningsbarhet, komplexitetsteori och logik.",
+        "urlLabel": "Universitetswebbplats (datavetenskap)",
+        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "urlName": "tu.berlin",
+        "type": "education"
+      },
+      {
+        "title": "Gymnasium @ Gymnázium Ladislava Sáru, Bratislava",
+        "date": "2012 - 2020",
+        "description": "Jag gick på ett allmänt gymnasium, med fokus på språk (tyska i mitt fall). Jag tog examen med betyget 1.0 (bästa möjliga) på mitt slutbetyg, i ämnena matematik, datavetenskap, engelska och slovakiska språket.",
+        "details": "Förutom att ha skapat några fantastiska minnen, skaffade jag en stark grund i naturvetenskap samt en introduktion till programmering. Jag lärde mig också tyska och uppnådde ett C1-språkcertifikat, vilket möjliggjorde vidare studier i Tyskland.",
+        "urlLabel": "Skolans webbplats (tyvärr endast på slovakiska)",
+        "url": "https://gymlsba.edupage.org/?lang=en",
+        "urlName": "gymlsba.edupage.org",
+        "type": "education"
+      }
+    ]
   },
+
   "contact": {
     "title": "Kontakt",
     "description": "Kontaktinformation för Stanislav Kosorin, hans sociala nätverk och e-post",

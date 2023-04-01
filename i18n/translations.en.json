@@ -13,7 +13,54 @@
   },
   "cv": {
     "title": "Resume",
-    "description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills"
+    "description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
+    "legend": {
+      "work": "Work Experience",
+      "education": "Education",
+      "project": "Personal project"
+    },
+    "content": [
+      {
+        "title": "Full Stack Software Engineer @ Cresta",
+        "date": "Nov 2022 - Present",
+        "description": "At Cresta, we are revolutionizing the contact center industry by developing an AI-driven platform that enhances customer experiences. Our state-of-the-art solution empowers clients to optimize their customer interactions through advanced analysis and continuous improvement, elevating the quality of service they provide.",
+        "details": "My primary responsibilities involve designing and implementing new features for our frontend web application using React with TypeScript. I also contribute to backend development by writing robust Go code to create efficient microservices.",
+        "urlLabel": "Visit Cresta's website",
+        "url": "https://www.cresta.ai/",
+        "urlName": "cresta.ai",
+        "type": "work"
+      },
+      {
+        "title": "Computer Vision Engineer @ PTX tech GmbH",
+        "date": "Nov 2021 - Nov 2022",
+        "description": "At PTX, I contributed to the development of a cutting-edge, real-time 3D detection system that leveraged advanced computer vision algorithms. My responsibilities included enhancing the system's performance through optimization of the existing codebase, as well as introducing new features to further refine its capabilities.",
+        "details": "Specifically, I designed an efficient, multi-threaded pipeline in C++ (Qt5 framework) to process 3D point clouds effectively. I also integrated a GPU-accelerated Simultaneous Localization and Mapping (SLAM) algorithm into the system. This successful integration resulted in a 10x speedup in processing time, greatly enhancing the overall performance of our 3D detection system.",
+        "urlLabel": "Visit PTX's website",
+        "url": "https://www.ptx-tech.de/",
+        "urlName": "ptx-tech.de",
+        "type": "work"
+      },
+      {
+        "title": "BSc Computer Science @ Technische Universität Berlin",
+        "date": "Oct 2020 - Present",
+        "description": "I am currently pursuing a bachelor's degree in computer science at the Technical University of Berlin. My main focus is on software engineering and distributed systems. My expected graduation date is Spring 2024.",
+        "details": "I have studied a variety of computer science subjects, such as algorithms and data structures, computer architecture, networks, distributed systems, system programming, databases, and software engineering. Additionally, I've gained some knowledge in the theoretical aspects of computer science, such as formal languages and automata theory, computability, complexity theory and logic.",
+        "urlLabel": "University website (CS)",
+        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "urlName": "tu.berlin",
+        "type": "education"
+      },
+      {
+        "title": "High School @ Gymnázium Ladislava Sáru, Bratislava",
+        "date": "2012 - 2020",
+        "description": "I attended a general education gymnasium, with a focus on languages (german in my case). I graduated with a 1.0 (best possible) grade on my final report, in the focus subjects mathematics, informatics, english and slovak language.",
+        "details": "In addition to forming some great memories, I acquired a strong foundation in natural sciences as well as an introduction to programming. I also learned German and achieved a C1 language certificate, enabling me to pursue further studies in Germany.        ",
+        "urlLabel": "School website (unfortunately only in Slovak)",
+        "url": "https://gymlsba.edupage.org/?lang=en",
+        "urlName": "gymlsba.edupage.org",
+        "type": "education"
+      }
+    ]
   },
   "contact": {
     "title": "Contact",

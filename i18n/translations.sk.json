@@ -13,7 +13,54 @@
   },
   "cv": {
     "title": "Životopis",
-    "description": "Interaktívny životopis Stanislava Kosorina, zahrňujúci jeho predošlé skúsenosti a vzdelanie"
+    "description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
+    "legend": {
+      "work": "Pracovné skúsenosti",
+      "education": "Vzdelanie",
+      "project": "Osobný projekt"
+    },
+    "content": [
+      {
+        "title": "Full Stack Software Engineer @ Cresta",
+        "date": "Nov 2022 - súčasnosť",
+        "description": "V spoločnosti Cresta zefektívňujeme workflow kontaktných centier s našou modernou platformou poháňanou umelou inteligenciou. Naše špičkové riešenie umožňuje klientom optimalizovať interakcie so zákazníkmi pomocou pokročilej analýzy konverzácii, a následnej prezentácie najrelevantnejších informácií. Taktiež pomáhame agentom lepšie pochopiť unikátnu situáciu zákazníka a poskytnúť mu tak lepšiu podporu. ",
+        "details": "Moje úlohy zahŕňajú návrh a implementáciu nových funkcií pre našu frontend webovú aplikáciu s použitím React frameworku (v Typescripte). Okrem frontendovu prispievam aj k backendovému vývoju našej platformy v jazyku Go s použitím gRPC na komunikáciu medzi mikroslužbami.",
+        "urlLabel": "Navštívte webovú stránku Cresta",
+        "url": "https://www.cresta.ai/",
+        "urlName": "cresta.ai",
+        "type": "work"
+      },
+      {
+        "title": "Computer Vision Engineer @ PTX tech GmbH",
+        "date": "Nov 2021- Nov 2022",
+        "description": "V spoločnosti PTX som prispel k vývoju moderného systému na 3D detekciu v reálnom čase s pomocou algoritmov počítačového videnia (computer vision). Moje úlohy zahŕňali zlepšenie výkonnosti systému optimalizáciou existujúceho kódu a zavedenie nových funkcií na ďalšie vylepšenie jeho schopností.",
+        "details": "Konkrétne som navrhol efektívnu viacvláknovú (multithreaded) pipeline v jazyku C++ (framework Qt5) na efektívne spracovanie 3D bodových oblakov (point clouds). Taktiež som integroval do systému GPU zrýchlený algoritmus Simultaneous Localization and Mapping (SLAM). Táto úspešná integrácia viedla k zrýchleniu spracovávania o 10-násobok a výrazne zlepšila celkový výkon nášho systému.",
+        "urlLabel": "Webová stránka PTX",
+        "url": "https://www.ptx-tech.de/",
+        "urlName": "ptx-tech.de",
+        "type": "work"
+      },
+      {
+        "title": "BSc Informatika @ Technická univerzita v Berlíne",
+        "date": "Okt 2020 - súčasnosť",
+        "description": "V súčasnosti sa venujem bakalárskemu štúdiu informatiky na Technickej univerzite v Berlíne. Špecializujem sa na softvérové inžinierstvo a distribuované systémy. Plánovaný dátum ukončenia štúdia je jar 2024.",
+        "details": "Zaoberal som sa viacerými informatickými témami, ako sú algoritmy a dátové štruktúry, počítačová architektúra, siete, distribuované systémy, systémové programovanie, databázy a softvérové inžinierstvo. Okrem toho som získal znalosti aj v teoretických aspektoch informatiky, ako sú formálne jazyky a teória automatov, výpočtová teória, teória zložitosti a logika.",
+        "urlLabel": "Stránka univerzity (Informatika)",
+        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "urlName": "tu.berlin",
+        "type": "education"
+      },
+      {
+        "title": "Gymnázium Ladislava Sáru, Bratislava",
+        "date": "2012 - 2020",
+        "description": "Navštevoval som všeobecné gymnázium s dôrazom na jazyky (u mňa nemčina). Na maturitnom vysvedčení som mal priemer 1, s predmetmi matematika, informatika, anglický a samozrejme slovenský jazyk.",
+        "details": "Okrem super spomienok som získal široké všeobecné vzdelanie v prírodných vedách a naučil sa základy programovania. Taktiež som získal jazykový certifikát C1 z nemeckého jazyka, ktorý mi umožnil bez problémov pokračovať v štúdiu v Nemecku.",
+        "urlLabel": "Stránka školy",
+        "url": "https://gymlsba.edupage.org/?lang=en",
+        "urlName": "gymlsba.edupage.org",
+        "type": "education"
+      }
+    ]
   },
   "contact": {
     "title": "Kontakt",

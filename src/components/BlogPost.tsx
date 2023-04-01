@@ -1,4 +1,5 @@
 import { BlogPostProps } from './types';
+import Image from 'next/image';
 
 export default function BlogPost({ post, children }: BlogPostProps) {
   return (
@@ -16,7 +17,7 @@ export default function BlogPost({ post, children }: BlogPostProps) {
         </ul>
       </div>
 
-      <img src={post.image} alt={post.title} className="w-full" />
+      <Image src={post.image} alt={post.title} className="w-full" width={1000} height={1000} />
 
       {children}
     </div>
