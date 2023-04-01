@@ -74,7 +74,7 @@ export default function LanguagePicker() {
                     content={
                       'Jag håller fortfarande på att lära mig svenska, så översättningarna kan vara felaktiga :)'
                     }
-                    placement="left "
+                    placement="left"
                   >
                     <li key={lang.code} className="hover:bg-blue-500 hover:text-white">
                       <LanguageSwitcher lang={lang.code}>
