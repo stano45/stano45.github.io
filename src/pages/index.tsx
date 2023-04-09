@@ -12,34 +12,30 @@ export default function Home() {
       <NextSeo title={t('home.title')} description={t('home.description')} />
       <div className=" mt-10 flex  justify-center">
         <div className="max-w-4xl  shadow-lg rounded-lg p-8">
-          <h1 className="text-4xl font-bold mb-4 opacity-0 fade-in-first">Hey there! Welcome to my website!</h1>
+          <h1 className="text-4xl font-bold mb-4 opacity-0 fade-in-first">{t('home.heading')}</h1>
           <div className="opacity-0 fade-in-second mt-10">
             <p className="text-lg leading-relaxed mb-4">
-              I'm Stanislav Kosorin, but just call me Stan. On this site, you can{' '}
+              {t('home.intro')}
               <Link href={{ pathname: '/about', query: query }} passHref className="text-blue-500 underline">
-                get to know me,
-              </Link>{' '}
-              learn about my{' '}
-              <Link href={{ pathname: '/cv', query: query }} passHref className="text-blue-500 underline">
-                work experience
+                {t('home.gettoknowme')}
               </Link>
-              , and even read some of my{' '}
+              {t('home.learnaboutmy')}
+              <Link href={{ pathname: '/cv', query: query }} passHref className="text-blue-500 underline">
+                {t('home.workexperience')}
+              </Link>
+              {t('home.andeven')}
               <Link href={{ pathname: '/blog', query: query }} passHref className="text-blue-500 underline">
-                blog posts
-              </Link>{' '}
-              while you’re at it.
+                {t('home.blogposts')}
+              </Link>
+              {t('home.whileatit')}
             </p>
             <p className="text-lg leading-relaxed mb-4">
-              Wanna chat? You can find my socials on the{' '}
+              {t('home.wannachat')}
               <Link href={{ pathname: '/contact', query: query }} passHref className="text-blue-500 underline">
-                contact page.
-              </Link>{' '}
+                {t('home.contactpage')}
+              </Link>
             </p>
-            <p className="text-lg leading-relaxed mb-4">
-              Oh, and I've translated the site into the four languages I speak (or, you know, trying to speak-Swedish,
-              I'm looking at you). Feel free to choose your favorite language using the picker in the top right corner
-              of the screen.
-            </p>
+            <p className="text-lg leading-relaxed mb-4">{t('home.outro')}</p>
           </div>
         </div>
       </div>

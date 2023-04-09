@@ -1,11 +1,43 @@
 {
   "home": {
     "title": "Stanislav Kosorin",
-    "description": "Informačná stránka o Stanislav Kosorinovi: blog, životopis, kontakt"
+    "description": "Informačná stránka o Stanislav Kosorinovi: blog, životopis, kontakt",
+    "heading": "Ahoj! Vitaj na mojej webovej stránke!",
+    "intro": "Volám sa Stanislav Kosorin, ale kľudne ma volaj Stano. Na tejto stránke môžeš ",
+    "gettoknowme": "zistiť niečo o mne",
+    "learnaboutmy": ", prečítať si o mojich ",
+    "workexperience": "pracovných skúsenostiach",
+    "andeven": ", alebo si pozrieť niektorý z mojich ",
+    "blogposts": "blogových príspevkov",
+    "whileatit": ".",
+    "wannachat": "Chceš mi napísať? Moje sociálne siete nájdeš na ",
+    "contactpage": "kontaktnej stránke.",
+    "outro": " A mimochodom, táto stránka je dostupná v tých štyroch jazykoch, ktorými hovorím (alebo snažím sa hovoriť, v prípade švédčiny...). Kľudne si vyber svoj obľúbený pomocou prepínača v pravom hornom rohu."
   },
   "about": {
     "title": "O mne",
-    "description": "Informačná stránka o Stanislav Kosorinovi: blog, životopis, kontakt"
+    "description": "Stránka o Stanislavovi Kosorinovi, opisujúca jeho pozadie, schopnosti a záujmy",
+    "heading": "O mne",
+    "intro": "Volám sa Stanislav Kosorin a som softvérový inžinier. Baví ma budovať inovatívne projekty, bez ohľadu na tech stack alebo oblasť využitia. Momentálne sa blížim ku koncu bakalárskeho štúdia informatiky na ",
+    "tub": "Technickej univerzite v Berlíne",
+    "cresta": {
+      "intro": "Okrem štúdia pomáham firme ",
+      "content": "Cresta",
+      "outro": " modernizovať call centrá a umožniť operátorom efektívnejšie komunikovať so zákazníkmi a presnejšie naplniť ich požiadavky."
+    },
+    "cv": {
+      "intro": "Viac o mojich pracovných skúsenostiach si môžeš pozrieť na mojom ",
+      "content": "interaktívnom životopise",
+      "outro": "."
+    },
+    "sports": {
+      "content": "Okrem programovania vo voľnom čase rád športujem. V poslednej dobe sa venujem brazilskému jiu-jitsu. Inak rád trávim čas vonku, chodievam behať a plávať."
+    },
+    "languages": {
+      "intro": "Tiež sa rád učím jazyky a momentálne sa venujem spevavej švédčine. Ak si švédsky native, alebo sa tiež učíš, kľudne mi ",
+      "content": "napíš ",
+      "outro": " a pokecáme :)"
+    }
   },
   "blog": {
     "title": "Blog",
@@ -65,8 +97,8 @@
   "contact": {
     "title": "Kontakt",
     "description": "Kontakt na Stanislava Kosorina, jeho sociálne siete a email",
-    "linkedin": "Spojte sa so mnou na LinkedIn 🌍",
-    "github": "Pozrite si moje projekty na GitHube 🐱‍💻",
-    "email": "Pošlite mi e-mail 📧"
+    "linkedin": "Spoj sa so mnou na LinkedIn 🌍",
+    "github": "Pozri si moje projekty na GitHube 🐱‍💻",
+    "email": "Pošli mi mail 📧"
   }
 }

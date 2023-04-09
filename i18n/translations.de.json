@@ -1,11 +1,43 @@
 {
   "home": {
     "title": "Stanislav Kosorin",
-    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen"
+    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen",
+    "heading": "Hallo! Willkommen auf meiner Webseite!",
+    "intro": "Ich bin Stanislav Kosorin, aber nenn mich einfach Stan. Auf dieser Seite kannst du ",
+    "gettoknowme": "mich kennenlernen",
+    "learnaboutmy": ", mehr über meine ",
+    "workexperience": "Arbeitserfahrung",
+    "andeven": " erfahren und sogar einige meiner ",
+    "blogposts": "Blogposts",
+    "whileatit": " lesen, während du dabei bist.",
+    "wannachat": "Möchtest du mit mir chatten? Du findest meine Kontaktinformationen auf der ",
+    "contactpage": "Kontaktseite.",
+    "outro": " Übrigens, ich habe die Seite in die vier Sprachen übersetzt, die ich spreche (oder, naja, versuche zu sprechen - Schwedisch, ich schaue auf dich). Fühl dich frei, deine bevorzugte Sprache mit dem Auswahlfeld oben rechts auf dem Bildschirm zu wählen."
   },
   "about": {
     "title": "Über mich",
-    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen"
+    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen",
+    "heading": "Eine kurze Vorstellung",
+    "intro": "Ich heiße Stanislav Kosorin und beschäftige mich mit der Softwareentwicklung. Ich arbeite gerne an spannenden und innovativen Projekten, unabhängig von der Technologie oder dem Anwendungsbereich. Ich befinde mich kurz vor dem Abschluss meines Bachelor-Studiums der Informatik an der ",
+    "tub": "Technischen Universität Berlin",
+    "cresta": {
+      "intro": "Neben meinem Studium helfe ich ",
+      "content": "Cresta",
+      "outro": " dabei, Callcenter zu revolutionieren und ermögliche es den Mitarbeitern, effektiver mit den Kunden zu kommunizieren, um ihre Bedürfnisse schnell und präzise zu erfüllen."
+    },
+    "cv": {
+      "intro": "Mehr über meine bisherige Erfahrung findet man in meinem ",
+      "content": "interaktiven Lebenslauf",
+      "outro": "."
+    },
+    "sports": {
+      "content": "Neben meiner Leidenschaft für Softwareentwicklung halte ich mich gerne aktiv und engagiert. In letzter Zeit beschäftige ich mich mit brasilianischem Jiu Jitsu. Außerdem verbringe ich gerne Zeit im Freien, beim Laufen oder bei Spaziergängen."
+    },
+    "languages": {
+      "intro": "Ich lerne auch gerne Sprachen und beschäftige mich derzeit mit der melodischen schwedischen Sprache. Wenn du ein Muttersprachler bist oder ebenfalls Schwedisch lernst, schreib mir gerne eine  ",
+      "content": "Nachricht",
+      "outro": " :)"
+    }
   },
   "blog": {
     "title": "Blog",
@@ -66,8 +98,8 @@
   "contact": {
     "title": "Kontakt",
     "description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer",
-    "linkedin": "Vernetzen Sie sich mit mir auf LinkedIn 🌍",
-    "github": "Schauen Sie sich meine Projekte auf Github an 🐱‍💻",
-    "email": "Schicken Sie mir eine E-Mail 📧"
+    "linkedin": "Verbinde dich mit mir auf LinkedIn 🌍",
+    "github": "Schau dir meine Projekte auf Github an 🐱‍💻",
+    "email": "Schick mir eine E-Mail 📧"
   }
 }
