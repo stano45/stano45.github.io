@@ -86,24 +86,33 @@ a {
 }
 
 @keyframes fadeIn {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
-.fade-in-first {
+.fade-in-first,
+.fade-in-second,
+.fade-in-third {
+  -webkit-animation: fadeIn 0.75s ease-in-out forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out forwards;
+  -o-animation: fadeIn 0.75s ease-in-out forwards;
   animation: fadeIn 0.75s ease-in-out forwards;
 }
 
 .fade-in-second {
-  animation: fadeIn 0.75s ease-in-out forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 
 .fade-in-third {
-  animation: fadeIn 0.75s ease-in-out forwards;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
   animation-delay: 1s;
 }
