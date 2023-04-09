@@ -24,7 +24,9 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-4">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-3xl tracking-tight">Stanislav Kosorin</span>
+        <Link href={{ pathname: '/', query: query }} passHref>
+          <span className="font-semibold text-3xl tracking-tight">Stanislav Kosorin</span>
+        </Link>
       </div>
       <div className="lg:hidden">
         <button
