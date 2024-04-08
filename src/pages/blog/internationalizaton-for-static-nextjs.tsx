@@ -1,9 +1,8 @@
 import React, { ReactNode } from 'react';
 import { CopyBlock, dracula } from 'react-code-blocks';
 
-import { internationalizationPost } from './posts';
-
-import { BlogPost } from '@/components/BlogPost';
+import { internationalizationPost } from '@/blogposts';
+import { BlogPost } from '@/components';
 
 export default function BlogPostPage(): ReactNode {
   const translations = `{

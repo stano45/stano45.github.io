@@ -1,7 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react';
-import ReactCountryFlag from 'react-country-flag';
-import { useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import { Tooltip } from '@nextui-org/react';
+import { useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
+import React, { useEffect, useRef, useState } from 'react';
+import { ReactCountryFlag } from 'react-country-flag';
 
 interface Language {
   code: string;
@@ -9,7 +16,7 @@ interface Language {
   flag: string;
 }
 
-export default function LanguagePicker() {
+export function LanguagePicker() {
   const [query] = useLanguageQuery();
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -55,13 +62,13 @@ export default function LanguagePicker() {
         className="p-1 inline-flex justify-between items-center w-full text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
       >
         <ReactCountryFlag
-          countryCode={selectedLang?.flag ?? 'GB'}
+          countryCode={selectedLang.flag}
           svg
           style={{
             width: '1.5em',
             height: '1.5em',
           }}
-          title={selectedLang?.name ?? 'English'}
+          title={selectedLang.name}
         />
       </button>
       {dropdownOpen && (

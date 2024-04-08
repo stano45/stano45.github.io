@@ -1,4 +1,4 @@
-import { BlogPostMeta } from '@/components';
+import { BlogPostMeta } from '@/types';
 
 export const internationalizationPost: BlogPostMeta = {
   title: 'Internationalization for static Next.js',

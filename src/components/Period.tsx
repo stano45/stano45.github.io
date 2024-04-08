@@ -1,6 +1,7 @@
 // Period.tsx
+import React, { useState, useCallback } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import React, { useState, FC, useCallback } from 'react';
+
 import styles from './Period.module.css';
 
 export interface PeriodProps {
@@ -13,7 +14,7 @@ export interface PeriodProps {
   urlLabel: string;
 }
 
-export default function Period({ title, date, description, details, url, urlName, urlLabel }: PeriodProps) {
+export function Period({ title, date, description, details, url, urlName, urlLabel }: PeriodProps): JSX.Element {
   const [dropdownVisible, setDropdownVisible] = useState(false);
 
   const toggleDropdown = useCallback(() => {

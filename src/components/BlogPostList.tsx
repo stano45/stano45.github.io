@@ -1,11 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import Image from 'next/image';
 import Link from 'next/link';
 import { useLanguageQuery } from 'next-export-i18n';
 import React from 'react';
 
-import { BlogPostListProps } from './types';
+import { BlogPostListProps } from '../types';
 
-export function BlogPostList({ posts }: BlogPostListProps) {
+export function BlogPostList({ posts }: BlogPostListProps): JSX.Element {
   const [query] = useLanguageQuery();
 
   return (

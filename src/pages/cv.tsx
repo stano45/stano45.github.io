@@ -1,9 +1,12 @@
-import InteractiveCV from '@/components/InteractiveCV';
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { useTranslation } from 'next-export-i18n';
 import { NextSeo } from 'next-seo';
 import React from 'react';
 
-export default function CV() {
+import { InteractiveCV } from '@/components';
+
+export default function CV(): JSX.Element {
   const { t } = useTranslation();
 
   return (

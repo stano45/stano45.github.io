@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { NextSeo } from 'next-seo';
 
-import { BlogPostProps } from './types';
+import { BlogPostProps } from '../types';
 
 export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
   return (

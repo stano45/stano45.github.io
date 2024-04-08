@@ -1,12 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import { useTranslation } from 'next-export-i18n';
 import { NextSeo } from 'next-seo';
 import React from 'react';
 
-import { CSGuidePost, internationalizationPost } from './posts';
+import { CSGuidePost, internationalizationPost } from '@/blogposts';
+import { BlogPostList } from '@/components';
 
-import { BlogPostList } from '@/components/BlogPostList';
-
-export default function Blog() {
+export default function Blog(): JSX.Element {
   const { t } = useTranslation();
 
   return (

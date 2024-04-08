@@ -1,9 +1,7 @@
 import React, { ReactNode } from 'react';
 
-import { CSGuidePost } from './posts';
-
-import { BlogPost } from '@/components';
-import { ImageWrapper } from '@/components/ImageWrapper';
+import { CSGuidePost } from '@/blogposts';
+import { BlogPost, ImageWrapper } from '@/components';
 
 interface InsiderTipProps {
   content: ReactNode;
@@ -25,6 +23,7 @@ function H3title({ children }: { children: string }): JSX.Element {
 
 export default function BlogPostPage(): ReactNode {
   return (
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     <BlogPost post={CSGuidePost}>
       <div className="my-8 text-xl">
         <h2 className="my-8 font-bold text-3xl">Introduction</h2>

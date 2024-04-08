@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 import Link from 'next/link';
-import LanguagePicker from './LanguagePicker';
-import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 import { useRouter } from 'next/router';
+import { useTranslation, useLanguageQuery } from 'next-export-i18n';
+import React, { useState } from 'react';
 
-export default function Navbar() {
+import { LanguagePicker } from './LanguagePicker';
+
+export function Navbar(): JSX.Element {
   const { t } = useTranslation();
   const [query] = useLanguageQuery();
   const router = useRouter();
@@ -56,7 +59,7 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className={`${isMenuOpen && 'self-end'}`}>
+        <div className={isMenuOpen ? 'self-end' : undefined}>
           <LanguagePicker />
         </div>
       </div>

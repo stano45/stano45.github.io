@@ -1,10 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { Tooltip } from '@nextui-org/react';
 import { useTranslation } from 'next-export-i18n';
 import { NextSeo } from 'next-seo';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 
-export default function Contact() {
+export default function Contact(): JSX.Element {
   const { t } = useTranslation();
 
   return (
