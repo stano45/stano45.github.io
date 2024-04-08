@@ -50,7 +50,10 @@ export default function BlogPostPage(): ReactNode {
           description={
             <>
               Recommended study plan from the{' '}
-              <a href="https://isis.tu-berlin.de/" className="text-blue-500 underline">
+              <a
+                href="https://www.static.tu.berlin/fileadmin/www/10000040/1_Studium_Lehre/1_Studienangebot/1_Bachelorstudiengaenge/BSc_Informatik_online_final.pdf"
+                className="text-blue-500 underline"
+              >
                 &quot;Studienführer Informatik&quot;
               </a>
             </>
@@ -493,7 +496,10 @@ export default function BlogPostPage(): ReactNode {
           Just make sure you don&apos;t take the spot of someone who needs it more than you. I joined this course after
           the official allocation was done, and there were multiple unoccupied spots. In this project, we implemented an
           AsyncAPI code generator in Rust. Again, this was a great practical experience, and I gained a lot of skills in
-          Rust and team work. The generator was open sourced, and you can find it here.
+          Rust and team work. The generator was open sourced, and you can find it{' '}
+          <a href="https://github.com/Programmierpraktikum-MVA/AsyncAPI" className="text-blue-500 underline">
+            here.
+          </a>
         </p>
         <H3title>Wahlbereich - Analysis II für Ingenieurwissenschaften</H3title>
         <p className="mb-8">
