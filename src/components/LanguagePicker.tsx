@@ -1,11 +1,10 @@
+// These are here because of next-export-i18n typing...
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unsafe-argument */
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { Tooltip } from '@nextui-org/react';
 import { useLanguageQuery, LanguageSwitcher } from 'next-export-i18n';
 import React, { useEffect, useRef, useState } from 'react';
 import { ReactCountryFlag } from 'react-country-flag';
@@ -16,7 +15,7 @@ interface Language {
   flag: string;
 }
 
-export function LanguagePicker() {
+export function LanguagePicker(): JSX.Element {
   const [query] = useLanguageQuery();
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
