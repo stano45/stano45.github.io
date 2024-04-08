@@ -19,7 +19,7 @@
     "sourceType": "module",
     "project": ["./tsconfig.json"]
   },
-  "ignorePatterns": [".eslintrc.js", ".eslintrc.cjs"],
+  "ignorePatterns": [".eslintrc.js", ".eslintrc.cjs", "next.config.js"],
   "plugins": ["@typescript-eslint", "import", "jsx-a11y", "prettier", "react"],
   "settings": {
     "react": {

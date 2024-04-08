@@ -4530,16 +4530,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-export-i18n@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "next-export-i18n@npm:2.1.0"
+"next-export-i18n@npm:^2.3.5":
+  version: 2.3.5
+  resolution: "next-export-i18n@npm:2.3.5"
   dependencies:
     mustache: "npm:^4.2.0"
   peerDependencies:
     next: ">=12.1.5"
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10c0/1fe0ac5d23d2be62cf83276e77770bb81988c50ac0622b2e2154efaac5ae7cc439a63bb2185ec730717955d013d336c5c520ed8c042bf0dac59e78a4c6546b37
+  checksum: 10c0/5a86a80a2576155cf33e5054ef7a0b370cbd1646691fcc6e80e9d74519c09dbb2e8cd578f4c38dabbfe8e1980b295ddf15a8fe03d062c0513e0213483a4d6d31
   languageName: node
   linkType: hard
 
@@ -5552,7 +5552,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.32.2"
     framer-motion: "npm:^10.9.1"
     next: "npm:13.2.4"
-    next-export-i18n: "npm:^2.1.0"
+    next-export-i18n: "npm:^2.3.5"
     next-seo: "npm:^5.15.0"
     postcss: "npm:^8.4.21"
     prettier: "npm:2.8.4"
