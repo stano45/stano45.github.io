@@ -7,7 +7,7 @@ export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
   return (
     <>
       <NextSeo title={post.title} description={post.title} />
-      <div className="max-w-4xl mx-auto p-4 text-justify">
+      <div className="max-w-4xl mx-auto p-4">
         <h1 className="text-3xl font-bold my-4">{post.title}</h1>
 
         <div className="flex justify-between items-center mb-4">
@@ -23,7 +23,7 @@ export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
 
         <Image src={post.image} alt={post.title} className="w-full" width={1000} height={1000} />
 
-        {children}
+        <div className="lg:text-justify">{children}</div>
       </div>
     </>
   );
