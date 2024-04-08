@@ -6,6 +6,7 @@ export const internationalizationPost: BlogPostMeta = {
   image: '/internationalization.png',
   tags: ['Frontend', 'Next.js', 'Typescript'],
   id: 'internationalizaton-for-static-nextjs',
+  description: 'AImplementing Internationalization in Static Next.js Websites with Next-Export-I18n',
 };
 
 export const CSGuidePost: BlogPostMeta = {
@@ -14,4 +15,6 @@ export const CSGuidePost: BlogPostMeta = {
   image: '/tiergarten.png',
   tags: ['University', 'Computer Science', 'Bachelors Degree'],
   id: 'tu-berlin-cs-guide',
+  description:
+    'Curious about the CS program at TU Berlin? This article tells you all you need to know, including insider advice and tips.',
 };

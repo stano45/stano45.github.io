@@ -6,7 +6,7 @@ import { BlogPostProps } from '../types';
 export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
   return (
     <>
-      <NextSeo title={post.title} description={post.title} />
+      <NextSeo title={post.title} description={post.description} />
       <div className="max-w-4xl mx-auto p-4">
         <h1 className="text-3xl font-bold my-4">{post.title}</h1>
 

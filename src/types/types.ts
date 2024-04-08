@@ -4,6 +4,7 @@ export interface BlogPostMeta {
   image: string;
   tags: string[];
   id: string;
+  description?: string;
 }
 
 export interface BlogPostListProps {
