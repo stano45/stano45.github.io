@@ -99,14 +99,14 @@ export default function BlogPostPage(): ReactNode {
         I will not be providing a tutorial for the setup in this post, as the devs of the module have already done a
         great job explaining it in the readme of their repo. However, I want to show how I integrated this into my site.
       </div>
-      <div className="my-8 text-xl">
+      <div className="mb-8 text-xl">
         The languages that I support on my website are English, German, Slovak and Swedish. I created a
         translations.X.json file for each of the languages, where the X is the 2-letter code of the language. As the
         module supports nesting in the .json files, I split up my translations into views, such as home, about, etc.
       </div>
-      <CopyBlock className="mt-8" text={translations} language={'json'} theme={dracula} showLineNumbers wrapLines />
+      <CopyBlock text={translations} language={'json'} theme={dracula} showLineNumbers />
 
-      <div className="my-8">
+      <div className="my-8 text-xl">
         Then, in each component, I used the useTranslation hook and picked the right localization string using t(), e.g.
         t(‘view.title’).
       </div>
