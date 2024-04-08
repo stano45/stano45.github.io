@@ -16,7 +16,7 @@ export function BlogPostList({ posts }: BlogPostListProps): JSX.Element {
         <Link
           key={index}
           href={{ pathname: `/blog/${post.id}`, query: query }}
-          className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words"
+          className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words max-h-50 overflow-hidden"
           passHref
         >
           <Image
@@ -25,8 +25,9 @@ export function BlogPostList({ posts }: BlogPostListProps): JSX.Element {
             className="w-1/2 object-cover rounded-lg lg:h-80 shrink-0"
             width={1000}
             height={1000}
+            style={{ objectFit: 'cover', height: '100%' }} // Ensure the image covers the height fully
           />
-          <div className="w-1/2 p-4 justify-start items-center">
+          <div className="w-1/2 p-4 justify-start items-center" style={{ overflow: 'hidden' }}>
             <h2 className="text-lg lg:text-2xl text-black font-semibold break-normal">{post.title}</h2>
             <span className="text-xs lg:text-sm text-black">{post.date}</span>
             <ul className="flex flex-wrap mt-2">

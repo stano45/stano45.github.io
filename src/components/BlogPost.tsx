@@ -11,11 +11,11 @@ export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
         <h1 className="text-3xl font-bold my-4">{post.title}</h1>
 
         <div className="flex justify-between items-center mb-4">
-          <span className="text-gray-500">{post.date}</span>
-          <ul className="flex space-x-2">
+          <span className="hidden sm:block text-gray-500">{post.date}</span>
+          <ul className="hidden sm:flex space-x-2">
             {post.tags.map((tag, idx) => (
-              <li key={idx} className="bg-gray-200 text-gray-600 px-2 py-1 rounded-md">
-                {tag}
+              <li key={idx} className="bg-gray-200 text-gray-600 px-2 py-1 rounded-md flex justify-center items-center">
+                <p>{tag}</p>
               </li>
             ))}
           </ul>
