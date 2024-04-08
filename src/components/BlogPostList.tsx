@@ -1,14 +1,15 @@
-import { useLanguageQuery } from 'next-export-i18n';
-import Link from 'next/link';
-import React from 'react';
-import { BlogPostListProps } from './types';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useLanguageQuery } from 'next-export-i18n';
+import React from 'react';
+
+import { BlogPostListProps } from './types';
 
 export function BlogPostList({ posts }: BlogPostListProps) {
   const [query] = useLanguageQuery();
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:ml-44 mt-8 lg:mt-20 opacity-0 fade-in-first">
+    <div className="grid grid-cols-1 lg:ml-44 mt-8 lg:mt-20 opacity-0 fade-in-first">
       {posts.map((post, index) => (
         <Link
           key={index}
