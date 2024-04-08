@@ -28,7 +28,7 @@ export default function BlogPostPage(): ReactNode {
       <div className="my-8 text-xl">
         <h2 className="my-8 font-bold text-3xl">Introduction</h2>
         <p className="mb-8">
-          In this article (hey), I will talk about my experience during my computer science (Informatik) bachelor&apos;s
+          In this article, I will talk about my experience during my computer science (Informatik) bachelor&apos;s
           program at TU Berlin. I will go through everything I had to do to get my degree, including compulsory and
           voluntary courses, seminars, projects and the thesis. I will try my best to structure this in the most
           informative way possible and provide advice and tips to future students.
