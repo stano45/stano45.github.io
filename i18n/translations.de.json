@@ -11,8 +11,7 @@
     "blogposts": "Blogposts",
     "whileatit": " lesen, während du dabei bist.",
     "wannachat": "Möchtest du mit mir chatten? Du findest meine Kontaktinformationen auf der ",
-    "contactpage": "Kontaktseite.",
-    "outro": " Übrigens, ich habe die Seite in die vier Sprachen übersetzt, die ich spreche (oder, naja, versuche zu sprechen - Schwedisch, ich schaue auf dich). Fühl dich frei, deine bevorzugte Sprache mit dem Auswahlfeld oben rechts auf dem Bildschirm zu wählen."
+    "contactpage": "Kontaktseite."
   },
   "about": {
     "title": "Über mich",
@@ -32,11 +31,6 @@
     },
     "sports": {
       "content": "Neben meiner Leidenschaft für Softwareentwicklung halte ich mich gerne aktiv und engagiert. In letzter Zeit beschäftige ich mich mit brasilianischem Jiu Jitsu. Außerdem verbringe ich gerne Zeit im Freien, beim Laufen oder bei Spaziergängen."
-    },
-    "languages": {
-      "intro": "Ich lerne auch gerne Sprachen und beschäftige mich derzeit mit der melodischen schwedischen Sprache. Wenn du ein Muttersprachler bist oder ebenfalls Schwedisch lernst, schreib mir gerne eine  ",
-      "content": "Nachricht",
-      "outro": " :)"
     }
   },
   "blog": {

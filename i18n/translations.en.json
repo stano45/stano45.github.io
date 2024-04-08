@@ -11,8 +11,7 @@
     "blogposts": "blog posts ",
     "whileatit": "while you're at it.",
     "wannachat": "Wanna chat? You can find my socials on the ",
-    "contactpage": "contact page.",
-    "outro": " Oh, and I've translated the site into the four languages I speak (or, you know, trying to speak-Swedish, I'm looking at you). Feel free to choose your favorite language using the picker in the top right corner of the screen."
+    "contactpage": "contact page."
   },
   "about": {
     "title": "About",
@@ -32,11 +31,6 @@
     },
     "sports": {
       "content": "Apart from my passion for software engineering, I like to keep myself active and engaged. I've been exploring Brazilian Jiu Jitsu lately, and it's been an exciting journey. In addition, I enjoy spending time outdoors, running or taking refreshing walks."
-    },
-    "languages": {
-      "intro": "I also have a keen interest in learning languages, currently grappling with the melodious Swedish language. If you're a native Swedish speaker or also learning, feel free to reach out - I'd love to ",
-      "content": "chat",
-      "outro": "! :)"
     }
   },
   "blog": {

@@ -39,13 +39,6 @@ export default function About(): JSX.Element {
             </p>
 
             <p className="text-lg leading-relaxed mb-4">{t('about.sports.content')}</p>
-            <p className="text-lg leading-relaxed mb-4">
-              {t('about.languages.intro')}
-              <Link href={{ pathname: '/contact', query: query }} passHref className="text-blue-500 underline">
-                {t('about.languages.content')}
-              </Link>
-              {t('about.languages.outro')}
-            </p>
           </div>
         </div>
       </div>

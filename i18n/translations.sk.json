@@ -11,8 +11,7 @@
     "blogposts": "blogových príspevkov",
     "whileatit": ".",
     "wannachat": "Chceš mi napísať? Moje sociálne siete nájdeš na ",
-    "contactpage": "kontaktnej stránke.",
-    "outro": " A mimochodom, táto stránka je dostupná v tých štyroch jazykoch, ktorými hovorím (alebo snažím sa hovoriť, v prípade švédčiny...). Kľudne si vyber svoj obľúbený pomocou prepínača v pravom hornom rohu."
+    "contactpage": "kontaktnej stránke."
   },
   "about": {
     "title": "O mne",
@@ -32,11 +31,6 @@
     },
     "sports": {
       "content": "Okrem programovania vo voľnom čase rád športujem. V poslednej dobe sa venujem brazilskému jiu-jitsu. Inak rád trávim čas vonku, chodievam behať a plávať."
-    },
-    "languages": {
-      "intro": "Tiež sa rád učím jazyky a momentálne sa venujem spevavej švédčine. Ak si švédsky native, alebo sa tiež učíš, kľudne mi ",
-      "content": "napíš ",
-      "outro": " a pokecáme :)"
     }
   },
   "blog": {

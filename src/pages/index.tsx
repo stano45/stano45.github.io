@@ -37,7 +37,6 @@ export default function Home(): JSX.Element {
                 {t('home.contactpage')}
               </Link>
             </p>
-            <p className="text-lg leading-relaxed mb-4">{t('home.outro')}</p>
           </div>
         </div>
       </div>

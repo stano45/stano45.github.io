@@ -11,8 +11,7 @@
     "blogposts": "blogginlägg",
     "whileatit": ".",
     "wannachat": "Vill du chatta? Du hittar mina sociala medier på ",
-    "contactpage": "kontaktsidan.",
-    "outro": " Åh, och jag har översatt webbplatsen till de fyra språk jag talar (eller försöker tala - svenska, jag tittar på dig). Känn dig fri att välja ditt favoritspråk med hjälp av väljaren i övre högra hörnet av skärmen."
+    "contactpage": "kontaktsidan."
   },
   "about": {
     "title": "Om",
@@ -32,11 +31,6 @@
     },
     "sports": {
       "content": "Förutom min passion för mjukvaruutveckling gillar jag att hålla mig aktiv. På senare tid har jag utforskat brasiliansk jiu-jitsu. Dessutom njuter jag av att spendera tid utomhus, springa eller ta promenader."
-    },
-    "languages": {
-      "intro": "Jag är också mycket intresserad av att lära mig språk och kämpar för närvarande med det melodiösa svenska språket. Om du är en infödd svensktalande eller också lär dig, kontakta mig och låt oss ",
-      "content": " chatta",
-      "outro": "."
     }
   },
   "blog": {
