@@ -8,13 +8,11 @@ export default function BlogPostPage(): ReactNode {
   const translations = `{
     "home": {
       "title": "Stanislav Kosorin",
-      "description": "The personal website of Stanislav Kosorin,
-                       including his portfolio, blog, and resume"
+      "description": "The personal website of Stanislav Kosorin."
     },
     "contact": {
       "title": "Contact",
-      "description": "The contact page of Stanislav Kosorin, including his
-                      email address and social media profiles",
+      "description": "The contact page of Stanislav Kosorin.",
       "linkedin": "Connect with me on LinkedIn 🌍",
       "github": "Check out my projects on Github 🐱‍💻",
       "email": "Send me an email 📧"
@@ -23,7 +21,10 @@ export default function BlogPostPage(): ReactNode {
   `;
   const component = `const { t } = useTranslation(); \nreturn (
   <>
-    <NextSeo title={t('contact.title')} description={t('contact.description')} />
+    <NextSeo 
+      title={t('contact.title')}
+      description={t('contact.description')} 
+    />
     {"///your component goes here///"}
   </>
 );
@@ -104,13 +105,13 @@ export default function BlogPostPage(): ReactNode {
         translations.X.json file for each of the languages, where the X is the 2-letter code of the language. As the
         module supports nesting in the .json files, I split up my translations into views, such as home, about, etc.
       </div>
-      <CopyBlock text={translations} language={'json'} theme={dracula} showLineNumbers />
+      <CopyBlock text={translations} language={'json'} theme={dracula} showLineNumbers wrapLongLines />
 
       <div className="my-8 text-xl">
         Then, in each component, I used the useTranslation hook and picked the right localization string using t(), e.g.
         t(‘view.title’).
       </div>
-      <CopyBlock text={component} language={'typescript'} theme={dracula} showLineNumbers />
+      <CopyBlock text={component} language={'typescript'} theme={dracula} showLineNumbers wrapLongLines />
 
       <div className="my-8 text-xl">
         I also created a minimal language picker, which you can reuse{' '}
