@@ -1,36 +1,27 @@
 {
-  "home": {
+  "about": {
     "title": "Stanislav Kosorin",
     "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen",
-    "heading": "Hallo! Willkommen auf meiner Webseite!",
-    "intro": "Ich bin Stanislav Kosorin, aber nenn mich einfach Stan. Auf dieser Seite kannst du ",
-    "gettoknowme": "mich kennenlernen",
-    "learnaboutmy": ", mehr über meine ",
-    "workexperience": "Arbeitserfahrung",
-    "andeven": " erfahren und sogar einige meiner ",
-    "blogposts": "Blogposts",
-    "whileatit": " lesen, während du dabei bist.",
-    "wannachat": "Möchtest du mit mir chatten? Du findest meine Kontaktinformationen auf der ",
-    "contactpage": "Kontaktseite."
-  },
-  "about": {
-    "title": "Über mich",
-    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen",
-    "heading": "Eine kurze Vorstellung",
-    "intro": "Ich heiße Stanislav Kosorin und beschäftige mich mit der Softwareentwicklung. Ich arbeite gerne an spannenden und innovativen Projekten, unabhängig von der Technologie oder dem Anwendungsbereich. Ich befinde mich kurz vor dem Abschluss meines Bachelor-Studiums der Informatik an der ",
+    "heading": "Wilkommen!",
+    "intro": "Ich bin Stan und beschäftige mich mit der Softwareentwicklung. Ich studiere Master Informatik an der ",
     "tub": "Technischen Universität Berlin",
     "cresta": {
       "intro": "Neben meinem Studium helfe ich ",
       "content": "Cresta",
-      "outro": " dabei, Callcenter zu revolutionieren und ermögliche es den Mitarbeitern, effektiver mit den Kunden zu kommunizieren, um ihre Bedürfnisse schnell und präzise zu erfüllen."
+      "outro": " dabei, Callcenter mit AI zu revolutionieren. Konkret arbeite ich als Full Stack Entwickler, und nutze hauptsächlich React, Go und AWS."
     },
     "cv": {
       "intro": "Mehr über meine bisherige Erfahrung findet man in meinem ",
       "content": "interaktiven Lebenslauf",
       "outro": "."
     },
+    "projects": {
+      "intro": "Ich habe an verschiedenen Projekten gearbeitet, wie z. B. Google Summer of Code 2024. Mehr Informationen dazu gibt es auf der ",
+      "content": " Projekte-Seite",
+      "outro": "."
+    },
     "sports": {
-      "content": "Neben meiner Leidenschaft für Softwareentwicklung halte ich mich gerne aktiv und engagiert. In letzter Zeit beschäftige ich mich mit brasilianischem Jiu Jitsu. Außerdem verbringe ich gerne Zeit im Freien, beim Laufen oder bei Spaziergängen."
+      "content": "Neben Programmierung treibe ich gerne Sport, wie z. B. im Fitnessstudio trainieren, laufen oder schwimmen. Außerdem interessiere ich mich für Sprachen und lerne aktuell Persisch und Schwedisch."
     }
   },
   "blog": {

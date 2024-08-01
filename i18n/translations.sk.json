@@ -1,36 +1,27 @@
 {
-  "home": {
-    "title": "Stanislav Kosorin",
-    "description": "Informačná stránka o Stanislav Kosorinovi: blog, životopis, kontakt",
-    "heading": "Ahoj! Vitaj na mojej webovej stránke!",
-    "intro": "Volám sa Stanislav Kosorin, ale kľudne ma volaj Stano. Na tejto stránke môžeš ",
-    "gettoknowme": "zistiť niečo o mne",
-    "learnaboutmy": ", prečítať si o mojich ",
-    "workexperience": "pracovných skúsenostiach",
-    "andeven": ", alebo si pozrieť niektorý z mojich ",
-    "blogposts": "blogových príspevkov",
-    "whileatit": ".",
-    "wannachat": "Chceš mi napísať? Moje sociálne siete nájdeš na ",
-    "contactpage": "kontaktnej stránke."
-  },
   "about": {
-    "title": "O mne",
+    "title": "Stanislav Kosorin",
     "description": "Stránka o Stanislavovi Kosorinovi, opisujúca jeho pozadie, schopnosti a záujmy",
-    "heading": "O mne",
-    "intro": "Volám sa Stanislav Kosorin a som softvérový inžinier. Baví ma budovať inovatívne projekty, bez ohľadu na tech stack alebo oblasť využitia. Momentálne sa blížim ku koncu bakalárskeho štúdia informatiky na ",
-    "tub": "Technickej univerzite v Berlíne",
+    "heading": "Vitaj!",
+    "intro": "Volám sa Stano a som softvérový inžinier. Momentálne študujem masters informatiky na ",
+    "tub": "Technickej Univerzite v Berlíne",
     "cresta": {
       "intro": "Okrem štúdia pomáham firme ",
       "content": "Cresta",
-      "outro": " modernizovať call centrá a umožniť operátorom efektívnejšie komunikovať so zákazníkmi a presnejšie naplniť ich požiadavky."
+      "outro": " transformovať call-centrá s pomocou AI. Konkrétne som full stack engineer, a pracujem hlavne s React-om, Go, a AWS."
     },
     "cv": {
-      "intro": "Viac o mojich pracovných skúsenostiach si môžeš pozrieť na mojom ",
-      "content": "interaktívnom životopise",
+      "intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si môj ",
+      "content": " životopis",
+      "outro": "."
+    },
+    "projects": {
+      "intro": "Taktiež mám za sebou viacero projektov, ako napríklad Google Summer of Code 2024. Tieto projekty nájdeš na ",
+      "content": " stránke Projekty",
       "outro": "."
     },
     "sports": {
-      "content": "Okrem programovania vo voľnom čase rád športujem. V poslednej dobe sa venujem brazilskému jiu-jitsu. Inak rád trávim čas vonku, chodievam behať a plávať."
+      "content": "Okrem programovania vo voľnom čase rád športujem. Rád chodím do posilky, behám a plávam. Tiež ma bavia jazyky, práve sa učím po perzsky a švédsky."
     }
   },
   "blog": {

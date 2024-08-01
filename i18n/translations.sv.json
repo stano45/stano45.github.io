@@ -1,36 +1,27 @@
 {
-  "home": {
-    "title": "Stanislav Kosorin",
-    "description": "Informationssida om Stanislav Kosorin: blogg, biografi, kontakt",
-    "heading": "Hej! Välkommen till min webbplats!",
-    "intro": "Jag heter Stanislav Kosorin, men kalla mig bara Stan. På den här sidan kan du ",
-    "gettoknowme": "lära känna mig",
-    "learnaboutmy": ", lära dig om min ",
-    "workexperience": "arbetserfarenhet",
-    "andeven": ", och till och med läsa några av mina ",
-    "blogposts": "blogginlägg",
-    "whileatit": ".",
-    "wannachat": "Vill du chatta? Du hittar mina sociala medier på ",
-    "contactpage": "kontaktsidan."
-  },
   "about": {
-    "title": "Om",
-    "description": "Om-sidan för Stanislav Kosorin, som beskriver hans bakgrund, färdigheter och intressen",
-    "heading": "Presentation",
-    "intro": "Jag heter Stanislav Kosorin och jag är en mjukvaruutvecklare. Jag älskar att bygga roliga och innovativa projekt, oavsett teknikstack eller användningsområde. Jag är för närvarande nära slutet av min kandidatexamen i datavetenskap vid ",
-    "tub": "Tekniska universitetet i Berlin",
+    "title": "Stanislav Kosorin",
+    "description": "Om-sidan för Stanislav Kosorin, beskriver hans bakgrund, färdigheter och intressen",
+    "heading": "Välkommen!",
+    "intro": "Mitt namn är Stan och jag är mjukvaruingenjör. Jag studerar för närvarande en masterexamen i datavetenskap vid ",
+    "tub": "Tekniska Universitetet i Berlin",
     "cresta": {
       "intro": "Förutom att studera hjälper jag ",
       "content": "Cresta",
-      "outro": " att revolutionera kontaktcenter, vilket gör det möjligt för agenter att kommunicera med kunder på ett mer effektivt sätt, snabbt och exakt tillgodose deras behov."
+      "outro": " att revolutionera kontaktcentra med AI. Specifikt är jag fullstackutvecklare och arbetar främst med React, Go och AWS."
     },
     "cv": {
-      "intro": "Du kan kolla in mer om vad jag har gjort hittills på min ",
+      "intro": "Du kan kolla in mer av vad jag har gjort på mitt ",
       "content": "interaktiva CV",
       "outro": "."
     },
+    "projects": {
+      "intro": "Jag har arbetat med olika projekt, inklusive Google Summer of Code 2024. Du kan hitta mer information på ",
+      "content": "projektsidan",
+      "outro": "."
+    },
     "sports": {
-      "content": "Förutom min passion för mjukvaruutveckling gillar jag att hålla mig aktiv. På senare tid har jag utforskat brasiliansk jiu-jitsu. Dessutom njuter jag av att spendera tid utomhus, springa eller ta promenader."
+      "content": "Under min fritid gillar jag att träna, springa eller simma. Jag har också ett intresse för att lära mig språk, och fokuserar för närvarande på persiska och svenska."
     }
   },
   "blog": {

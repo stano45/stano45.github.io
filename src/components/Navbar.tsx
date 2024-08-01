@@ -14,7 +14,6 @@ export function Navbar(): JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navbarOptions = [
-    { title: t('about.title'), path: '/about' },
     { title: t('blog.title'), path: '/blog' },
     { title: t('cv.title'), path: '/cv' },
     { title: t('contact.title'), path: '/contact' },
