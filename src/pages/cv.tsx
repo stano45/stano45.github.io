@@ -12,7 +12,7 @@ export default function CV(): JSX.Element {
   return (
     <>
       <NextSeo title={t('cv.title')} description={t('cv.description')} />
-      <div id="cv" className="w-full min-h-screen bg-black flex flex-row justify-center items-start">
+      <div id="cv" className="w-full bg-black flex flex-row justify-center items-start">
         <InteractiveCV />
       </div>
     </>

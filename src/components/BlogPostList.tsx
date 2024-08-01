@@ -11,10 +11,10 @@ export function BlogPostList({ posts }: BlogPostListProps): JSX.Element {
   const [query] = useLanguageQuery();
 
   return (
-    <div className="grid grid-cols-1 lg:ml-44 mt-8 lg:mt-20">
+    <div className="grid grid-cols-1">
       {posts.map((post, index) => (
         <Link key={index} href={{ pathname: `/blog/${post.id}`, query: query }}>
-          <div className="lg:w-3/4 mb-16 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words max-h-50 overflow-hidden">
+          <div className="lg:w-3/4 mb-10 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words max-h-50 overflow-hidden">
             <Image
               src={post.image}
               alt={post.title}

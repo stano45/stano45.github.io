@@ -4,7 +4,7 @@
     "description": "Stránka o Stanislavovi Kosorinovi, opisujúca jeho pozadie, schopnosti a záujmy",
     "heading": "Vitaj!",
     "intro": "Volám sa Stano a som softvérový inžinier. Momentálne študujem masters informatiky na ",
-    "tub": "Technickej Univerzite v Berlíne",
+    "tub": "Technickej univerzite v Berlíne",
     "cresta": {
       "intro": "Okrem štúdia pomáham firme ",
       "content": "Cresta",
@@ -26,46 +26,57 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Blog Stanislav Kosorin, kde sa môžete dozvedieť viac o jeho záujmoch, zážitkoch a nápadoch"
+    "description": "Blog Stanislav Kosorin, kde sa môžete dozvedieť viac o jeho záujmoch, zážitkoch a nápadoch",
+    "heading": "Blog (iba v angličtine)"
   },
   "cv": {
     "title": "Životopis",
     "description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
     "legend": {
-      "work": "Pracovné skúsenosti",
-      "education": "Vzdelanie",
+      "prax": "Pracovné skúsenosti",
+      "vzdelanie": "Vzdelanie",
       "project": "Osobný projekt"
     },
     "content": [
       {
+        "title": "MSc Computer Science @ Technická univerzita v Berlíne",
+        "date": "Apr 2024 - Present",
+        "description": "Momentálne študujem masters informatiky so zameraním na distribuované systémy a siete.",
+        "details": "Vyberám si predmety z oblasti distribuovaných systémov, počítačových sietí, cloud computing a security.",
+        "urlLabel": "University website (MSc Informatika)",
+        "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc",
+        "urlName": "tu.berlin",
+        "type": "vzdelanie"
+      },
+      {
         "title": "Full Stack Software Engineer @ Cresta",
         "date": "Nov 2022 - súčasnosť",
-        "description": "V spoločnosti Cresta zefektívňujeme workflow kontaktných centier s našou modernou platformou poháňanou umelou inteligenciou. Naše špičkové riešenie umožňuje klientom optimalizovať interakcie so zákazníkmi pomocou pokročilej analýzy konverzácii, a následnej prezentácie najrelevantnejších informácií. Taktiež pomáhame agentom lepšie pochopiť unikátnu situáciu zákazníka a poskytnúť mu tak lepšiu podporu. ",
-        "details": "Moje úlohy zahŕňajú návrh a implementáciu nových funkcií pre našu frontend webovú aplikáciu s použitím React frameworku (v Typescripte). Okrem frontendovu prispievam aj k backendovému vývoju našej platformy v jazyku Go s použitím gRPC na komunikáciu medzi mikroslužbami.",
+        "description": "Ako full stack engineer pracujem s React a Typescript na frontendovej časti, Go na backendovej časti a gRPC na komunikáciu medzi microservices.",
+        "details": "Okrem toho som získal solídne skúsenosti s cloud technológiami, najmä AWS, ako aj Infrastructure as Code pomocou Terraform.",
         "urlLabel": "Navštívte webovú stránku Cresta",
         "url": "https://www.cresta.com/",
         "urlName": "cresta.com",
-        "type": "work"
+        "type": "prax"
       },
       {
         "title": "Computer Vision Engineer @ PTX tech GmbH",
-        "date": "Nov 2021- Nov 2022",
-        "description": "V spoločnosti PTX som prispel k vývoju moderného systému na 3D detekciu v reálnom čase s pomocou algoritmov počítačového videnia (computer vision). Moje úlohy zahŕňali zlepšenie výkonnosti systému optimalizáciou existujúceho kódu a zavedenie nových funkcií na ďalšie vylepšenie jeho schopností.",
-        "details": "Konkrétne som navrhol efektívnu viacvláknovú (multithreaded) pipeline v jazyku C++ (framework Qt5) na efektívne spracovanie 3D bodových oblakov (point clouds). Taktiež som integroval do systému GPU zrýchlený algoritmus Simultaneous Localization and Mapping (SLAM). Táto úspešná integrácia viedla k zrýchleniu spracovávania o 10-násobok a výrazne zlepšila celkový výkon nášho systému.",
+        "date": "Nov 2021 - Nov 2022",
+        "description": "V spoločnosti PTX som prispel k vývoju state-of-the-art systému na 3D detekciu v reálnom čase s pomocou algoritmov počítačového videnia (computer vision). Tento projekt bol zrealizovaný s pomocou C++, Qt5 a Cuda.",
+        "details": "Konkrétne som navrhol efektívnu viacvláknovú (multithreaded) pipeline v jazyku C++ (frameprax Qt5) na efektívne spracovanie 3D bodových oblakov (point clouds). Taktiež som integroval do systému GPU zrýchlený algoritmus Simultaneous Localization and Mapping (SLAM). Táto úspešná integrácia viedla k zrýchleniu spracovávania o 10-násobok a výrazne zlepšila celkový výkon nášho systému.",
         "urlLabel": "Webová stránka PTX",
         "url": "https://www.ptx-tech.de/",
         "urlName": "ptx-tech.de",
-        "type": "work"
+        "type": "prax"
       },
       {
         "title": "BSc Informatika @ Technická univerzita v Berlíne",
-        "date": "Okt 2020 - súčasnosť",
-        "description": "V súčasnosti sa venujem bakalárskemu štúdiu informatiky na Technickej univerzite v Berlíne. Špecializujem sa na softvérové inžinierstvo a distribuované systémy. Plánovaný dátum ukončenia štúdia je jar 2024.",
-        "details": "Zaoberal som sa viacerými informatickými témami, ako sú algoritmy a dátové štruktúry, počítačová architektúra, siete, distribuované systémy, systémové programovanie, databázy a softvérové inžinierstvo. Okrem toho som získal znalosti aj v teoretických aspektoch informatiky, ako sú formálne jazyky a teória automatov, výpočtová teória, teória zložitosti a logika.",
+        "date": "Okt 2020 - Apr 2024",
+        "description": "Získal som silné základy v oblasti softvérového inžinierstva, algoritmov a dátových štruktúr, počítačovej architektúry, sietí, distribuovaných systémov, systémového programovania, databáz a informačných systémov.",  
+        "details": "Téma mojej bakalárskej práce znela 'Evaluating the Feasibility of Container Migration on the LEO Edge'. Celá prax, vrátane zdrojáku je dostupná na mojom GitHube.",
         "urlLabel": "Stránka univerzity (Informatika)",
-        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-b-sc",
         "urlName": "tu.berlin",
-        "type": "education"
+        "type": "vzdelanie"
       },
       {
         "title": "Gymnázium Ladislava Sáru, Bratislava",
@@ -75,7 +86,7 @@
         "urlLabel": "Stránka školy",
         "url": "https://gymlsba.edupage.org/?lang=en",
         "urlName": "gymlsba.edupage.org",
-        "type": "education"
+        "type": "vzdelanie"
       }
     ]
   },

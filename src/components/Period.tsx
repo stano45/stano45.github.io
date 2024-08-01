@@ -12,9 +12,10 @@ export interface PeriodProps {
   url: string;
   urlName: string;
   urlLabel: string;
+  type: string;
 }
 
-export function Period({ title, date, description, details, url, urlName, urlLabel }: PeriodProps): JSX.Element {
+export function Period({ title, date, description, details, url, urlName, urlLabel, type }: PeriodProps): JSX.Element {
   const [dropdownVisible, setDropdownVisible] = useState(false);
 
   const toggleDropdown = useCallback(() => {
@@ -24,8 +25,9 @@ export function Period({ title, date, description, details, url, urlName, urlLab
   return (
     <div className="mb-8">
       <div className="flex items-start cursor-pointer" onClick={toggleDropdown}>
-        <div className="w-1/4">
-          <h4 className="text-gray-500">{date}</h4>
+        <div className="w-1/4 flex flex-col mr-4">
+          <h4 className="text-gray-400">{date}</h4>
+          <h4 className="text-gray-500">{type}</h4>
         </div>
         <div className="w-3/4">
           <h3 className="text-xl font-bold">{title}</h3>

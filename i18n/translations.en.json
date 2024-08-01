@@ -26,7 +26,9 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "The personal blog of Stanislav Kosorin, including articles about programming, web development, and other topics"
+    "description": "The personal blog of Stanislav Kosorin, including articles about programming, web development, and other topics",
+    "heading": "Blog (English only)"
+
   },
   "cv": {
     "title": "Resume",
@@ -38,10 +40,20 @@
     },
     "content": [
       {
+        "title": "MSc Computer Science @ Technische Universität Berlin",
+        "date": "Apr 2024 - Present",
+        "description": "Currently pursuing a Master's degree with a focus on distributed systems and networking.",
+        "details": "Topics include distributed systems, computer networks, cloud computing and security.",
+        "urlLabel": "University website (CS)",
+        "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc",
+        "urlName": "tu.berlin",
+        "type": "education"
+      },
+      {
         "title": "Full Stack Software Engineer @ Cresta",
         "date": "Nov 2022 - Present",
-        "description": "At Cresta, we are revolutionizing the contact center industry by developing an AI-driven platform that enhances customer experiences. Our state-of-the-art solution empowers clients to optimize their customer interactions through advanced analysis and continuous improvement, elevating the quality of service they provide.",
-        "details": "My primary responsibilities involve designing and implementing new features for our frontend web application using React with TypeScript. I also contribute to backend development by writing robust Go code to create efficient microservices.",
+        "description": "As a full stack software engineer, my primary responsibilities involve designing and implementing new features for our frontend web application using React with TypeScript, writing backend services in Go and working with gRPC for communication between microservices. ",
+        "details": "I also gained a solid understanding of cloud technologies, particularly AWS, and have experience with infrastructure as code using Terraform.",
         "urlLabel": "Visit Cresta's website",
         "url": "https://www.cresta.com/",
         "urlName": "cresta.com",
@@ -50,7 +62,7 @@
       {
         "title": "Computer Vision Engineer @ PTX tech GmbH",
         "date": "Nov 2021 - Nov 2022",
-        "description": "At PTX, I contributed to the development of a cutting-edge, real-time 3D detection system that leveraged advanced computer vision algorithms. My responsibilities included enhancing the system's performance through optimization of the existing codebase, as well as introducing new features to further refine its capabilities.",
+        "description": "At PTX, I contributed to the development of a cutting-edge, real-time 3D detection system that leveraged advanced computer vision algorithms. The languages and technologies used were C++, Qt5 and CUDA.",
         "details": "Specifically, I designed an efficient, multi-threaded pipeline in C++ (Qt5 framework) to process 3D point clouds effectively. I also integrated a GPU-accelerated Simultaneous Localization and Mapping (SLAM) algorithm into the system. This successful integration resulted in a 10x speedup in processing time, greatly enhancing the overall performance of our 3D detection system.",
         "urlLabel": "Visit PTX's website",
         "url": "https://www.ptx-tech.de/",
@@ -59,11 +71,11 @@
       },
       {
         "title": "BSc Computer Science @ Technische Universität Berlin",
-        "date": "Oct 2020 - Present",
-        "description": "I am currently pursuing a bachelor's degree in computer science at the Technical University of Berlin. My main focus is on software engineering and distributed systems. My expected graduation date is Spring 2024.",
-        "details": "I have studied a variety of computer science subjects, such as algorithms and data structures, computer architecture, networks, distributed systems, system programming, databases, and software engineering. Additionally, I've gained some knowledge in the theoretical aspects of computer science, such as formal languages and automata theory, computability, complexity theory and logic.",
+        "date": "Oct 2020 - Apr 2024",
+        "description": "Gained a strong foundation in programming, algorithms, and software development, with a focus on solving complex problems and collaborating effectively in team environments. This education has prepared me to contribute meaningfully to technology-driven projects.",
+        "details": "In my thesis, I explored the feasibility of proactive container migration on a simulated low-Earth (LEO) orbit edge environment. The entire thesis and source code are available on my GitHub.",
         "urlLabel": "University website (CS)",
-        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-b-sc",
         "urlName": "tu.berlin",
         "type": "education"
       },

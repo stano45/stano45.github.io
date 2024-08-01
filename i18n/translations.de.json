@@ -26,46 +26,57 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Der Blog von Stanislav Kosorin, inklusive Beiträge über seine Arbeit, Projekte und Interessen"
+    "description": "Der Blog von Stanislav Kosorin, inklusive Beiträge über seine Arbeit, Projekte und Interessen",
+    "heading": "Blog (nur auf English)"
   },
   "cv": {
     "title": "Lebenslauf",
     "description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
     "legend": {
-      "work": "Berufserfahrung",
-      "education": "Ausbildung",
+      "Arbeit": "Berufserfahrung",
+      "Bildung": "Ausbildung",
       "project": "Persönliches Projekt"
     },
     "content": [
       {
+        "title": "MSc Informatik @ Technische Universität Berlin",
+        "date": "Apr 2024 - Gegenwart",
+        "description": "Derzeit verfolge ich einen Master-Abschluss mit Schwerpunkt auf verteilten Systemen und Netzwerken.",
+        "details": "Ich belege Module aus Themen verteilte Systeme, Computernetzwerke, Cloud-Computing und Sicherheit.",
+        "urlLabel": "Universitätswebsite (Informatik)",
+        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "urlName": "tu.berlin",
+        "type": "Bildung"
+      },
+      {
         "title": "Full Stack Software Engineer @ Cresta",
         "date": "Nov 2022 - Gegenwart",
-        "description": "Bei Cresta revolutionieren wir die Kontaktcenter-Industrie, indem wir eine KI-gesteuerte Plattform entwickeln, die Kundenerlebnisse verbessert. Unsere hochmoderne Lösung ermöglicht es Kunden, ihre Kundeninteraktionen durch fortschrittliche Analyse und kontinuierliche Verbesserung zu optimieren und die Qualität des von ihnen bereitgestellten Services zu erhöhen.",
-        "details": "Meine Hauptaufgaben umfassen die Gestaltung und Implementierung neuer Funktionen für unsere Frontend-Webanwendung mit React und TypeScript. Neben der Frontend-Entwicklung trage ich auch zur Backend-Entwicklung bei, indem ich mit Go arbeite, um robuste undeffiziente serverseitige Lösungen zu schaffen.",
-        "urlLabel": "Die Website von Cresta",
+        "description": "Als Full Stack Software Engineer bestehen meine Hauptaufgaben darin, neue Funktionen für unsere Frontend-Webanwendung mit React und TypeScript zu entwerfen und zu implementieren, Backend-Dienste in Go zu schreiben, und mit gRPC für die Kommunikation zwischen Mikrodiensten zu arbeiten.",
+        "details": "Ich habe auch ein solides Verständnis für Cloud-Technologien, insbesondere AWS, und Erfahrung mit Infrastructure as Code mit Terraform erworben.",
+        "urlLabel": "Besuchen Sie die Website von Cresta",
         "url": "https://www.cresta.com/",
         "urlName": "cresta.com",
-        "type": "work"
+        "type": "Arbeit"
       },
       {
         "title": "Computer Vision Engineer @ PTX tech GmbH",
-        "date": "Nov 2021- Nov 2022",
-        "description": "Bei PTX habe ich zur Entwicklung eines hochmodernen Echtzeit-3D-Detektionssystems beigetragen, das fortschrittliche Computer Vision-Algorithmen nutzt. Zu meinen Aufgaben gehörten die Verbesserung der Systemleistung durch Optimierung der vorhandenen Codebasis sowie die Einführung neuer Funktionen zur weiteren Verfeinerung seiner Fähigkeiten.",
-        "details": "Konkret habe ich eine effiziente, mehrfädige Pipeline in C++ (Qt5 Framework) entworfen, um 3D-Punktwolken effektiv zu verarbeiten. Ich habe auch einen GPU-beschleunigten Simultaneous Localization and Mapping (SLAM)-Algorithmus in das System integriert. Diese erfolgreiche Integration führte zu einer 10-fachen Beschleunigung der Verarbeitungszeit und verbesserte damit die Gesamtleistung unseres 3D-Detektionssystems erheblich.",
+        "date": "Nov 2021 - Nov 2022",
+        "description": "Bei PTX habe ich zur Entwicklung eines hochmodernen Echtzeit-3D-Detektionssystems beigetragen, das fortschrittliche Computer Vision-Algorithmen nutzt. Die Sprachen und Technologien, die ich verwendet habe, sind C++, Qt5 und CUDA.",
+        "details": "Konkret habe ich eine effiziente, mehrfädige Pipeline in C++ (Qt5 FrameArbeit) entworfen, um 3D-Punktwolken effektiv zu verarbeiten. Ich habe auch einen GPU-beschleunigten Simultaneous Localization and Mapping (SLAM)-Algorithmus in das System integriert. Diese erfolgreiche Integration führte zu einer 10-fachen Beschleunigung der Verarbeitungszeit und verbesserte damit die Gesamtleistung unseres 3D-Detektionssystems erheblich.",
         "urlLabel": "Die Webseite von PTX",
         "url": "https://www.ptx-tech.de/",
         "urlName": "ptx-tech.de",
-        "type": "work"
+        "type": "Arbeit"
       },
       {
         "title": "BSc Informatik @ Technische Universität Berlin",
-        "date": "Okt 2020 - Gegenwart",
-        "description": "Ich studiere derzeit Informatik im Bachelor an der Technischen Universität Berlin. Mein Schwerpunkt liegt auf der Softwareentwicklung und verteilten Systemen. Mein voraussichtliches Abschlussdatum ist im Frühjahr 2024.",
-        "details": "Ich habe mich mit einer Menge Themen auseinandergesetzt, wie z. B. Algorithmen und Datenstrukturen, Computerarchitektur, Netzwerke, verteilte Systeme, Systemprogrammierung, Datenbanken und Softwareentwicklung. Darüber hinaus habe ich auch Kenntnisse in den theoretischen Aspekten der Informatik erworben, wie formale Sprachen und Automatentheorie, Berechenbarkeit, Komplexitätstheorie und Logik.",
-        "urlLabel": "Universitätswebseite (Informatik)",
+        "date": "Okt 2020 - Apr 2024",
+        "description": "Ich habe eine solide Grundlage in Programmierung, Algorithmen und Softwareentwicklung erworben, mit einem Fokus auf die Lösung komplexer Probleme und effektive Zusammenarbeit in Teamumgebungen. Diese Ausbildung hat mich darauf vorbereitet, sinnvoll zu technologiegetriebenen Projekten beizutragen.",
+        "details": "In meiner Abschlussarbeit habe ich die Machbarkeit einer proaktiven Container-Migration in einer simulierten Low-Earth-Orbit (LEO) Edge-Umgebung untersucht. Die gesamte Arbeit und der Quellcode sind auf meinem GitHub verfügbar.",
+        "urlLabel": "Universitätswebsite (Informatik)",
         "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
         "urlName": "tu.berlin",
-        "type": "education"
+        "type": "Bildung"
       },
       {
         "title": "Gymnasium @ Gymnázium Ladislava Sáru, Bratislava",
@@ -75,7 +86,7 @@
         "urlLabel": "Schulwebseite (leider nur auf Slowakisch)",
         "url": "https://gymlsba.edupage.org/?lang=en",
         "urlName": "gymlsba.edupage.org",
-        "type": "education"
+        "type": "Bildung"
       }
     ]
   },

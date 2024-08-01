@@ -26,7 +26,8 @@
   },
   "blog": {
     "title": "Blogg",
-    "description": "Stanislav Kosorins blogg, där du kan lära dig mer om hans intressen, upplevelser och idéer"
+    "description": "Stanislav Kosorins blogg, där du kan lära dig mer om hans intressen, upplevelser och idéer",
+    "heading": "Blogg (endast på engelska)"
   },
   "cv": {
     "title": "CV",
@@ -38,45 +39,56 @@
     },
     "content": [
       {
+        "title": "MSc Datavetenskap @ Technische Universität Berlin",
+        "date": "Apr 2024 - Pågående",
+        "description": "För närvarande studerar jag en masterexamen med fokus på distribuerade system och nätverk.",
+        "details": "Ämnen inkluderar distribuerade system, datornätverk, molntjänster och säkerhet.",
+        "urlLabel": "Universitetets webbplats (CS)",
+        "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc",
+        "urlName": "tu.berlin",
+        "type": "utbildning"
+      },
+      {
         "title": "Full Stack Software Engineer @ Cresta",
-        "date": "Nov 2022 - Nuvarande",
-        "description": "På Cresta revolutionerar vi kontaktcenterindustrin genom att utveckla en AI-driven plattform som förbättrar kundupplevelser. Vår moderna lösning ger klienter möjlighet att optimera sina kundinteraktioner genom avancerad analys och kontinuerlig förbättring, vilket höjer kvaliteten på den service de tillhandahåller.",
-        "details": "Mina huvudsakliga ansvarsområden innefattar design och implementation av nya funktioner för vår frontend-webbapplikation med React och TypeScript. Utöver frontend-utveckling bidrar jag även till backend-utveckling genom att arbeta med Go för att skapa robusta och effektiva serverlösningar.",
+        "date": "Nov 2022 - Pågående",
+        "description": "Som full stack-programvaruingenjör är mina främsta ansvarsområden att designa och implementera nya funktioner för vår frontend-webbapplikation med React och TypeScript, skriva backend-tjänster i Go och arbeta med gRPC för kommunikation mellan mikrotjänster.",
+        "details": "Jag har också fått en god förståelse för molnteknologier, särskilt AWS, och har erfarenhet av infrastruktur som kod med Terraform.",
         "urlLabel": "Besök Crestas webbplats",
         "url": "https://www.cresta.com/",
         "urlName": "cresta.com",
-        "type": "work"
+        "type": "arbete"
       },
       {
         "title": "Computer Vision Engineer @ PTX tech GmbH",
         "date": "Nov 2021 - Nov 2022",
-        "description": "På PTX bidrog jag till utvecklingen av ett toppmodernt, realtids 3D-detektionssystem som utnyttjade avancerade datorseendealgoritmer. Mina ansvarsområden inkluderade förbättring av systemets prestanda genom optimering av den befintliga kodbasen, samt införande av nya funktioner för att ytterligare förbättra dess förmågor.",
-        "details": "Jag designade specifikt en effektiv, multi-trådad pipeline i C++ (framework Qt5) för att effektivt bearbeta 3D-punktmoln. Jag integrerade också en GPU-accelererad Simultaneous Localization and Mapping (SLAM) -algoritm i systemet. Denna lyckade integration resulterade i en 10x ökning av bearbetningstiden, vilket starkt förbättrade prestandan hos vårt 3D-detektionssystem.",
-        "urlLabel": "Besök PTX webbplats",
+        "description": "På PTX bidrog jag till utvecklingen av ett avancerat, realtids 3D-detekteringssystem som utnyttjade avancerade datorvisionsalgoritmer. De språk och teknologier som användes var C++, Qt5 och CUDA.",
+        "details": "Specifikt designade jag en effektiv, flertrådad pipeline i C++ (Qt5-ramverk) för att effektivt bearbeta 3D-punktmoln. Jag integrerade också en GPU-accelererad SLAM-algoritm (Simultaneous Localization and Mapping) i systemet. Denna framgångsrika integration resulterade i en 10x snabbare bearbetningstid, vilket förbättrade prestandan i vårt 3D-detekteringssystem avsevärt.",
+        "urlLabel": "Besök PTX:s webbplats",
         "url": "https://www.ptx-tech.de/",
         "urlName": "ptx-tech.de",
-        "type": "work"
+        "type": "arbete"
       },
       {
-        "title": "BSc Computer Science @ Technische Universität Berlin",
-        "date": "Oct 2020 - Nuvarande",
-        "description": "Jag studerar för närvarande för en kandidatexamen i datavetenskap vid Technical University of Berlin. Mitt huvudfokus är på mjukvaruutveckling och distribuerade system. Mitt förväntade examensdatum är våren 2024.",
-        "details": "Jag har studerat en rad datavetenskapliga ämnen, såsom algoritmer och datastrukturer, datorarkitektur, nätverk, distribuerade system, systemprogrammering, databaser och mjukvaruutveckling. Dessutom har jag fått kunskaper inom teoretiska aspekter av datavetenskapen, såsom formella språk och automatteori, beräkningsbarhet, komplexitetsteori och logik.",
-        "urlLabel": "Universitetswebbplats (datavetenskap)",
-        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+        "title": "BSc Datavetenskap @ Technische Universität Berlin",
+        "date": "Okt 2020 - Apr 2024",
+        "description": "Fick en stark grund inom programmering, algoritmer och programvaruutveckling, med fokus på att lösa komplexa problem och samarbeta effektivt i teammiljöer. Denna utbildning har förberett mig att bidra meningsfullt till teknikdrivna projekt.",
+        "details": "I min avhandling undersökte jag genomförbarheten av proaktiv container migration i en simulerad låg- (LEO) omloppsmiljö. Hela avhandlingen och källkoden finns på min GitHub.",
+        "urlLabel": "Universitetets webbplats (CS)",
+        "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-b-sc",
         "urlName": "tu.berlin",
-        "type": "education"
+        "type": "utbildning"
       },
       {
         "title": "Gymnasium @ Gymnázium Ladislava Sáru, Bratislava",
         "date": "2012 - 2020",
-        "description": "Jag gick på ett allmänt gymnasium, med fokus på språk (tyska i mitt fall). Jag tog examen med betyget 1.0 (bästa möjliga) på mitt slutbetyg, i ämnena matematik, datavetenskap, engelska och slovakiska språket.",
-        "details": "Förutom att ha skapat några fantastiska minnen, skaffade jag en stark grund i naturvetenskap samt en introduktion till programmering. Jag lärde mig också tyska och uppnådde ett C1-språkcertifikat, vilket möjliggjorde vidare studier i Tyskland.",
+        "description": "Jag gick på ett allmänt gymnasium med inriktning på språk (tyska i mitt fall). Jag tog examen med ett betyg på 1,0 (bästa möjliga) i mina slutbetyg, med inriktning på matematik, informatik, engelska och slovakiska.",
+        "details": "Förutom att skapa några fantastiska minnen fick jag en stark grund i naturvetenskaper samt en introduktion till programmering. Jag lärde mig också tyska och uppnådde ett C1-språkcetifikat, vilket möjliggjorde vidare studier i Tyskland.",
         "urlLabel": "Skolans webbplats (tyvärr endast på slovakiska)",
         "url": "https://gymlsba.edupage.org/?lang=en",
         "urlName": "gymlsba.edupage.org",
-        "type": "education"
+        "type": "utbildning"
       }
+      
     ]
   },
 
