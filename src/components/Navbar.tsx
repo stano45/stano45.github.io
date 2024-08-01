@@ -26,7 +26,7 @@ export function Navbar(): JSX.Element {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-4">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <Link href={{ pathname: '/', query: query }} passHref>
+        <Link href={{ pathname: '/', query: query }}>
           <span className="font-semibold text-3xl tracking-tight">Stanislav Kosorin</span>
         </Link>
       </div>
@@ -46,7 +46,7 @@ export function Navbar(): JSX.Element {
       >
         <div className="lg:flex-grow">
           {navbarOptions.map((option, idx) => (
-            <Link key={idx} href={{ pathname: option.path, query: query }} passHref>
+            <Link key={idx} href={{ pathname: option.path, query: query }}>
               <button
                 onClick={toggleMenu}
                 className={`block mt-4 lg:inline-block  lg:mt-0 ${

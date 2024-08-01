@@ -20,28 +20,28 @@ export default function About(): JSX.Element {
             <div className="opacity-0 fade-in-second mt-10">
               <p className="text-lg leading-relaxed mb-4">
                 {t('about.intro')}
-                <Link href={{ pathname: 'https://www.tu.berlin/en' }} passHref className="text-blue-500 underline">
+                <Link href={{ pathname: 'https://www.tu.berlin/en' }} className="text-blue-500 underline">
                   {t('about.tub')}
                 </Link>
                 .
               </p>
               <p className="text-lg leading-relaxed mb-4">
                 {t('about.cresta.intro')}
-                <Link href={{ pathname: 'https://www.cresta.com/' }} passHref className="text-blue-500 underline">
+                <Link href={{ pathname: 'https://www.cresta.com/' }} className="text-blue-500 underline">
                   {t('about.cresta.content')}
                 </Link>{' '}
                 {t('about.cresta.outro')}
               </p>
               <p className="text-lg leading-relaxed mb-4">
                 {t('about.cv.intro')}
-                <Link href={{ pathname: '/cv', query: query }} passHref className="text-blue-500 underline">
+                <Link href={{ pathname: '/cv', query: query }} className="text-blue-500 underline">
                   {t('about.cv.content')}
                 </Link>
                 {t('about.cv.outro')}
               </p>
               <p className="text-lg leading-relaxed mb-4">
                 {t('about.projects.intro')}
-                <Link href={{ pathname: '/cv', query: query }} passHref className="text-blue-500 underline">
+                <Link href={{ pathname: '/cv', query: query }} className="text-blue-500 underline">
                   {t('about.projects.content')}
                 </Link>
                 {t('about.projects.outro')}
