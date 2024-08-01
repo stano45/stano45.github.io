@@ -13,7 +13,10 @@ export default function Blog(): JSX.Element {
   return (
     <>
       <NextSeo title={t('blog.title')} description={t('blog.description')} />
-      <div id="blog" className="w-full min-h-screen bg-black flex flex-row justify-center items-start">
+      <div
+        id="blog"
+        className="w-full min-h-screen bg-black flex flex-row justify-center items-start opacity-0 fade-in-first"
+      >
         <BlogPostList posts={[internationalizationPost, CSGuidePost]} />
       </div>
     </>
