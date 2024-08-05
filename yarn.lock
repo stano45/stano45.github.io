@@ -2078,10 +2078,10 @@
   resolved "https://registry.yarnpkg.com/@types/http-cache-semantics/-/http-cache-semantics-4.0.4.tgz#b979ebad3919799c979b17c72621c0bc0a31c6c4"
   integrity sha512-1m0bIFVc7eJWyve9S0RnuRgcQqF/Xd5QsUZAZeQFr1Q3/p9JWoQQEqmVy+DPTNpGXwhgIetAoYF8JSc33q29QA==
 
-"@types/i18n@^0.13.10":
-  version "0.13.10"
-  resolved "https://registry.yarnpkg.com/@types/i18n/-/i18n-0.13.10.tgz#3637272fb8a3a6b9013c1cfcd86df0be36dcd198"
-  integrity sha512-V5uwFXEzC1BRvDSQkd5zWB7ktZa1yfLKFimlluTFrgBGeFJQNNaLk3J67Sje+c0+m2C7r1BU47cItOk/WRfJcQ==
+"@types/i18n@^0.13.12":
+  version "0.13.12"
+  resolved "https://registry.yarnpkg.com/@types/i18n/-/i18n-0.13.12.tgz#b457715766c63d8ffdfc51dd4fc1f72728e9d38f"
+  integrity sha512-iAd2QjKh+0ToBXocmCS3m38GskiaGzmSV1MTQz2GaOraqSqBiLf46J7u3EGINl+st+Uk4lO3OL7QyIjTJlrWIg==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
