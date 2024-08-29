@@ -18,3 +18,13 @@ export const CSGuidePost: BlogPostMeta = {
   description:
     'Curious about the computer science program at TU Berlin? This article tells you all you need to know, including insider advice and tips.',
 };
+
+export const GSoC24Report: BlogPostMeta = {
+  title: 'GSoC 2024: P4-Enabled Container Migration in Kubernetes',
+  date: '2024-08-25',
+  image: '/GSoC-Horizontal.svg',
+  tags: ['Google Summer of Code', 'Cloud', 'Infrastructure'],
+  id: 'gsoc24-report',
+  description:
+    'A detailed report on my Google Summer of Code 2024 project, which involved enabling P4-based container migration in Kubernetes.',
+};
