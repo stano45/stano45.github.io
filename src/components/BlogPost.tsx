@@ -2,6 +2,7 @@ import Image from "next/image";
 import { NextSeo } from "next-seo";
 
 import type { BlogPostProps } from "../types";
+
 import { BlogPostHeading } from "./BlogPostHeading";
 
 export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
