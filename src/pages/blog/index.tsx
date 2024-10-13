@@ -21,7 +21,9 @@ export default function Blog(): JSX.Element {
 				id="blog"
 				className="mx-20 lg:ml-72 m-8 lg:mt-10 bg-black flex flex-col justify-center items-start opacity-0 fade-in-first"
 			>
-				<h1 className="text-4xl font-bold mb-10">{t("blog.heading")}</h1>
+				<h1 className="hidden md:block text-4xl font-bold mb-10">
+					{t("blog.heading")}
+				</h1>
 				<div className="grid grid-cols-1">
 					{POSTS.map((post) => (
 						<Link

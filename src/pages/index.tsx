@@ -13,7 +13,7 @@ export default function About(): JSX.Element {
 	return (
 		<>
 			<NextSeo title={t("about.title")} description={t("about.description")} />
-			<div className="mx-4 lg:mx-20 mt-10 flex justify-center opacity-0 fade-in-first">
+			<div className="mx-4 lg:mx-20 md:mt-10 flex justify-center opacity-0 fade-in-first">
 				<div className="flex flex-col lg:flex-row items-center lg:items-center">
 					<div className="max-w-4xl shadow-lg rounded-lg p-8">
 						<h1 className="text-4xl font-bold mb-4 text-center lg:text-left">

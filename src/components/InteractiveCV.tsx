@@ -13,7 +13,9 @@ export function InteractiveCV(): JSX.Element {
 
 	return (
 		<div className="opacity-0 fade-in-first w-5/6 lg:w-3/4 mt-10">
-			<h1 className="text-4xl font-bold mb-10">{t("cv.title")}</h1>
+			<h1 className="hidden md:block text-4xl font-bold mb-10">
+				{t("cv.title")}
+			</h1>
 			<div className="scroll-area h-[80vh] overflow-y-scroll px-4">
 				{cvContent ? (
 					cvContent.map((period, index) => (
