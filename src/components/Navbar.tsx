@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
-import React, { useState } from "react";
+import React from "react";
 
 import { LanguagePicker } from "./LanguagePicker";
 
@@ -11,7 +11,6 @@ export function Navbar(): JSX.Element {
 	const { t } = useTranslation();
 	const [query] = useLanguageQuery();
 	const router = useRouter();
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const navbarOptions = [
 		{ title: t("blog.title"), path: "/blog" },
@@ -19,20 +18,16 @@ export function Navbar(): JSX.Element {
 		{ title: t("contact.title"), path: "/contact" },
 	];
 
-	const toggleMenu = () => {
-		setIsMenuOpen(!isMenuOpen);
-	};
-
 	return (
-		<nav className="flex items-center justify-between flex-wrap bg-blue-700 p-4">
-			<div className="flex items-center flex-shrink-0 text-white mr-6">
+		<nav className="flex flex-col md:flex-row items-center justify-center md:justify-between flex-wrap bg-blue-700 p-4">
+			<div className="flex items-center flex-shrink-0 text-white md:mx-6">
 				<Link href={{ pathname: "/", query: query }}>
 					<span className="font-semibold text-3xl tracking-tight">
 						Stanislav Kosorin
 					</span>
 				</Link>
 			</div>
-			<div className="flex flex-row md:flex-grow items-center w-full md:flex md:items-center md:w-auto mt-3 md:mt-1">
+			<div className="flex justify-center mt-3 md:flex-grow items-center w-full md:items-center md:w-auto  md:mt-1">
 				{navbarOptions.map((option, idx) => (
 					<Link
 						key={idx.toString()}
@@ -40,7 +35,6 @@ export function Navbar(): JSX.Element {
 					>
 						<button
 							type="button"
-							onClick={toggleMenu}
 							className={`block md:inline-block md:mt-0 ${
 								router.asPath.startsWith(option.path)
 									? "text-white"
