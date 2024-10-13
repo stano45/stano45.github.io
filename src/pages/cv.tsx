@@ -11,7 +11,7 @@ export default function CV(): JSX.Element {
 	const cvContent: PeriodProps[] = t("cv.content");
 
 	return (
-		<>
+		<div>
 			<NextSeo title={t("cv.title")} description={t("cv.description")} />
 			{cvContent.map((period, index) => (
 				<React.Fragment key={period.title}>
@@ -21,6 +21,6 @@ export default function CV(): JSX.Element {
 					)}
 				</React.Fragment>
 			))}
-		</>
+		</div>
 	);
 }

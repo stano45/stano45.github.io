@@ -15,13 +15,14 @@ export default function Contact(): JSX.Element {
 				title={t("contact.title")}
 				description={t("contact.description")}
 			/>
-			<div className="relative lg:top-2/3">
+			<div className="relative mt-4 md:top-2/3">
 				<div className="flex flex-col md:flex-row justify-center items-center">
 					<Tooltip
 						content={<span className="text-2xl">{t("contact.linkedin")}</span>}
+						offset={-15}
 					>
 						<a
-							className="opacity-0 fade-in-first mx-10 my-2 md:my-0 flex items-center justify-center"
+							className="opacity-0 fade-in-first mx-10 mb-4 md:my-0 flex items-center justify-center"
 							href="https://www.linkedin.com/in/stanislav-kosorin-b88452170/"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -31,9 +32,10 @@ export default function Contact(): JSX.Element {
 					</Tooltip>
 					<Tooltip
 						content={<span className="text-2xl">{t("contact.github")}</span>}
+						offset={-15}
 					>
 						<a
-							className="opacity-0 fade-in-second mx-10 my-2 md:my-0 flex items-center justify-center"
+							className="opacity-0 fade-in-second mx-10 mb-4 md:my-0 flex items-center justify-center"
 							href="https://github.com/stano45"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -43,9 +45,10 @@ export default function Contact(): JSX.Element {
 					</Tooltip>
 					<Tooltip
 						content={<span className="text-2xl">{t("contact.email")}</span>}
+						offset={-15}
 					>
 						<a
-							className="opacity-0 fade-in-third mx-10 my-2 md:my-0 flex items-center justify-center"
+							className="opacity-0 fade-in-third mx-10 mb-4 md:my-0 flex items-center justify-center"
 							href="mailto:stanokosorin4@gmail.com"
 						>
 							<AiOutlineMail size="5em" className="text-3xl md:text-5xl" />
