@@ -1,20 +1,23 @@
-/* components/Period.module.css */
-
+/* Period.module.css */
 .slideEnter {
+	max-height: 0;
 	opacity: 0;
-	transform: translateY(-10px);
+	overflow: hidden;
 }
+
 .slideEnterActive {
+	max-height: 250px; /* Adjust this value based on the content */
 	opacity: 1;
-	transform: translateY(0);
-	transition: opacity 300ms, transform 300ms;
+	transition: max-height 100ms ease-in-out, opacity 00ms ease-in-out;
 }
+
 .slideExit {
+	max-height: 250px;
 	opacity: 1;
-	transform: translateY(0);
 }
+
 .slideExitActive {
+	max-height: 0;
 	opacity: 0;
-	transform: translateY(-10px);
-	transition: opacity 300ms, transform 300ms;
+	transition: max-height 300ms ease-in-out, opacity 300ms ease-in-out;
 }

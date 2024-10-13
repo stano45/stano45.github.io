@@ -33,19 +33,19 @@ export function Period({
 	}, [dropdownVisible]);
 
 	return (
-		<div className="mb-8">
+		<>
 			<div
 				className="flex items-start cursor-pointer"
 				onClick={toggleDropdown}
 				onKeyDown={toggleDropdown}
 			>
 				<div className="w-1/4 flex flex-col mr-4">
-					<h4 className="text-gray-400">{date}</h4>
-					<h4 className="text-gray-500">{type}</h4>
+					<h4 className="text-xs md:text-sm text-gray-400">{date}</h4>
+					<h4 className="text-xs md:text-sm text-gray-500">{type}</h4>
 				</div>
 				<div className="w-3/4">
-					<h3 className="text-xl font-bold">{title}</h3>
-					<p className="mt-2">{description}</p>
+					<h3 className="text-lg md:text-xl font-bold">{title}</h3>
+					<p className="text-sm md:text-lg mt-2">{description}</p>
 				</div>
 				<div
 					className={`transform transition duration-300 ${dropdownVisible ? "rotate-180" : ""}`}
@@ -81,7 +81,7 @@ export function Period({
 					unmountOnExit
 					appear
 				>
-					<div className="mt-4 p-4 border border-gray-200 rounded">
+					<div className="text-sm md:text-lg mt-4 p-4 border border-gray-200 rounded">
 						{details}
 						<div className="mt-4">
 							{urlLabel}
@@ -98,6 +98,6 @@ export function Period({
 					</div>
 				</CSSTransition>
 			</div>
-		</div>
+		</>
 	);
 }
