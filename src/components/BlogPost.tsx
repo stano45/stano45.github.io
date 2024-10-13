@@ -32,7 +32,7 @@ export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
 					height={1000}
 				/>
 
-				<div className="lg:text-justify">{children}</div>
+				<div className="md:text-justify">{children}</div>
 			</div>
 		</>
 	);
