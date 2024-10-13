@@ -37,6 +37,8 @@ jobs:
           curl https://bun.sh/install | bash
           export BUN_INSTALL="$HOME/.bun"
           export PATH="$BUN_INSTALL/bin:$PATH"
+          source /home/runner/.bashrc 
+          bun --help
 
       - name: Cache Bun dependencies
         uses: actions/cache@v4
