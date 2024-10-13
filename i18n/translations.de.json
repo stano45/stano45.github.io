@@ -1,101 +1,101 @@
 {
-  "about": {
-    "title": "Stanislav Kosorin",
-    "description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen",
-    "heading": "Wilkommen!",
-    "intro": "Ich bin Stan und beschäftige mich mit der Softwareentwicklung. Ich studiere Master Informatik an der ",
-    "tub": "Technischen Universität Berlin",
-    "cresta": {
-      "intro": "Neben meinem Studium helfe ich ",
-      "content": "Cresta",
-      "outro": " dabei, Callcenter mit AI zu revolutionieren. Konkret arbeite ich als Full Stack Entwickler, und nutze hauptsächlich React, Go und AWS."
-    },
-    "cv": {
-      "intro": "Mehr über meine bisherige Erfahrung findet man in meinem ",
-      "content": "interaktiven Lebenslauf",
-      "outro": "."
-    },
-    "projects": {
-      "intro": "Ich habe an verschiedenen Projekten gearbeitet, wie z. B. Google Summer of Code 2024. Mehr Informationen dazu gibt es auf der ",
-      "content": " Projekte-Seite",
-      "outro": "."
-    },
-    "sports": {
-      "content": "In meiner Freizeit mache ich gerne Sport, zum Beispiel trainiere ich im Fitnessstudio, laufe oder schwimme. Außerdem interessiere ich mich für Sprachen und lerne derzeit Persisch und Schwedisch."
-    }
-  },
-  "blog": {
-    "title": "Blog",
-    "description": "Der Blog von Stanislav Kosorin, inklusive Beiträge über seine Arbeit, Projekte und Interessen",
-    "heading": "Blog (nur auf English)"
-  },
-  "cv": {
-    "title": "Lebenslauf",
-    "description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
-    "legend": {
-      "Arbeit": "Berufserfahrung",
-      "Bildung": "Ausbildung",
-      "project": "Persönliches Projekt"
-    },
-    "content": [
-      {
-        "title": "MSc Informatik @ Technische Universität Berlin",
-        "date": "Apr 2024 - Gegenwart",
-        "description": "Derzeit verfolge ich einen Master-Abschluss mit Schwerpunkt auf verteilten Systemen und Netzwerken.",
-        "details": "Ich belege Module aus Themen verteilte Systeme, Computernetzwerke, Cloud-Computing und Sicherheit.",
-        "urlLabel": "Universitätswebsite (Informatik)",
-        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
-        "urlName": "tu.berlin",
-        "type": "Bildung"
-      },
-      {
-        "title": "Full Stack Software Engineer @ Cresta",
-        "date": "Nov 2022 - Gegenwart",
-        "description": "Als Full Stack Software Engineer bestehen meine Hauptaufgaben darin, neue Funktionen für unsere Frontend-Webanwendung mit React und TypeScript zu entwerfen und zu implementieren, Backend-Dienste in Go zu schreiben, und mit gRPC für die Kommunikation zwischen Mikrodiensten zu arbeiten.",
-        "details": "Ich habe auch ein solides Verständnis für Cloud-Technologien, insbesondere AWS, und Erfahrung mit Infrastructure as Code mit Terraform erworben.",
-        "urlLabel": "Besuchen Sie die Website von Cresta",
-        "url": "https://www.cresta.com/",
-        "urlName": "cresta.com",
-        "type": "Arbeit"
-      },
-      {
-        "title": "Computer Vision Engineer @ PTX tech GmbH",
-        "date": "Nov 2021 - Nov 2022",
-        "description": "Bei PTX habe ich zur Entwicklung eines hochmodernen Echtzeit-3D-Detektionssystems beigetragen, das fortschrittliche Computer Vision-Algorithmen nutzt. Die Sprachen und Technologien, die ich verwendet habe, sind C++, Qt5 und CUDA.",
-        "details": "Konkret habe ich eine effiziente, mehrfädige Pipeline in C++ (Qt5 FrameArbeit) entworfen, um 3D-Punktwolken effektiv zu verarbeiten. Ich habe auch einen GPU-beschleunigten Simultaneous Localization and Mapping (SLAM)-Algorithmus in das System integriert. Diese erfolgreiche Integration führte zu einer 10-fachen Beschleunigung der Verarbeitungszeit und verbesserte damit die Gesamtleistung unseres 3D-Detektionssystems erheblich.",
-        "urlLabel": "Die Webseite von PTX",
-        "url": "https://www.ptx-tech.de/",
-        "urlName": "ptx-tech.de",
-        "type": "Arbeit"
-      },
-      {
-        "title": "BSc Informatik @ Technische Universität Berlin",
-        "date": "Okt 2020 - Apr 2024",
-        "description": "Ich habe eine solide Grundlage in Programmierung, Algorithmen und Softwareentwicklung erworben, mit einem Fokus auf die Lösung komplexer Probleme und effektive Zusammenarbeit in Teamumgebungen. Diese Ausbildung hat mich darauf vorbereitet, sinnvoll zu technologiegetriebenen Projekten beizutragen.",
-        "details": "In meiner Abschlussarbeit habe ich die Machbarkeit einer proaktiven Container-Migration in einer simulierten Low-Earth-Orbit (LEO) Edge-Umgebung untersucht. Die gesamte Arbeit und der Quellcode sind auf meinem GitHub verfügbar.",
-        "urlLabel": "Universitätswebsite (Informatik)",
-        "url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
-        "urlName": "tu.berlin",
-        "type": "Bildung"
-      },
-      {
-        "title": "Gymnasium @ Gymnázium Ladislava Sáru, Bratislava",
-        "date": "2012 - 2020",
-        "description": "Ich besuchte ein allgemeines Gymnasium mit Schwerpunkt auf Sprachen (Deutsch in meinem Fall). Ich schloss mit der Note 1,0 (bestmögliche Note) in den Fächern Mathematik, Informatik, Englisch und Slowakisch ab.",
-        "details": "Neben einigen großartigen Erinnerungen erwarb ich eine solide Grundlage in Naturwissenschaften sowie eine Einführung in die Programmierung. Ich lernte auch Deutsch und erwarb ein C1-Sprachzertifikat, das mir ermöglichte, weiterführende Studien in Deutschland zu absolvieren.",
-        "urlLabel": "Schulwebseite (leider nur auf Slowakisch)",
-        "url": "https://gymlsba.edupage.org/?lang=en",
-        "urlName": "gymlsba.edupage.org",
-        "type": "Bildung"
-      }
-    ]
-  },
+	"about": {
+		"title": "Stanislav Kosorin",
+		"description": "Die persönliche Website von Stanislav Kosorin, inklusive Informationen über seine Arbeit, Projekte und Interessen",
+		"heading": "Wilkommen!",
+		"intro": "Ich bin Stan und beschäftige mich mit der Softwareentwicklung. Ich studiere Master Informatik an der ",
+		"tub": "Technischen Universität Berlin",
+		"cresta": {
+			"intro": "Neben meinem Studium helfe ich ",
+			"content": "Cresta",
+			"outro": " dabei, Callcenter mit AI zu revolutionieren. Konkret arbeite ich als Full Stack Entwickler, und nutze hauptsächlich React, Go und AWS."
+		},
+		"cv": {
+			"intro": "Mehr über meine bisherige Erfahrung findet man in meinem ",
+			"content": "interaktiven Lebenslauf",
+			"outro": "."
+		},
+		"projects": {
+			"intro": "Ich habe an verschiedenen Projekten gearbeitet, wie z. B. Google Summer of Code 2024. Mehr Informationen dazu gibt es auf der ",
+			"content": " Projekte-Seite",
+			"outro": "."
+		},
+		"sports": {
+			"content": "In meiner Freizeit mache ich gerne Sport, zum Beispiel trainiere ich im Fitnessstudio, laufe oder schwimme. Außerdem interessiere ich mich für Sprachen und lerne derzeit Persisch und Schwedisch."
+		}
+	},
+	"blog": {
+		"title": "Blog",
+		"description": "Der Blog von Stanislav Kosorin, inklusive Beiträge über seine Arbeit, Projekte und Interessen",
+		"heading": "Blog (nur auf English)"
+	},
+	"cv": {
+		"title": "Lebenslauf",
+		"description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
+		"legend": {
+			"Arbeit": "Berufserfahrung",
+			"Bildung": "Ausbildung",
+			"project": "Persönliches Projekt"
+		},
+		"content": [
+			{
+				"title": "MSc Informatik @ Technische Universität Berlin",
+				"date": "Apr 2024 - Gegenwart",
+				"description": "Derzeit verfolge ich einen Master-Abschluss mit Schwerpunkt auf verteilten Systemen und Netzwerken.",
+				"details": "Ich belege Module aus Themen verteilte Systeme, Computernetzwerke, Cloud-Computing und Sicherheit.",
+				"urlLabel": "Universitätswebsite (Informatik)",
+				"url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+				"urlName": "tu.berlin",
+				"type": "Bildung"
+			},
+			{
+				"title": "Full Stack Software Engineer @ Cresta",
+				"date": "Nov 2022 - Gegenwart",
+				"description": "Als Full Stack Software Engineer bestehen meine Hauptaufgaben darin, neue Funktionen für unsere Frontend-Webanwendung mit React und TypeScript zu entwerfen und zu implementieren, Backend-Dienste in Go zu schreiben, und mit gRPC für die Kommunikation zwischen Mikrodiensten zu arbeiten.",
+				"details": "Ich habe auch ein solides Verständnis für Cloud-Technologien, insbesondere AWS, und Erfahrung mit Infrastructure as Code mit Terraform erworben.",
+				"urlLabel": "Besuchen Sie die Website von Cresta",
+				"url": "https://www.cresta.com/",
+				"urlName": "cresta.com",
+				"type": "Arbeit"
+			},
+			{
+				"title": "Computer Vision Engineer @ PTX tech GmbH",
+				"date": "Nov 2021 - Nov 2022",
+				"description": "Bei PTX habe ich zur Entwicklung eines hochmodernen Echtzeit-3D-Detektionssystems beigetragen, das fortschrittliche Computer Vision-Algorithmen nutzt. Die Sprachen und Technologien, die ich verwendet habe, sind C++, Qt5 und CUDA.",
+				"details": "Konkret habe ich eine effiziente, mehrfädige Pipeline in C++ (Qt5 FrameArbeit) entworfen, um 3D-Punktwolken effektiv zu verarbeiten. Ich habe auch einen GPU-beschleunigten Simultaneous Localization and Mapping (SLAM)-Algorithmus in das System integriert. Diese erfolgreiche Integration führte zu einer 10-fachen Beschleunigung der Verarbeitungszeit und verbesserte damit die Gesamtleistung unseres 3D-Detektionssystems erheblich.",
+				"urlLabel": "Die Webseite von PTX",
+				"url": "https://www.ptx-tech.de/",
+				"urlName": "ptx-tech.de",
+				"type": "Arbeit"
+			},
+			{
+				"title": "BSc Informatik @ Technische Universität Berlin",
+				"date": "Okt 2020 - Apr 2024",
+				"description": "Ich habe eine solide Grundlage in Programmierung, Algorithmen und Softwareentwicklung erworben, mit einem Fokus auf die Lösung komplexer Probleme und effektive Zusammenarbeit in Teamumgebungen. Diese Ausbildung hat mich darauf vorbereitet, sinnvoll zu technologiegetriebenen Projekten beizutragen.",
+				"details": "In meiner Abschlussarbeit habe ich die Machbarkeit einer proaktiven Container-Migration in einer simulierten Low-Earth-Orbit (LEO) Edge-Umgebung untersucht. Die gesamte Arbeit und der Quellcode sind auf meinem GitHub verfügbar.",
+				"urlLabel": "Universitätswebsite (Informatik)",
+				"url": "https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/informatik-b-sc",
+				"urlName": "tu.berlin",
+				"type": "Bildung"
+			},
+			{
+				"title": "Gymnasium @ Gymnázium Ladislava Sáru, Bratislava",
+				"date": "2012 - 2020",
+				"description": "Ich besuchte ein allgemeines Gymnasium mit Schwerpunkt auf Sprachen (Deutsch in meinem Fall). Ich schloss mit der Note 1,0 (bestmögliche Note) in den Fächern Mathematik, Informatik, Englisch und Slowakisch ab.",
+				"details": "Neben einigen großartigen Erinnerungen erwarb ich eine solide Grundlage in Naturwissenschaften sowie eine Einführung in die Programmierung. Ich lernte auch Deutsch und erwarb ein C1-Sprachzertifikat, das mir ermöglichte, weiterführende Studien in Deutschland zu absolvieren.",
+				"urlLabel": "Schulwebseite (leider nur auf Slowakisch)",
+				"url": "https://gymlsba.edupage.org/?lang=en",
+				"urlName": "gymlsba.edupage.org",
+				"type": "Bildung"
+			}
+		]
+	},
 
-  "contact": {
-    "title": "Kontakt",
-    "description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer",
-    "linkedin": "Verbinde dich mit mir auf LinkedIn 🌍",
-    "github": "Schau dir meine Projekte auf Github an 🐱‍💻",
-    "email": "Schick mir eine E-Mail 📧"
-  }
+	"contact": {
+		"title": "Kontakt",
+		"description": "Kontaktinformationen für Stanislav Kosorin, inklusive seiner E-Mail-Adresse und Telefonnummer",
+		"linkedin": "Verbinde dich mit mir auf LinkedIn 🌍",
+		"github": "Schau dir meine Projekte auf Github an 🐱‍💻",
+		"email": "Schick mir eine E-Mail 📧"
+	}
 }
