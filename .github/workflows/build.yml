@@ -109,6 +109,10 @@ jobs:
           path: ./out
           branch: ${{ github.ref_name }}
           subdir: ${{ env.url_prefix }}
+      
+      - name: Print Deployment URL
+        run: echo "Deployment URL: ${{ steps.deployment.outputs.page_url }}"
+
 
     environment:
       name: github-pages
