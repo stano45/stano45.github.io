@@ -23,7 +23,7 @@ export default function Contact(): JSX.Element {
 					>
 						<a
 							className="opacity-0 fade-in-first mx-10 mb-4 md:my-0 flex items-center justify-center"
-							href="https://www.linkedin.com/in/stanislav-kosorin-b88452170/"
+							href="https://www.linkedin.com/in/kosorin"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
