@@ -7,7 +7,9 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint && biome lint --write .",
+		"lint:ci": "next lint && biome lint",
 		"format": "biome format --write .",
+		"format:ci": "biome format",
 		"prepare": "husky init"
 	},
 	"dependencies": {
