@@ -17,9 +17,6 @@ export default function Blog(): JSX.Element {
 	return (
 		<>
 			<NextSeo title={t("blog.title")} description={t("blog.description")} />
-			<h1 className="hidden md:block text-4xl font-bold mb-10">
-				{t("blog.heading")}
-			</h1>
 			<div className="grid grid-cols-1">
 				{POSTS.map((post) => (
 					<Link

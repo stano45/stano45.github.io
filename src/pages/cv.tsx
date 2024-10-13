@@ -13,9 +13,6 @@ export default function CV(): JSX.Element {
 	return (
 		<>
 			<NextSeo title={t("cv.title")} description={t("cv.description")} />
-			<h1 className="hidden md:block text-4xl font-bold mb-10">
-				{t("cv.title")}
-			</h1>
 			{cvContent.map((period, index) => (
 				<React.Fragment key={period.title}>
 					<Period {...period} />

@@ -27,7 +27,7 @@
 	"blog": {
 		"title": "Blog",
 		"description": "The personal blog of Stanislav Kosorin, including articles about programming, web development, and other topics",
-		"heading": "Blog (English only)"
+		"heading": "Blog"
 	},
 	"cv": {
 		"title": "Resume",
