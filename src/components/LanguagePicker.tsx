@@ -60,7 +60,8 @@ export function LanguagePicker(): JSX.Element {
 
 	return (
 		<div className="relative z-10" ref={ref}>
-			<button  
+			<button
+				type="button"
 				onClick={() => setDropdownOpen(!dropdownOpen)}
 				className="p-1 inline-flex justify-between items-center w-full text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
 			>
