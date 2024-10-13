@@ -1,0 +1,4 @@
+# .husky/pre-commit
+bun lint
+bun format
+git update-index --again

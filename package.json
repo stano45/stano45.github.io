@@ -7,7 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint && biome lint --write .",
-		"format": "biome format --write ."
+		"format": "biome format --write .",
+		"prepare": "husky init"
 	},
 	"dependencies": {
 		"@nextui-org/react": "^2.4.6",
@@ -42,6 +43,7 @@
 		"eslint-plugin-n": "^17.9.0",
 		"eslint-plugin-promise": "^6.6.0",
 		"eslint-plugin-react": "^7.37.1",
+		"husky": "^9.1.6",
 		"postcss": "^8.4.41",
 		"tailwindcss": "^3.4.13"
 	}
