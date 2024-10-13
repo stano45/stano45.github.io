@@ -13,12 +13,14 @@ export default function About(): JSX.Element {
 	return (
 		<>
 			<NextSeo title={t("about.title")} description={t("about.description")} />
-			<div className="mx-10 lg:mx-20 mt-10 flex justify-center opacity-0 fade-in-first">
-				<div className="flex flex-col lg:flex-row">
+			<div className="mx-4 lg:mx-20 mt-10 flex justify-center opacity-0 fade-in-first">
+				<div className="flex flex-col lg:flex-row items-center lg:items-center">
 					<div className="max-w-4xl shadow-lg rounded-lg p-8">
-						<h1 className="text-4xl font-bold mb-4">{t("about.heading")}</h1>
+						<h1 className="text-4xl font-bold mb-4 text-center lg:text-left">
+							{t("about.heading")}
+						</h1>
 						<div className="mt-10">
-							<p className="text-lg leading-relaxed mb-4">
+							<p className="text-lg leading-relaxed mb-4 text-center lg:text-left">
 								{t("about.intro")}
 								<Link
 									href={{ pathname: "https://www.tu.berlin/en" }}
@@ -28,7 +30,7 @@ export default function About(): JSX.Element {
 								</Link>
 								.
 							</p>
-							<p className="text-lg leading-relaxed mb-4">
+							<p className="text-lg leading-relaxed mb-4 text-center lg:text-left">
 								{t("about.cresta.intro")}
 								<Link
 									href={{ pathname: "https://www.cresta.com/" }}
@@ -38,7 +40,7 @@ export default function About(): JSX.Element {
 								</Link>{" "}
 								{t("about.cresta.outro")}
 							</p>
-							<p className="text-lg leading-relaxed mb-4">
+							<p className="text-lg leading-relaxed mb-4 text-center lg:text-left">
 								{t("about.cv.intro")}
 								<Link
 									href={{ pathname: "/cv", query: query }}
@@ -48,7 +50,7 @@ export default function About(): JSX.Element {
 								</Link>
 								{t("about.cv.outro")}
 							</p>
-							<p className="text-lg leading-relaxed mb-4">
+							<p className="text-lg leading-relaxed mb-4 text-center lg:text-left">
 								{t("about.projects.intro")}
 								<Link
 									href={{ pathname: "/cv", query: query }}
@@ -58,16 +60,16 @@ export default function About(): JSX.Element {
 								</Link>
 								{t("about.projects.outro")}
 							</p>
-							<p className="text-lg leading-relaxed mb-4">
+							<p className="text-lg leading-relaxed mb-4 text-center lg:text-left">
 								{t("about.sports.content")}
 							</p>
 						</div>
 					</div>
-					<div className="basis-1/12 lg:basis-3/12 p-4 mt-20">
+					<div className="w-full lg:w-1/3 p-4 mt-10 lg:mt-0 flex justify-center lg:justify-center">
 						<Image
-							src={"ai-campus-pic.jpeg"}
+							src={"/ai-campus-pic.jpeg"}
 							alt={"Picture of Stanislav Kosorin"}
-							className="w-full"
+							className="rounded-full"
 							width={300}
 							height={300}
 						/>
