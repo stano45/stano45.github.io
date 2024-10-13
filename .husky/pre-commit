@@ -1,2 +1,4 @@
 # .husky/pre-commit
-biome lint $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --files-ignore-unknown=true --no-errors-on-unmatched
+bun lint
+bun format
+git update-index --again
