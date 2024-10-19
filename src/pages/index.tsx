@@ -1,12 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
-import React from "react";
+import { ReactElement } from "react";
 
-export default function About(): JSX.Element {
+export default function About(): ReactElement {
 	const { t } = useTranslation();
 	const [query] = useLanguageQuery();
 

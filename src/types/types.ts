@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface BlogPostMeta {
 	title: string;
 	date: string;
@@ -13,5 +15,5 @@ export interface BlogPostListProps {
 
 export interface BlogPostProps {
 	post: BlogPostMeta;
-	children: React.ReactNode;
+	children: ReactNode;
 }

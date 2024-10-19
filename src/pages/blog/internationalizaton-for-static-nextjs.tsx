@@ -1,10 +1,10 @@
-import React, { type ReactNode } from "react";
 import { CopyBlock, dracula } from "react-code-blocks";
 
 import { internationalizationPost } from "@/blogposts";
 import { BlogPost, BlogPostHeading } from "@/components";
+import { ReactElement } from "react";
 
-export default function BlogPostPage(): ReactNode {
+export default function BlogPostPage(): ReactElement {
 	const translations = `{
     "home": {
       "title": "Stanislav Kosorin",

@@ -3,8 +3,9 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import { Layout } from "@/components";
+import { ReactElement } from "react";
 
-export default function App({ Component, pageProps }: AppProps): JSX.Element {
+export default function App({ Component, pageProps }: AppProps): ReactElement {
 	return (
 		<>
 			<Head>

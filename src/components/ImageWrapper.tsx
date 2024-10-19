@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { ReactNode } from "react";
+import type { ReactElement, ReactNode } from "react";
 
 interface ImageWrapperProps {
 	imagePath: string;
@@ -9,7 +9,7 @@ interface ImageWrapperProps {
 export function ImageWrapper({
 	imagePath,
 	description,
-}: ImageWrapperProps): JSX.Element {
+}: ImageWrapperProps): ReactElement {
 	return (
 		<div className="flex flex-col justify-center items-center mb-8">
 			<Image
