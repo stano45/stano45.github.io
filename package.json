@@ -14,10 +14,10 @@
 	},
 	"dependencies": {
 		"@nextui-org/react": "^2.4.8",
-		"@types/node": "^22.7.5",
+		"@types/node": "^22.7.7",
 		"@types/react": "^18.3.11",
 		"@types/react-dom": "^18.3.1",
-		"framer-motion": "^11.11.8",
+		"framer-motion": "^11.11.9",
 		"i18n": "^0.15.1",
 		"next": "^14.2.15",
 		"next-export-i18n": "^2.3.5",
@@ -38,7 +38,7 @@
 		"autoprefixer": "^10.4.20",
 		"husky": "^9.1.6",
 		"postcss": "^8.4.47",
-		"tailwindcss": "^3.4.13"
+		"tailwindcss": "^3.4.14"
 	},
-	"trustedDependencies": ["@biomejs/biome"]
+	"trustedDependencies": ["@biomejs/biome", "@swc/core"]
 }
