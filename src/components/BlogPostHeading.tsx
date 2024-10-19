@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import type { ReactElement, ReactNode } from "react";
 
 interface BlogPostHeadingProps {
 	children: ReactNode;
@@ -8,7 +8,7 @@ interface BlogPostHeadingProps {
 export function BlogPostHeading({
 	children,
 	level = "h2",
-}: BlogPostHeadingProps): JSX.Element {
+}: BlogPostHeadingProps): ReactElement {
 	if (level === "h1") {
 		return <h1 className="my-8 text-3xl md:text-4xl font-bold">{children}</h1>;
 	}

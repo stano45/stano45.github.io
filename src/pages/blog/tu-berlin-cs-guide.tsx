@@ -1,4 +1,4 @@
-import React, { type ReactNode } from "react";
+import { ReactElement, type ReactNode } from "react";
 
 import { CSGuidePost } from "@/blogposts";
 import { BlogPost, BlogPostHeading, ImageWrapper } from "@/components";
@@ -8,7 +8,7 @@ interface InsiderTipProps {
 	number?: number;
 }
 
-function InsiderTip({ content, number }: InsiderTipProps): JSX.Element {
+function InsiderTip({ content, number }: InsiderTipProps): ReactElement {
 	return (
 		<p>
 			<b>Insider Tip{number ? ` ${number}` : ""}: </b>
@@ -17,9 +17,8 @@ function InsiderTip({ content, number }: InsiderTipProps): JSX.Element {
 	);
 }
 
-export default function BlogPostPage(): ReactNode {
+export default function BlogPostPage(): ReactElement {
 	return (
-		// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 		<BlogPost post={CSGuidePost}>
 			<div className="flex flex-col gap-6">
 				<BlogPostHeading>Introduction</BlogPostHeading>

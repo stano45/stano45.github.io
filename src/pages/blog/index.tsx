@@ -1,16 +1,14 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
-import React from "react";
+import { ReactElement } from "react";
 
 import { CSGuidePost, internationalizationPost } from "@/blogposts";
 
 const POSTS = [CSGuidePost, internationalizationPost];
 
-export default function Blog(): JSX.Element {
+export default function Blog(): ReactElement {
 	const { t } = useTranslation();
 	const [query] = useLanguageQuery();
 

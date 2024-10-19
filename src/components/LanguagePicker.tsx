@@ -1,12 +1,5 @@
-// These are here because of next-export-i18n typing...
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unsafe-argument */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import { useLanguageQuery, LanguageSwitcher } from "next-export-i18n";
-import React, { useEffect, useRef, useState } from "react";
+import { ReactElement, useEffect, useRef, useState } from "react";
 import { ReactCountryFlag } from "react-country-flag";
 
 interface Language {
@@ -15,7 +8,7 @@ interface Language {
 	flag: string;
 }
 
-export function LanguagePicker(): JSX.Element {
+export function LanguagePicker(): ReactElement {
 	const [query] = useLanguageQuery();
 	const [dropdownOpen, setDropdownOpen] = useState(false);
 

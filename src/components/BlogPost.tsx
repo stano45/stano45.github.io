@@ -4,8 +4,9 @@ import { NextSeo } from "next-seo";
 import type { BlogPostProps } from "../types";
 
 import { BlogPostHeading } from "./BlogPostHeading";
+import { ReactElement } from "react";
 
-export function BlogPost({ post, children }: BlogPostProps): JSX.Element {
+export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 	return (
 		<div className="w-5/6 md:w-2/3">
 			<NextSeo title={post.title} description={post.description} />

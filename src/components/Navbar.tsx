@@ -1,13 +1,11 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
-import React from "react";
+import { ReactElement } from "react";
 
 import { LanguagePicker } from "./LanguagePicker";
 
-export function Navbar(): JSX.Element {
+export function Navbar(): ReactElement {
 	const { t } = useTranslation();
 	const [query] = useLanguageQuery();
 	const router = useRouter();

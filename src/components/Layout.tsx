@@ -1,4 +1,4 @@
-import React, { type ReactNode } from "react";
+import { ReactElement, type ReactNode } from "react";
 
 import { Navbar } from "./Navbar";
 
@@ -6,7 +6,7 @@ interface LayoutProps {
 	children: ReactNode;
 }
 
-export function Layout({ children }: LayoutProps): JSX.Element {
+export function Layout({ children }: LayoutProps): ReactElement {
 	return (
 		<>
 			<Navbar />
