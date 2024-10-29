@@ -3,7 +3,7 @@ import type { BlogPostMeta } from "@/types";
 export const internationalizationPost: BlogPostMeta = {
 	title: "Internationalization for static Next.js",
 	date: "2023-03-27",
-	image: "/internationalization.png",
+	image: "/internationalization.webp",
 	tags: ["Frontend", "Next.js", "Typescript"],
 	id: "internationalizaton-for-static-nextjs",
 	description:
@@ -13,7 +13,7 @@ export const internationalizationPost: BlogPostMeta = {
 export const CSGuidePost: BlogPostMeta = {
 	title: "TU Berlin Bachelor of Computer Science: A Comprehensive Guide",
 	date: "2024-04-05",
-	image: "/tiergarten.png",
+	image: "/tiergarten.webp",
 	tags: ["University", "Computer Science", "Bachelors Degree"],
 	id: "tu-berlin-cs-guide",
 	description:

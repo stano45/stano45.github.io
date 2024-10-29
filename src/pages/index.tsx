@@ -61,7 +61,7 @@ export default function About(): ReactElement {
 				<div className="w-full md:w-1/3 p-4 mt-10 md:mt-0 flex justify-center md:justify-center">
 					<Image
 						className="rounded-full"
-						src={"/ai-campus-pic.jpeg"}
+						src={"/ai-campus-pic.webp"}
 						alt={"Picture of Stanislav Kosorin"}
 						width={300}
 						height={300}
