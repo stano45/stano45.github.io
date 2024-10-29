@@ -47,7 +47,7 @@ export default function BlogPostPage(): ReactElement {
 				</p>
 				<BlogPostHeading>Recommended Study Plan</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/study-plan.png"
+					imagePath="/study-plan.webp"
 					description={
 						<>
 							Recommended study plan from the{" "}
@@ -215,10 +215,10 @@ export default function BlogPostPage(): ReactElement {
 				</p>
 				<BlogPostHeading>Semester 1</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/ernst-reuter.jpg"
+					imagePath="/ernst-reuter.webp"
 					description="Ernst-Reuter Platz in winter"
 				/>
-				<ImageWrapper imagePath="/semester1.png" />
+				<ImageWrapper imagePath="/semester1.webp" />
 				<p>
 					The first semester will be easy or hard based on your previous
 					experience with computer science and programming, and whether you have
@@ -339,10 +339,10 @@ export default function BlogPostPage(): ReactElement {
 				/>
 				<BlogPostHeading>Semester 2</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/architecture.png"
+					imagePath="/architecture.webp"
 					description="Studying at the architecture library"
 				/>
-				<ImageWrapper imagePath="/semester2.png" />
+				<ImageWrapper imagePath="/semester2.webp" />
 				<p>
 					Now, you should already have an idea how everything works, and
 					hopefully have made some friends on the way. The study plan recommends
@@ -410,10 +410,10 @@ export default function BlogPostPage(): ReactElement {
 				/>
 				<BlogPostHeading>Semester 3</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/books.jpg"
+					imagePath="/books.webp"
 					description="The books I borrowed from the library in the 3rd semester"
 				/>
-				<ImageWrapper imagePath="/semester3.png" />
+				<ImageWrapper imagePath="/semester3.webp" />
 				<p>
 					Welcome to the dreaded 3rd semester. This one seems to be consistently
 					the hardest one. But as I&apos;ve said before, if you put in the work,
@@ -491,10 +491,10 @@ export default function BlogPostPage(): ReactElement {
 				/>
 				<BlogPostHeading>Semester 4</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/blackboard.jpg"
+					imagePath="/blackboard.webp"
 					description="Designing an app with friends in the math building"
 				/>
-				<ImageWrapper imagePath="/semester4.png" />
+				<ImageWrapper imagePath="/semester4.webp" />
 				<p>
 					If you&apos;ve made it up to this point: a genuine congratulations!
 					It&apos;s most likely going to be smooth sailing from now on. You have
@@ -576,10 +576,10 @@ export default function BlogPostPage(): ReactElement {
 				</p>
 				<BlogPostHeading>Semester 5–7</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/tutorial.png"
+					imagePath="/tutorial.webp"
 					description="A tutorial in the math building"
 				/>
-				<ImageWrapper imagePath="/semester4-6.png" />
+				<ImageWrapper imagePath="/semester4-6.webp" />
 				<p>
 					You might be wondering why I combined three semesters in one.
 					It&apos;s definitely not because I&apos;m lazy. It&apos;s because you
@@ -706,7 +706,7 @@ export default function BlogPostPage(): ReactElement {
 				</p>
 				<BlogPostHeading>Bachelor&apos;s Thesis</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/monitor.jpg"
+					imagePath="/monitor.webp"
 					description="Working on my thesis"
 				/>
 				<p>
@@ -756,7 +756,7 @@ export default function BlogPostPage(): ReactElement {
 				</p>
 				<BlogPostHeading>Conclusion</BlogPostHeading>
 				<ImageWrapper
-					imagePath="/telekom.png"
+					imagePath="/telekom.webp"
 					description="The Telekom building in the sunset"
 				/>
 				<p>
