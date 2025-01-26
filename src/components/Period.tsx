@@ -1,6 +1,6 @@
 // Period.tsx
 import type React from "react";
-import { useState, useCallback, ReactElement } from "react";
+import { useState, useCallback, ReactElement, useRef } from "react";
 import { CSSTransition } from "react-transition-group";
 
 import styles from "./Period.module.css";
@@ -27,6 +27,7 @@ export function Period({
 	type,
 }: PeriodProps): ReactElement {
 	const [dropdownVisible, setDropdownVisible] = useState(false);
+	const dropdownRef = useRef<HTMLDivElement>(null);
 
 	const toggleDropdown = useCallback(() => {
 		setDropdownVisible(!dropdownVisible);
@@ -80,6 +81,7 @@ export function Period({
 					}}
 					unmountOnExit
 					appear
+					nodeRef={dropdownRef}
 				>
 					<div className="text-sm md:text-lg mt-4 p-4 border border-gray-200 rounded">
 						{details}
