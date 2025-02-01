@@ -11,7 +11,7 @@ export default function About(): ReactElement {
 	return (
 		<>
 			<NextSeo title={t("about.title")} description={t("about.description")} />
-			<div className="flex flex-col md:flex-row items-center md:items-center">
+			<div className="flex flex-col items-center md:items-center">
 				<div className="text-md md:text-lg flex flex-col gap-4">
 					<h1 className="text-2xl md:text-4xl font-bold text-center md:text-left leading-relaxed ">
 						{t("about.heading")}
@@ -58,13 +58,12 @@ export default function About(): ReactElement {
 					</p>
 					<p>{t("about.sports.content")}</p>
 				</div>
-				<div className="w-full md:w-1/3 p-4 mt-10 md:mt-0 flex justify-center md:justify-center">
+				<div className="w-80 h-80 relative mt-10">
 					<Image
 						className="rounded-full"
 						src={"/ai-campus-pic.webp"}
 						alt={"Picture of Stanislav Kosorin"}
-						width={300}
-						height={300}
+						layout="fill"
 					/>
 				</div>
 			</div>

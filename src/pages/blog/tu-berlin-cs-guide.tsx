@@ -567,12 +567,11 @@ export default function BlogPostPage(): ReactElement {
 					HackerRank while preparing for a job interview. In retrospect, the
 					course &quot;Reaktive Systeme&quot; would have been the better choice
 					for me, as that one is well applicable to distributed systems.
-					<BlogPostHeading level="h3">Stochastik</BlogPostHeading>
-					<p>
-						This is a fundamental probability and combinatorics course. Not much
-						to say really. Usually, the exam is very doable if you pay
-						attention.
-					</p>
+				</p>
+				<BlogPostHeading level="h3">Stochastik</BlogPostHeading>
+				<p>
+					This is a fundamental probability and combinatorics course. Not much
+					to say really. Usually, the exam is very doable if you pay attention.
 				</p>
 				<BlogPostHeading>Semester 5–7</BlogPostHeading>
 				<ImageWrapper

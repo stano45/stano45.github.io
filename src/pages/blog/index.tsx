@@ -13,48 +13,38 @@ export default function Blog(): ReactElement {
 	const [query] = useLanguageQuery();
 
 	return (
-		<>
+		<div className="w-full">
 			<NextSeo title={t("blog.title")} description={t("blog.description")} />
-			<div className="grid grid-cols-1">
+			<div className="w-full flex flex-col items-center justify-center p-4 md:p-10 gap-4 md:gap-8">
 				{POSTS.map((post) => (
 					<Link
 						key={post.id}
-						href={{ pathname: `/blog/${post.id}`, query: query }}
+						href={{ pathname: `/blog/${post.id}`, query }}
+						className="w-full rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-col md:flex-row items-center justify-start group break-words overflow-hidden"
 					>
-						<div className="mb-10 rounded-lg shadow-md hover:bg-orange-100 bg-white flex flex-row items-center justify-start group break-words max-h-56 overflow-hidden">
-							<Image
-								src={post.image}
-								alt={post.title}
-								className="w-1/2 object-cover rounded-lg md:h-80 shrink-0"
-								width={1000}
-								height={1000}
-								style={{ objectFit: "cover", height: "100%" }} // Ensure the image covers the height fully
-							/>
-							<div
-								className="w-1/2 p-4 justify-start items-center"
-								style={{ overflow: "hidden" }}
-							>
-								<h2 className="text-lg md:text-2xl text-black font-semibold break-normal">
-									{post.title}
-								</h2>
-								<span className="text-xs md:text-sm text-black">
-									{post.date}
-								</span>
-								<ul className="flex flex-wrap mt-2">
-									{post.tags.map((tag) => (
-										<li
-											key={tag}
-											className="bg-orange-100 text-gray-700 px-2 py-1 mr-2 mb-2 rounded-md text-xs md:text-sm group-hover:bg-white"
-										>
-											{tag}
-										</li>
-									))}
-								</ul>
-							</div>
+						{/* https://stackoverflow.com/a/65134645 */}
+						<div className="w-80 h-44 md:w-96 md:h-64 relative">
+							<Image src={post.image} alt={post.title} layout="fill" />
+						</div>
+						<div className="w-full p-4 overflow-hidden">
+							<h2 className="text-lg md:text-2xl text-black font-semibold break-normal">
+								{post.title}
+							</h2>
+							<span className="text-xs md:text-sm text-black">{post.date}</span>
+							<ul className="flex flex-wrap mt-2">
+								{post.tags.map((tag) => (
+									<li
+										key={tag}
+										className="bg-orange-100 text-gray-700 px-2 py-1 mr-2 mb-2 rounded-md text-xs md:text-sm group-hover:bg-white"
+									>
+										{tag}
+									</li>
+								))}
+							</ul>
 						</div>
 					</Link>
 				))}
 			</div>
-		</>
+		</div>
 	);
 }

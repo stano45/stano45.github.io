@@ -8,7 +8,7 @@ import { ReactElement } from "react";
 
 export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 	return (
-		<div className="w-5/6 md:w-2/3">
+		<div>
 			<NextSeo title={post.title} description={post.description} />
 			<ArticleJsonLd
 				useAppDir={false}
@@ -46,7 +46,7 @@ export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 
 			<Image src={post.image} alt={post.title} width={1000} height={1000} />
 
-			<div className="text-md md:text-lg md:text-justify">{children}</div>
+			<div className="text-md md:text-justify">{children}</div>
 		</div>
 	);
 }

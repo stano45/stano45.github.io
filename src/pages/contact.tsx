@@ -8,13 +8,13 @@ export default function Contact(): ReactElement {
 	const { t } = useTranslation();
 
 	return (
-		<>
+		<div className="w-full flex flex-col items-center justify-center">
 			<NextSeo
 				title={t("contact.title")}
 				description={t("contact.description")}
 			/>
 			<div className="relative mt-4 md:top-2/3">
-				<div className="flex flex-col md:flex-row justify-center items-center">
+				<div className="h-full w-full flex flex-col md:flex-row justify-center items-center">
 					<Tooltip
 						content={<span className="text-2xl">{t("contact.linkedin")}</span>}
 						offset={-15}
@@ -54,6 +54,6 @@ export default function Contact(): ReactElement {
 					</Tooltip>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
