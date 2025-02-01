@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { NextSeo } from "next-seo";
+import { ArticleJsonLd, NextSeo } from "next-seo";
 
 import type { BlogPostProps } from "../types";
 
@@ -10,6 +10,24 @@ export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 	return (
 		<div className="w-5/6 md:w-2/3">
 			<NextSeo title={post.title} description={post.description} />
+			<ArticleJsonLd
+				useAppDir={false}
+				url={`https://kosorin.com/blog/${post.id}`}
+				title={post.title}
+				images={[`https://kosorin.com/${post.image}`]}
+				datePublished={post.date}
+				dateModified={post.date}
+				authorName={[
+					{
+						name: "Stanislav Kosorin",
+						url: "https://kosorin.com",
+					},
+				]}
+				publisherName="Stanislav Kosorin"
+				publisherLogo="https://kosorin.com/favicon.ico"
+				description={post.description ?? ""}
+				isAccessibleForFree={true}
+			/>
 			<BlogPostHeading level="h1">{post.title}</BlogPostHeading>
 
 			<div className="flex justify-between items-center mb-4">
