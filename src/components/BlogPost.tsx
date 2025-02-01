@@ -14,9 +14,9 @@ export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 				useAppDir={false}
 				url={`https://kosorin.com/blog/${post.id}`}
 				title={post.title}
-				images={[`https://kosorin.com/${post.image}`]}
-				datePublished={post.date}
-				dateModified={post.date}
+				images={[`https://kosorin.com${post.image}`]}
+				datePublished={new Date(post.date).toISOString()}
+				dateModified={new Date(post.date).toISOString()}
 				authorName={[
 					{
 						name: "Stanislav Kosorin",
