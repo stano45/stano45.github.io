@@ -4,7 +4,7 @@ import { Fragment, ReactElement } from "react";
 
 import { Period, type PeriodProps } from "@/components/Period";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Tooltip } from "@nextui-org/react";
+import { Tooltip } from "@heroui/react";
 
 export default function CV(): ReactElement {
 	const { t } = useTranslation();
