@@ -44,7 +44,13 @@ export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 				</ul>
 			</div>
 
-			<Image src={post.image} alt={post.title} width={1000} height={1000} />
+			<Image
+				src={post.image}
+				alt={post.title}
+				width={1000}
+				height={1000}
+				priority
+			/>
 
 			<div className="text-md md:text-justify">{children}</div>
 		</div>

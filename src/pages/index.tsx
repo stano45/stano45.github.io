@@ -64,6 +64,7 @@ export default function About(): ReactElement {
 						src={"/ai-campus-pic.webp"}
 						alt={"Picture of Stanislav Kosorin"}
 						layout="fill"
+						priority
 					/>
 				</div>
 			</div>
