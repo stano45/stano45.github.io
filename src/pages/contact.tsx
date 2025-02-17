@@ -1,4 +1,4 @@
-import { Tooltip } from "@heroui/react";
+import { Tooltip } from "@heroui/tooltip";
 import { useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
 import { ReactElement } from "react";

@@ -2,7 +2,7 @@ import { Fragment, ReactElement } from "react";
 import { useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Tooltip } from "@heroui/react";
+import { Tooltip } from "@heroui/tooltip";
 
 import { Period, type PeriodProps } from "@/components/Period";
 
