@@ -1,28 +1,29 @@
+import { Fragment, ReactElement } from "react";
 import { useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
-import { Fragment, ReactElement } from "react";
-
-import { Period, type PeriodProps } from "@/components/Period";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Tooltip } from "@heroui/react";
+
+import { Period, type PeriodProps } from "@/components/Period";
 
 export default function CV(): ReactElement {
 	const { t } = useTranslation();
 	const cvContent: PeriodProps[] = t("cv.content");
 
 	return (
-		<div>
+		<div className="w-full h-full">
 			<NextSeo title={t("cv.title")} description={t("cv.description")} />
 			<div className="flex justify-between items-center mb-8">
-				<h1 className="text-2xl md:text-4xl font-bold text-center md:text-left  leading-relaxed ">
+				<h1 className="text-2xl md:text-4xl font-bold text-center md:text-left leading-relaxed">
 					{t("cv.title")}
 				</h1>
 				<Tooltip
 					content={<span className="text-xl">{t("cv.download")}</span>}
-					offset={-5}
+					offset={-0.5}
+					closeDelay={150}
 				>
 					<a
-						className="opacity-0 fade-in-second"
+						className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 opacity-0 fade-in-second"
 						href="/stanislav_kosorin_cv.pdf"
 						download="stanislav_kosorin_cv.pdf"
 					>
@@ -30,14 +31,28 @@ export default function CV(): ReactElement {
 					</a>
 				</Tooltip>
 			</div>
-			{cvContent.map((period, index) => (
-				<Fragment key={period.title}>
-					<Period {...period} />
-					{index < cvContent.length - 1 && (
-						<hr className="my-6 border-t border-gray-500" />
-					)}
-				</Fragment>
-			))}
+
+			<div className="grid grid-cols-[auto,1fr] gap-x-4">
+				{cvContent.map((period, index) => (
+					<Fragment key={period.date}>
+						<div className="relative flex flex-col items-center">
+							<div className="w-4 h-4 bg-blue-500 rounded-full z-10" />
+							{index < cvContent.length - 1 && (
+								<div
+									className="w-px bg-gray-300 flex-1"
+									style={{
+										marginTop: "-1rem",
+										marginBottom: "-1rem",
+									}}
+								/>
+							)}
+						</div>
+						<div className="mb-8">
+							<Period {...period} />
+						</div>
+					</Fragment>
+				))}
+			</div>
 		</div>
 	);
 }

@@ -1,14 +1,10 @@
-// Period.tsx
 import type React from "react";
-import { useState, useCallback, ReactElement, useRef } from "react";
-import { CSSTransition } from "react-transition-group";
-
-import styles from "./Period.module.css";
+import { useState, useCallback } from "react";
 
 export interface PeriodProps {
 	title: string;
 	date: string;
-	description: string;
+	company: string;
 	details: React.ReactNode;
 	url: string;
 	urlName: string;
@@ -19,37 +15,52 @@ export interface PeriodProps {
 export function Period({
 	title,
 	date,
-	description,
+	company,
 	details,
 	url,
 	urlName,
 	urlLabel,
 	type,
-}: PeriodProps): ReactElement {
+}: PeriodProps) {
 	const [dropdownVisible, setDropdownVisible] = useState(false);
-	const dropdownRef = useRef<HTMLDivElement>(null);
 
 	const toggleDropdown = useCallback(() => {
-		setDropdownVisible(!dropdownVisible);
-	}, [dropdownVisible]);
+		setDropdownVisible((prev) => !prev);
+	}, []);
 
 	return (
 		<>
 			<div
-				className="flex items-start cursor-pointer"
+				className="flex items-start cursor-pointer group"
 				onClick={toggleDropdown}
 				onKeyDown={toggleDropdown}
 			>
 				<div className="w-1/4 flex flex-col mr-4">
-					<h4 className="text-xs md:text-sm text-gray-400">{date}</h4>
+					<h4 className="text-xs md:text-sm font-medium text-gray-200">
+						{date}
+					</h4>
 					<h4 className="text-xs md:text-sm text-gray-500">{type}</h4>
 				</div>
-				<div className="w-3/4">
-					<h3 className="text-lg md:text-xl font-bold">{title}</h3>
-					<p className="text-sm md:text-lg mt-2">{description}</p>
-				</div>
+				<h3
+					className={`w-3/4 text-md md:text-xl font-bold transition duration-300 ease-in-out ${
+						dropdownVisible
+							? "-translate-y-1 scale-105"
+							: "group-hover:-translate-y-1 group-hover:scale-105"
+					}`}
+				>
+					<span className="title-style">{title}</span>
+					<br className="sm:hidden" />
+					<span className="mr-1 md:mx-2" aria-hidden="true">
+						@
+					</span>
+					<span className="text-blue-200">{company}</span>
+				</h3>
 				<div
-					className={`transform transition duration-300 ${dropdownVisible ? "rotate-180" : ""}`}
+					className={`transform transition duration-300 ${
+						dropdownVisible
+							? "rotate-180 -translate-y-1 scale-105"
+							: "group-hover:-translate-y-1 group-hover:scale-105"
+					}`}
 				>
 					<svg
 						role="img"
@@ -69,36 +80,25 @@ export function Period({
 					</svg>
 				</div>
 			</div>
-			<div className="w-3/4 ml-auto">
-				<CSSTransition
-					in={dropdownVisible}
-					timeout={300}
-					classNames={{
-						enter: styles.slideEnter,
-						enterActive: styles.slideEnterActive,
-						exit: styles.slideExit,
-						exitActive: styles.slideExitActive,
-					}}
-					unmountOnExit
-					appear
-					nodeRef={dropdownRef}
-				>
-					<div className="text-sm md:text-lg mt-4 p-4 border border-gray-200 rounded">
-						{details}
-						<div className="mt-4">
-							{urlLabel}
-							{": "}
-							<a
-								className="text-blue-500 underline"
-								href={url}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								{urlName}
-							</a>
-						</div>
+			<div
+				className={`w-3/4 ml-auto overflow-hidden transition-all duration-300 ${
+					dropdownVisible ? "max-h-[500px]" : "max-h-0"
+				}`}
+			>
+				<div className="text-md md:text-md mt-4 p-4 border border-gray-200 rounded">
+					{details}
+					<div className="mt-4">
+						{urlLabel}:{" "}
+						<a
+							className="text-blue-500 underline"
+							href={url}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							{urlName}
+						</a>
 					</div>
-				</CSSTransition>
+				</div>
 			</div>
 		</>
 	);
