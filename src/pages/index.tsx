@@ -49,7 +49,7 @@ export default function About(): ReactElement {
 					<p>
 						{t("about.projects.intro")}
 						<Link
-							href={{ pathname: "/cv", query: query }}
+							href={{ pathname: "/projects", query: query }}
 							className="text-blue-500 underline"
 						>
 							{t("about.projects.content")}

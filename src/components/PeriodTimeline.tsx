@@ -14,7 +14,7 @@ export function PeriodTimeline({ periods }: PeriodTimelineProps): ReactElement {
 	return (
 		<div className="grid grid-cols-[auto,1fr] gap-x-4">
 			{periods.map((period, index) => (
-				<Fragment key={period.date}>
+				<Fragment key={`${period.title}-${period.date}`}>
 					<div className="relative flex flex-col items-center">
 						<div className="w-4 h-4 bg-blue-500 rounded-full z-10" />
 						{index < periods.length - 1 && (

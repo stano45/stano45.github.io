@@ -32,11 +32,6 @@
 	"cv": {
 		"title": "Životopis",
 		"description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
-		"legend": {
-			"prax": "Pracovné skúsenosti",
-			"vzdelanie": "Vzdelanie",
-			"project": "Osobný projekt"
-		},
 		"download": "Stianhuť PDF",
 		"content": [
 			{
@@ -88,6 +83,83 @@
 				"url": "https://gymlsba.edupage.org/?lang=en",
 				"urlName": "gymlsba.edupage.org",
 				"type": "vzdelanie"
+			}
+		]
+	},
+	"projects": {
+		"title": "Projekty",
+		"description": "Stránka projektov Stanislava Kosorina, ktorá predstavuje jeho osobné aj profesionálne projekty",
+		"github": "Pozri si môj GitHub profil pre ďalšie projekty",
+		"content": [
+			{
+				"title": "Appka na učenie slovenčiny",
+				"company": "LearnSlovak.sk",
+				"date": "2025",
+				"details": "Keďže Duolingo neponúka slovenčinu, rozhodol som sa vytvoriť vlastnú aplikáciu a pomôcť mojej priateľke rýchlejšie sa naučiť po slovensky. Je to full-stack projekt s Next.js frontendom a Python (Flask) backendom - všetko self-hosted na lacnom VPS. Aplikácia ponúka viacero lekcií a cvičný režim.",
+				"urlLabel": "Vyskúšaj appku tu, úplne zadarmo",
+				"url": "https://learnslovak.sk",
+				"urlName": "learnslovak.sk",
+				"type": "osobný projekt"
+			},
+			{
+				"title": "P4ContainerFlow",
+				"company": "P4 Language Consortium",
+				"date": "2024",
+				"details": "Tento projekt v spolupráci s P4 Language Consortium si kladie za cieľ integrovať P4 load balancer do ekosystému Kubernetes. Vyvinul som CNI plugin, ktorý dynamicky konfiguruje softvérový prepínač BMv2 počas migrácie kontajnerov medzi podmi. Momentálne experimentujem s prepínačom Tofino 2 a testujem v Kubernetes klasteri s viacerými nodes, všetko vďaka INET laboratóriu na TU Berlin.",
+				"urlLabel": "Pozri si projekt na GitHube",
+				"url": "https://github.com/stano45/p4containerflow",
+				"urlName": "github.com/stano45/p4containerflow",
+				"type": "GSoC projekt"
+			},
+			{
+				"title": "Hodnotenie uskutočniteľnosti proaktívnej migrácie kontajnerov na LEO Edge",
+				"company": "TU Berlin",
+				"date": "2024",
+				"details": "Vo svojej bakalárskej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom prostredí low-Earth orbit (LEO) edge. Vyvinul som vlastnú migračnú stratégiu a hodnotil jej výkon z hľadiska latencie, priepustnosti a využitia zdrojov. Práca a zdrojový kód sú k dispozícii na mojom GitHube.",
+				"urlLabel": "Pozri si projekt na GitHube",
+				"url": "https://github.com/stano45/celestial-container-migration",
+				"urlName": "github.com/stano45/celestial-container-migration",
+				"type": "bakalárska práca"
+			},
+			{
+				"title": "Rozšírenie Chrome pre vizualizáciu sieťovej prevádzky",
+				"company": "net-mapper",
+				"date": "2024",
+				"details": "net-mapper je rozšírenie pre Chrome, ktoré vizualizuje globálne destinácie tvojej internetovej prevádzky. Rozšírenie zaznamenáva IP adresy všetkých serverov, s ktorými tvoj prehliadač komunikuje, a zobrazuje ich na interaktívnej mape, čo ti umožňuje vidieť fyzické umiestnenie serverov, ktoré hostia navštevované webové stránky. Bohužiaľ, rozšírenie nie je dostupné v Chrome Web Store kvôli zásadným zmenám v povoleniach rozšírení, ale ak máš záujem, môžeš si prezrieť zdrojový kód a spustiť ho lokálne.",
+				"urlLabel": "Pozri si projekt na Githube",
+				"url": "https://github.com/stano45/net-mapper",
+				"urlName": "github.com/stano45/net-mapper",
+				"type": "osobný projekt"
+			},
+			{
+				"title": "Portfóliová webstránka",
+				"company": "kosorin.com",
+				"date": "2023",
+				"details": "Práve sa na ňu pozeráš! Túto webstránku som vytvoril od základov pomocou React, Next.js a Tailwind CSS. Je staticky exportovaná cez Next.js a hostovaná na Githube Pages.",
+				"urlLabel": "Pozri si projekt na Githube",
+				"url": "https://github.com/stano45/stano45.github.io",
+				"urlName": "github.com/stano45/stano45.github.io",
+				"type": "osobný projekt"
+			},
+			{
+				"title": "Rust generátor kódu pre mikroslužby",
+				"company": "TU Berlin",
+				"date": "2023",
+				"details": "Crustagen je generátor kódu v jazyku Rust, ktorý berie ako vstup AsyncAPI špecifikácie a generuje Rust kód spolu so všetkými potrebnými dependencies a automaticky generovanou dokumentáciou. Je navrhnutý ako efektívny nástroj na konverziu AsyncAPI špecifikácií do Rust projektov, ktoré sú pripravené na zostavenie a spustenie.",
+				"urlLabel": "Pozri si projekt na Githube",
+				"url": "https://github.com/Programmierpraktikum-MVA/AsyncAPI",
+				"urlName": "github.com/Programmierpraktikum-MVA/AsyncAPI",
+				"type": "univerzitný projekt"
+			},
+			{
+				"title": "Distribuované key-value úložisko v Rust",
+				"company": "hit-or-miss",
+				"date": "2023",
+				"details": "hit-or-miss je distribuované key-value úložisko využívajúce architektúru master-slave. Slave je vybraný na základe algoritmu konzistentného hashovania a master je zodpovedný za replikáciu a detekciu chýb. Projekt je napísaný v jazyku Rust a používa Tokio runtime pre asynchrónne I/O operácie. Nejde o systém pripravený na produkciu, ale skôr o vzdelávací projekt na pochopenie distribuovaných systémov a Rust.",
+				"urlLabel": "Pozri si projekt na Githube",
+				"url": "https://github.com/stano45/hit-or-miss",
+				"urlName": "github.com/stano45/hit-or-miss",
+				"type": "osobný projekt"
 			}
 		]
 	},

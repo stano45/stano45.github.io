@@ -32,11 +32,6 @@
 	"cv": {
 		"title": "Resume",
 		"description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
-		"legend": {
-			"work": "Work Experience",
-			"education": "Education",
-			"project": "Personal project"
-		},
 		"download": "Download PDF",
 		"content": [
 			{
@@ -88,6 +83,83 @@
 				"url": "https://gymlsba.edupage.org/?lang=en",
 				"urlName": "gymlsba.edupage.org",
 				"type": "education"
+			}
+		]
+	},
+	"projects": {
+		"title": "Projects",
+		"description": "The projects page of Stanislav Kosorin, showcasing his personal and professional projects",
+		"github": "Check out my GitHub profile for more projects",
+		"content": [
+			{
+				"title": "Slovak Language Learning App",
+				"company": "LearnSlovak.sk",
+				"date": "2025",
+				"details": "Since Duolingo doesn't offer Slovak, I decided to create my own app to help my girlfriend learn the language more easily. It's a full-stack project, with a Next.js frontend and a Python (Flask) backend - all self-hosted on a cheap VPS. The app offers multiple lessons and a practice mode.",
+				"urlLabel": "Try it out yourself, it's completely free",
+				"url": "https://learnslovak.sk",
+				"urlName": "learnslovak.sk",
+				"type": "personal project"
+			},
+			{
+				"title": "P4ContainerFlow",
+				"company": "P4 Language Consortium",
+				"date": "2024",
+				"details": "This project with the P4 Language Consortium aims to integrate P4-based load balancing into the Kubernetes ecosystem. I developed a custom CNI plugin that dynamically configures a BMv2 software switch to load balance traffic during an inter-pod container migration. I am currently in the process of running experiments using a Tofino 2 switch and testing on a multi-node Kubernetes cluster, all thanks to the INET lab at TU Berlin.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/stano45/p4containerflow",
+				"urlName": "github.com/stano45/p4containerflow",
+				"type": "GSoC project"
+			},
+			{
+				"title": "Evaluating the Feasibility of Proactive Container Migration on the LEO Edge",
+				"company": "TU Berlin",
+				"date": "2024",
+				"details": "In my Bachelor's thesis, I explored the feasibility of proactive container migration in a simulated low-Earth orbit (LEO) edge environment. I developed a custom migration strategy and evaluated its performance in terms of latency, throughput, and resource utilization. The thesis and source code are available on my GitHub.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/stano45/celestial-container-migration",
+				"urlName": "github.com/stano45/celestial-container-migration",
+				"type": "thesis project"
+			},
+			{
+				"title": "Network Traffic Visualization Chrome Extension",
+				"company": "net-mapper",
+				"date": "2024",
+				"details": "net-mapper is a Chrome extension that visualizes the global destinations of your internet traffic. The extension logs the IP addresses of all servers your browser communicates with and displays them on an interactive map, allowing you to see the physical locations of the servers hosting the websites you visit. Unfortunately, the extension is not available in the Chrome Web Store due to major changes in extension permissions, but if you're interested, you can check out the source code and run it locally.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/stano45/net-mapper",
+				"urlName": "github.com/stano45/net-mapper",
+				"type": "personal project"
+			},
+			{
+				"title": "Portfolio Website",
+				"company": "kosorin.com",
+				"date": "2023",
+				"details": "You're currently looking at it! I built this website from scratch using React, Next.js, and Tailwind CSS. It's statically exported via Next.js and hosted by Github pages.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/stano45/stano45.github.io",
+				"urlName": "github.com/stano45/stano45.github.io",
+				"type": "personal project"
+			},
+			{
+				"title": "Rust Microservice Code Generator",
+				"company": "TU Berlin",
+				"date": "2023",
+				"details": "Crustagen is a Rust code generator that takes AsyncAPI specifications as input and generates Rust code along with all the required dependencies and auto-generated documentation. It's designed to be an efficient tool to convert AsyncAPI specs into Rust projects ready to build and run.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/Programmierpraktikum-MVA/AsyncAPI",
+				"urlName": "github.com/Programmierpraktikum-MVA/AsyncAPI",
+				"type": "university project"
+			},
+			{
+				"title": "Distributed Key-Value Store in Rust",
+				"company": "hit-or-miss",
+				"date": "2023",
+				"details": "hit-or-miss is a distributed key-value store using the master-slave architecture. The slave is selected based on a consistent hashing algorithm, and the master is responsible for replication and failure detection. The project is written in Rust and uses the Tokio runtime for asynchronous I/O operations. This is not a production-ready system, but rather a learning project to understand distributed systems and Rust.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/stano45/hit-or-miss",
+				"urlName": "github.com/stano45/hit-or-miss",
+				"type": "personal project"
 			}
 		]
 	},
