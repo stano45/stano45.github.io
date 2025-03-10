@@ -92,17 +92,27 @@
 		"github": "Pozri si môj GitHub profil pre ďalšie projekty",
 		"content": [
 			{
-				"title": "Appka na učenie slovenčiny",
+				"title": "Aplikácia na učenie slovenčiny",
 				"company": "LearnSlovak.sk",
 				"date": "2025",
-				"details": "Keďže Duolingo neponúka slovenčinu, rozhodol som sa vytvoriť vlastnú aplikáciu a pomôcť mojej priateľke rýchlejšie sa naučiť po slovensky. Je to full-stack projekt s Next.js frontendom a Python (Flask) backendom - všetko self-hosted na lacnom VPS. Aplikácia ponúka viacero lekcií a cvičný režim.",
-				"urlLabel": "Vyskúšaj appku tu, úplne zadarmo",
+				"details": "Keďže Duolingo neponúka slovenčinu, rozhodol som sa vytvoriť vlastnú aplikáciu a pomôcť mojej priateľke rýchlejšie sa naučiť po slovensky. Je to full-stack projekt s Next.js frontendom a Python (Flask) backendom. Aplikácia ponúka viacero lekcií a cvičný režim.",
+				"urlLabel": "Vyskúšaj appku tu",
 				"url": "https://learnslovak.sk",
 				"urlName": "learnslovak.sk",
 				"type": "osobný projekt"
 			},
 			{
-				"title": "P4ContainerFlow",
+				"title": "Konvertor HEIC na JPEG v prehliadači",
+				"company": "heic2jpeg.eu",
+				"date": "2025",
+				"details": "Tento nástroj vám umožňuje konvertovať iPhone HEIC obrázky na JPEG priamo v prehliadači, bez nutnosti nahrávať súbory na server. Vytvoril som ho, pretože existujúce nástroje buď nepodporovali batch konverziu, alebo vyžadovali nahrávanie obrázkov na server.",
+				"urlLabel": "Vyskúšajte si to sami",
+				"url": "https://heic2jpeg.eu",
+				"urlName": "heic2jpeg.eu",
+				"type": "osobný projekt"
+			},
+			{
+				"title": "Google Summer of Code",
 				"company": "P4 Language Consortium",
 				"date": "2024",
 				"details": "Tento projekt v spolupráci s P4 Language Consortium si kladie za cieľ integrovať P4 load balancer do ekosystému Kubernetes. Vyvinul som CNI plugin, ktorý dynamicky konfiguruje softvérový prepínač BMv2 počas migrácie kontajnerov medzi podmi. Momentálne experimentujem s prepínačom Tofino 2 a testujem v Kubernetes klasteri s viacerými nodes, všetko vďaka INET laboratóriu na TU Berlin.",
@@ -112,7 +122,7 @@
 				"type": "GSoC projekt"
 			},
 			{
-				"title": "Hodnotenie uskutočniteľnosti proaktívnej migrácie kontajnerov na LEO Edge",
+				"title": "Bakalárska práca: Migrácia kontajnerov na LEO Edge",
 				"company": "TU Berlin",
 				"date": "2024",
 				"details": "Vo svojej bakalárskej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom prostredí low-Earth orbit (LEO) edge. Vyvinul som vlastnú migračnú stratégiu a hodnotil jej výkon z hľadiska latencie, priepustnosti a využitia zdrojov. Práca a zdrojový kód sú k dispozícii na mojom GitHube.",

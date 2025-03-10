@@ -95,14 +95,24 @@
 				"title": "App för inlärning av slovakiska",
 				"company": "LearnSlovak.sk",
 				"date": "2025",
-				"details": "Eftersom Duolingo inte erbjuder slovakiska bestämde jag mig för att skapa en egen app för att hjälpa min flickvän att lära sig språket enklare. Det är ett fullstack-projekt med ett Next.js-frontend och ett Python (Flask)-backend – allt hostat på en billig VPS. Appen erbjuder flera lektioner och ett övningsläge.",
+				"details": "Eftersom Duolingo inte erbjuder slovakiska bestämde jag mig för att skapa en egen app för att hjälpa min flickvän att lära sig språket enklare. Det är ett fullstack-projekt med ett Next.js-frontend och ett Python (Flask)-backend. Appen erbjuder flera lektioner och ett övningsläge.",
 				"urlLabel": "Prova själv, det är helt gratis",
 				"url": "https://learnslovak.sk",
 				"urlName": "learnslovak.sk",
 				"type": "personligt projekt"
 			},
 			{
-				"title": "P4ContainerFlow",
+				"title": "HEIC till JPEG-omvandlare i webbläsaren",
+				"company": "heic2jpeg.eu",
+				"date": "2025",
+				"details": "Det här verktyget låter dig konvertera iPhone HEIC-bilder till JPEG direkt i din webbläsare, utan att ladda upp dina filer till en server. Jag skapade det eftersom de befintliga verktygen antingen inte tillät batchkonvertering eller krävde att bilder laddades upp till en tredjepartsserver.",
+				"urlLabel": "Prova det själv",
+				"url": "https://heic2jpeg.eu",
+				"urlName": "heic2jpeg.eu",
+				"type": "personligt projekt"
+			},
+			{
+				"title": "Google Summer of Code",
 				"company": "P4 Language Consortium",
 				"date": "2024",
 				"details": "Detta projekt med P4 Language Consortium syftar till att integrera P4-baserad lastbalansering i Kubernetes-ekosystemet. Jag utvecklade ett anpassat CNI-plugin som dynamiskt konfigurerar en BMv2-mjukvaruväxel för att lastbalansera trafiken under en container-migration mellan pods. Jag håller för närvarande på att köra experiment med en Tofino 2-växel och testar i ett Kubernetes-kluster med flera noder, allt tack vare INET-laboratoriet vid TU Berlin.",
@@ -112,7 +122,7 @@
 				"type": "GSoC-projekt"
 			},
 			{
-				"title": "Utvärdera möjligheten för proaktiv container-migration på LEO Edge",
+				"title": "Kandidatuppsats: Containermigration på LEO Edge",
 				"company": "TU Berlin",
 				"date": "2024",
 				"details": "I min kandidatuppsats undersökte jag möjligheten för proaktiv container-migration i en simulerad low-Earth orbit (LEO) edge-miljö. Jag utvecklade en anpassad migrationsstrategi och utvärderade dess prestanda vad gäller latens, genomströmning och resursutnyttjande. Uppsatsen och källkoden finns tillgängliga på min GitHub.",
