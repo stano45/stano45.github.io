@@ -95,14 +95,24 @@
 				"title": "Slovak Language Learning App",
 				"company": "LearnSlovak.sk",
 				"date": "2025",
-				"details": "Since Duolingo doesn't offer Slovak, I decided to create my own app to help my girlfriend learn the language more easily. It's a full-stack project, with a Next.js frontend and a Python (Flask) backend - all self-hosted on a cheap VPS. The app offers multiple lessons and a practice mode.",
-				"urlLabel": "Try it out yourself, it's completely free",
+				"details": "Since Duolingo doesn't offer Slovak, I decided to create my own app to help my girlfriend learn the language more easily. It's a full-stack project, with a Next.js frontend and a Python (Flask) backend. The app offers multiple lessons and a practice mode.",
+				"urlLabel": "Try it out yourself",
 				"url": "https://learnslovak.sk",
 				"urlName": "learnslovak.sk",
 				"type": "personal project"
 			},
 			{
-				"title": "P4ContainerFlow",
+				"title": "In-Browser HEIC to JPEG Converter",
+				"company": "heic2jpeg.eu",
+				"date": "2025",
+				"details": "This tool allows you to convert iPhone HEIC images to JPEG directly in your browser, without uploading your files to a server. I built this because the existing tools either didn't allow batch conversion or required uploading images to a third-party server.",
+				"urlLabel": "Try it out yourself",
+				"url": "https://heic2jpeg.eu",
+				"urlName": "heic2jpeg.eu",
+				"type": "personal project"
+			},
+			{
+				"title": "Google Summer of Code",
 				"company": "P4 Language Consortium",
 				"date": "2024",
 				"details": "This project with the P4 Language Consortium aims to integrate P4-based load balancing into the Kubernetes ecosystem. I developed a custom CNI plugin that dynamically configures a BMv2 software switch to load balance traffic during an inter-pod container migration. I am currently in the process of running experiments using a Tofino 2 switch and testing on a multi-node Kubernetes cluster, all thanks to the INET lab at TU Berlin.",
@@ -112,7 +122,7 @@
 				"type": "GSoC project"
 			},
 			{
-				"title": "Evaluating the Feasibility of Proactive Container Migration on the LEO Edge",
+				"title": "Bachelor's Thesis: Container Migration on LEO Edge",
 				"company": "TU Berlin",
 				"date": "2024",
 				"details": "In my Bachelor's thesis, I explored the feasibility of proactive container migration in a simulated low-Earth orbit (LEO) edge environment. I developed a custom migration strategy and evaluated its performance in terms of latency, throughput, and resource utilization. The thesis and source code are available on my GitHub.",
