@@ -5,10 +5,10 @@
 		"heading": "Vitaj!",
 		"intro": "Volám sa Stano a som softvérový inžinier. Momentálne študujem masters informatiky na ",
 		"tub": "Technickej univerzite v Berlíne",
-		"cresta": {
-			"intro": "Okrem štúdia pomáham firme ",
-			"content": "Cresta",
-			"outro": " transformovať call-centrá s pomocou AI. Konkrétne som full stack engineer, a pracujem hlavne s React-om, Go, a AWS."
+		"job": {
+			"intro": "Momentálne robím stáž ako Software Development Engineer (SDE) v ",
+			"content": "AWS",
+			"outro": ", kde pracujem na projekte s Simple Storage Service (S3) tímom v Berlíne."
 		},
 		"cv": {
 			"intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si môj ",

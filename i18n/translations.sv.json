@@ -5,10 +5,10 @@
 		"heading": "Välkommen!",
 		"intro": "Mitt namn är Stan och jag är mjukvaruingenjör. Jag studerar för närvarande en masterexamen i datavetenskap vid ",
 		"tub": "Tekniska Universitetet i Berlin",
-		"cresta": {
-			"intro": "Förutom att studera hjälper jag ",
-			"content": "Cresta",
-			"outro": " att revolutionera kontaktcentra med AI. Specifikt är jag fullstackutvecklare och arbetar främst med React, Go och AWS."
+		"job": {
+			"intro": "Jag gör för närvarande en praktik som Software Development Engineer (SDE) hos ",
+			"content": "AWS",
+			"outro": ", där jag jobbar med ett projekt i Simple Storage Service (S3)-teamet i Berlin."
 		},
 		"cv": {
 			"intro": "Du kan kolla in mer av vad jag har gjort på mitt ",

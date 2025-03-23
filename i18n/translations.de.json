@@ -5,10 +5,10 @@
 		"heading": "Wilkommen!",
 		"intro": "Ich bin Stan und beschäftige mich mit der Softwareentwicklung. Ich studiere Master Informatik an der ",
 		"tub": "Technischen Universität Berlin",
-		"cresta": {
-			"intro": "Neben meinem Studium helfe ich ",
-			"content": "Cresta",
-			"outro": " dabei, Callcenter mit AI zu revolutionieren. Konkret arbeite ich als Full Stack Entwickler, und nutze hauptsächlich React, Go und AWS."
+		"job": {
+			"intro": "Ich mache derzeit ein Praktikum als Software Development Engineer (SDE) bei ",
+			"content": "AWS",
+			"outro": ", wo ich an einem Projekt mit dem Simple Storage Service (S3) Team in Berlin arbeite."
 		},
 		"cv": {
 			"intro": "Mehr über meine bisherige Erfahrung findet man in meinem ",

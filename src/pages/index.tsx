@@ -27,14 +27,14 @@ export default function About(): ReactElement {
 						.
 					</p>
 					<p>
-						{t("about.cresta.intro")}
+						{t("about.job.intro")}
 						<Link
-							href={{ pathname: "https://www.cresta.com/" }}
+							href={{ pathname: "https://aws.amazon.com/s3" }}
 							className="text-blue-500 underline"
 						>
-							{t("about.cresta.content")}
+							{t("about.job.content")}
 						</Link>{" "}
-						{t("about.cresta.outro")}
+						{t("about.job.outro")}
 					</p>
 					<p>
 						{t("about.cv.intro")}

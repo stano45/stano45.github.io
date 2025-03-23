@@ -5,13 +5,13 @@
 		"heading": "Welcome!",
 		"intro": "My name is Stan and I'm a software engineer. I'm currently pursuing a Master's degree in Computer Science at the ",
 		"tub": "Technical University of Berlin",
-		"cresta": {
-			"intro": "Apart from studying, I'm helping ",
-			"content": "Cresta",
-			"outro": " revolutionize contact centers with AI. Specifically, I am a full stack engineer, working primarily with React, Go and AWS."
+		"job": {
+			"intro": "I am currently doing a Software Development Engineer (SDE) internship at ",
+			"content": "AWS",
+			"outro": ", working on a project with the Simple Storage Service (S3) team in Berlin."
 		},
 		"cv": {
-			"intro": "You can check out more of what I’ve been up to on my ",
+			"intro": "You can check out more of what I've been up to on my ",
 			"content": "interactive resume",
 			"outro": "."
 		},
