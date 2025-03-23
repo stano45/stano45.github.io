@@ -39,7 +39,7 @@
 				"company": "AWS",
 				"date": "mar 2025 - dnes",
 				"details": "Amazon Simple Storage Service (Amazon S3)",
-				"urlLabel": "Navštivte stránku AWS",
+				"urlLabel": "Pozri si stránku AWS",
 				"url": "https://aws.amazon.com/s3",
 				"urlName": "aws.amazon.com/s3",
 				"type": "práca"
@@ -49,7 +49,7 @@
 				"company": "Technische Universität Berlin",
 				"date": "apr 2024 - dnes",
 				"details": "V súčasnosti študujem magistra so zameraním na distribuované systémy, siete, databázy, blockchain a softvérové inžinierstvo. Očakávaný dátum ukončenia je na jeseň 2026.",
-				"urlLabel": "Navštívte webstránku univerzity",
+				"urlLabel": "Pozri si webstránku univerzity",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
 				"type": "vzdelanie"
@@ -59,7 +59,7 @@
 				"company": "Cresta",
 				"date": "nov 2022 - mar 2025",
 				"details": "V spoločnosti Cresta som podporoval vývoj dátových integrácií a pipelines, na frontende (React) aj backende (Go). Získal som pevné znalosti cloudových technológií, najmä AWS a Infrastructure as Code pomocou Terraformu. Vyvinul som tiež CI/CD pipelines pomocou GitHub Actions a pomohol vyvinúť E2E testing framework s pomocou Playwrightu.",
-				"urlLabel": "Navštívte webstránku Cresta",
+				"urlLabel": "Pozri si webstránku Cresta",
 				"url": "https://www.cresta.com",
 				"urlName": "cresta.com",
 				"type": "práca"
@@ -69,7 +69,7 @@
 				"company": "PTX tech",
 				"date": "nov 2021 - nov 2022",
 				"details": "V PTX tech som prispel k vývoju pokročilého 3D detekčného systému v reálnom čase. Konkrétne som navrhol efektívnu, viacvláknovú pipeline v C++ (Qt5 framework) na spracovanie 3D bodových oblakov. Tiež som integroval GPU-akcelerovaný algoritmus pre simultánnu lokalizáciu a mapovanie (SLAM) do systému. Táto úspešná integrácia viedla celkovo k približne 10-násobnému zrýchleniu.",
-				"urlLabel": "Navštívte webstránku PTX",
+				"urlLabel": "Pozri si webstránku PTX",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
 				"type": "práca"
@@ -79,7 +79,7 @@
 				"company": "Technische Universität Berlin",
 				"date": "okt 2020 - apr 2024",
 				"details": "Počas bakalárskeho štúdia som získal solídne základy v programovaní, algoritmoch a vývoji softvéru, so zameraním na riešenie zložitých problémov a efektívnu tímovú spoluprácu. Vo svojej diplomovej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom LEO edge prostredí. Celá práca a zdrojový kód sú dostupné na mojom GitHub-e.",
-				"urlLabel": "Navštívte webstránku univerzity",
+				"urlLabel": "Pozri si webstránku univerzity",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
 				"type": "vzdelanie"
@@ -89,7 +89,7 @@
 				"company": "Gymnázium Ladislava Sáru, Bratislava",
 				"date": "2012 - 2020",
 				"details": "Chodil som na všeobecné gymnázium so zameraním na jazyky. Maturoval som z matematiky, informatiky, angličtiny a slovenčiny, a dostal známku 1. Okrem pekných spomienok som získal pevné základy v prírodných vedách a úvod do programovania. Tiež som získal certifikát C1 z nemčiny, čo mi umožnilo študovať na väčšine nemeckých univerzít.",
-				"urlLabel": "Navštívte webstránku školy (iba v slovenčine)",
+				"urlLabel": "Pozri si webstránku školy (iba v slovenčine)",
 				"url": "https://gymlsba.edupage.org/?lang=en",
 				"urlName": "gymlsba.edupage.org",
 				"type": "vzdelanie"
