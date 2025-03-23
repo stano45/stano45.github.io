@@ -35,6 +35,16 @@
 		"download": "Ladda ner PDF",
 		"content": [
 			{
+				"title": "SDE Intern",
+				"company": "AWS",
+				"date": "mar 2025 - pågående",
+				"details": "Amazon Simple Storage Service (Amazon S3)",
+				"urlLabel": "Besök företagets webbplats",
+				"url": "https://aws.amazon.com/s3",
+				"urlName": "aws.amazon.com/s3",
+				"type": "work"
+			},
+			{
 				"title": "M.Sc. Datavetenskap",
 				"company": "Technische Universität Berlin",
 				"date": "apr 2024 - pågående",
@@ -47,7 +57,7 @@
 			{
 				"title": "Mjukvaruutvecklare",
 				"company": "Cresta",
-				"date": "nov 2022 - pågående",
+				"date": "nov 2022 - mar 2025",
 				"details": "På Cresta bidrog jag till utvecklingen av dataintegrationer och pipelines, både för frontend (React) och backend (Go). Jag skaffade mig en god förståelse för molnteknologier, särskilt AWS, samt för Infrastructure as Code med Terraform. Jag utvecklade även CI/CD-pipelines med GitHub Actions och ett eget E2E-testframework med Playwright.",
 				"urlLabel": "Besök Crestas webbplats",
 				"url": "https://www.cresta.com",

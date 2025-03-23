@@ -35,6 +35,16 @@
 		"download": "Stianhuť PDF",
 		"content": [
 			{
+				"title": "SDE Intern",
+				"company": "AWS",
+				"date": "mar 2025 - dnes",
+				"details": "Amazon Simple Storage Service (Amazon S3)",
+				"urlLabel": "Navštivte stránku AWS",
+				"url": "https://aws.amazon.com/s3",
+				"urlName": "aws.amazon.com/s3",
+				"type": "práca"
+			},
+			{
 				"title": "M.Sc. Informatika",
 				"company": "Technische Universität Berlin",
 				"date": "apr 2024 - dnes",
@@ -47,7 +57,7 @@
 			{
 				"title": "Softvérový inžinier",
 				"company": "Cresta",
-				"date": "nov 2022 - dnes",
+				"date": "nov 2022 - mar 2025",
 				"details": "V spoločnosti Cresta som podporoval vývoj dátových integrácií a pipelines, na frontende (React) aj backende (Go). Získal som pevné znalosti cloudových technológií, najmä AWS a Infrastructure as Code pomocou Terraformu. Vyvinul som tiež CI/CD pipelines pomocou GitHub Actions a pomohol vyvinúť E2E testing framework s pomocou Playwrightu.",
 				"urlLabel": "Navštívte webstránku Cresta",
 				"url": "https://www.cresta.com",

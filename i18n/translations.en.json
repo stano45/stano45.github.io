@@ -35,6 +35,16 @@
 		"download": "Download PDF",
 		"content": [
 			{
+				"title": "SDE Intern",
+				"company": "AWS",
+				"date": "Mar 2025 - Present",
+				"details": "Amazon Simple Storage Service (Amazon S3)",
+				"urlLabel": "Visit the AWS website",
+				"url": "https://aws.amazon.com/s3",
+				"urlName": "aws.amazon.com/s3",
+				"type": "work"
+			},
+			{
 				"title": "M.Sc. Computer Science",
 				"company": "Technische Universität Berlin",
 				"date": "Apr 2024 - Present",
@@ -47,7 +57,7 @@
 			{
 				"title": "Software Engineer",
 				"company": "Cresta",
-				"date": "Nov 2022 - Present",
+				"date": "Nov 2022 - Mar 2025",
 				"details": "At Cresta, I supported the development of data integrations and pipelines, across the frontend (React) and backend (Go). I gained a solid understanding of cloud technologies, particularly AWS, and Infrastructure as Code using Terraform. I also developed CI/CD pipelines using GitHub Actions and a custom E2E testing framework using Playwright.",
 				"urlLabel": "Visit Cresta's website",
 				"url": "https://www.cresta.com",
