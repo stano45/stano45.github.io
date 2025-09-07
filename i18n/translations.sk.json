@@ -35,16 +35,6 @@
 		"download": "Stianhuť PDF",
 		"content": [
 			{
-				"title": "M.Sc. Informatika",
-				"company": "Technische Universität Berlin",
-				"date": "apr 2024 - dnes",
-				"details": "V súčasnosti študujem magistra so zameraním na distribuované systémy, siete, databázy, blockchain a softvérové inžinierstvo. Očakávaný dátum ukončenia je na jeseň 2026.",
-				"urlLabel": "Pozri si webstránku univerzity",
-				"url": "https://www.tu.berlin",
-				"urlName": "tu.berlin",
-				"type": "vzdelanie"
-			},
-			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",
 				"date": "mar 2025 - sep 2025",
@@ -73,6 +63,23 @@
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
 				"type": "práca"
+			}
+		]
+	},
+	"education": {
+		"title": "Vzdelanie",
+		"description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
+		"download": "Stianhuť PDF",
+		"content": [
+			{
+				"title": "M.Sc. Informatika",
+				"company": "Technische Universität Berlin",
+				"date": "apr 2024 - dnes",
+				"details": "V súčasnosti študujem magistra so zameraním na distribuované systémy, siete, databázy, blockchain a softvérové inžinierstvo. Očakávaný dátum ukončenia je na jeseň 2026.",
+				"urlLabel": "Pozri si webstránku univerzity",
+				"url": "https://www.tu.berlin",
+				"urlName": "tu.berlin",
+				"type": "vzdelanie"
 			},
 			{
 				"title": "B.Sc. Informatika",

@@ -35,16 +35,6 @@
 		"download": "PDF herunterladen",
 		"content": [
 			{
-				"title": "M.Sc. Informatik",
-				"company": "Technische Universität Berlin",
-				"date": "Apr 2024 - aktuell",
-				"details": "Ich absolviere derzeit ein Masterstudium mit Schwerpunkt auf verteilten Systemen, Netzwerken, Datenbanken, Blockchain und Software Engineering. Mein voraussichtlicher Abschluss ist im Herbst 2026.",
-				"urlLabel": "Besuche die Website der Universität",
-				"url": "https://www.tu.berlin",
-				"urlName": "tu.berlin",
-				"type": "Bildung"
-			},
-			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",
 				"date": "Mär 2025 - Sep 2025",
@@ -73,6 +63,23 @@
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
 				"type": "Arbeit"
+			}
+		]
+	},
+	"education": {
+		"title": "Bildung",
+		"description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
+		"download": "PDF herunterladen",
+		"content": [
+			{
+				"title": "M.Sc. Informatik",
+				"company": "Technische Universität Berlin",
+				"date": "Apr 2024 - aktuell",
+				"details": "Ich absolviere derzeit ein Masterstudium mit Schwerpunkt auf verteilten Systemen, Netzwerken, Datenbanken, Blockchain und Software Engineering. Mein voraussichtlicher Abschluss ist im Herbst 2026.",
+				"urlLabel": "Besuche die Website der Universität",
+				"url": "https://www.tu.berlin",
+				"urlName": "tu.berlin",
+				"type": "Bildung"
 			},
 			{
 				"title": "B.Sc. Informatik",

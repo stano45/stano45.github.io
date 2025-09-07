@@ -35,16 +35,6 @@
 		"download": "Ladda ner PDF",
 		"content": [
 			{
-				"title": "M.Sc. Datavetenskap",
-				"company": "Technische Universität Berlin",
-				"date": "apr 2024 - pågående",
-				"details": "Jag studerar för närvarande en masterexamen med inriktning på distribuerade system, nätverk, databaser, blockchain och mjukvaruutveckling. Jag räknar med att ta examen hösten 2026.",
-				"urlLabel": "Besök universitetets webbplats",
-				"url": "https://www.tu.berlin",
-				"urlName": "tu.berlin",
-				"type": "utbildning"
-			},
-			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",
 				"date": "mar 2025 - sep 2025",
@@ -73,6 +63,23 @@
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
 				"type": "arbete"
+			}
+		]
+	},
+	"education": {
+		"title": "Utbildning",
+		"description": "En interaktiv CV för Stanislav Kosorin, som beskriver hans utbildning, arbetslivserfarenhet och färdigheter",
+		"download": "Ladda ner PDF",
+		"content": [
+			{
+				"title": "M.Sc. Datavetenskap",
+				"company": "Technische Universität Berlin",
+				"date": "apr 2024 - pågående",
+				"details": "Jag studerar för närvarande en masterexamen med inriktning på distribuerade system, nätverk, databaser, blockchain och mjukvaruutveckling. Jag räknar med att ta examen hösten 2026.",
+				"urlLabel": "Besök universitetets webbplats",
+				"url": "https://www.tu.berlin",
+				"urlName": "tu.berlin",
+				"type": "utbildning"
 			},
 			{
 				"title": "B.Sc. Datavetenskap",

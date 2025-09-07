@@ -13,6 +13,7 @@ export function Navbar(): ReactElement {
 	const navbarOptions = [
 		{ title: t("blog.title"), path: "/blog" },
 		{ title: t("cv.title"), path: "/cv" },
+		{ title: t("education.title"), path: "/education" },
 		{ title: t("projects.title"), path: "/projects" },
 		{ title: t("contact.title"), path: "/contact" },
 	];

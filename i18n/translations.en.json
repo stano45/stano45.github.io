@@ -35,16 +35,6 @@
 		"download": "Download PDF",
 		"content": [
 			{
-				"title": "M.Sc. Computer Science",
-				"company": "Technische Universität Berlin",
-				"date": "Apr 2024 - Present",
-				"details": "I'm currently pursuing a Master's degree with a focus on distributed systems, networking, databases, blockchain and software engineering. My expected graduation date is fall 2026.",
-				"urlLabel": "Visit the university website",
-				"url": "https://www.tu.berlin",
-				"urlName": "tu.berlin",
-				"type": "education"
-			},
-			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",
 				"date": "Mar 2025 - Sep 2025",
@@ -73,6 +63,23 @@
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
 				"type": "work"
+			}
+		]
+	},
+	"education": {
+		"title": "Education",
+		"description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
+		"download": "Download full resume as PDF",
+		"content": [
+			{
+				"title": "M.Sc. Computer Science",
+				"company": "Technische Universität Berlin",
+				"date": "Apr 2024 - Present",
+				"details": "I'm currently pursuing a Master's degree with a focus on distributed systems, networking, databases, blockchain and software engineering. My expected graduation date is fall 2026.",
+				"urlLabel": "Visit the university website",
+				"url": "https://www.tu.berlin",
+				"urlName": "tu.berlin",
+				"type": "education"
 			},
 			{
 				"title": "B.Sc. Computer Science",
