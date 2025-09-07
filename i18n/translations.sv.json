@@ -37,6 +37,7 @@
 	"work": {
 		"title": "Arbete",
 		"description": "En interaktiv CV för Stanislav Kosorin, som beskriver hans utbildning, arbetslivserfarenhet och färdigheter",
+		"open": "Öppna PDF",
 		"download": "Ladda ner PDF",
 		"content": [
 			{
@@ -74,6 +75,7 @@
 	"education": {
 		"title": "Utbildning",
 		"description": "En interaktiv CV för Stanislav Kosorin, som beskriver hans utbildning, arbetslivserfarenhet och färdigheter",
+		"open": "Öppna PDF",
 		"download": "Ladda ner PDF",
 		"content": [
 			{

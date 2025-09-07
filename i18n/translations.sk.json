@@ -37,7 +37,8 @@
 	"work": {
 		"title": "Práca",
 		"description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
-		"download": "Stianhuť PDF",
+		"open": "Otvoriť PDF životopis",
+		"download": "Stiahnuť PDF životopis",
 		"content": [
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +75,8 @@
 	"education": {
 		"title": "Vzdelanie",
 		"description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
-		"download": "Stianhuť PDF",
+		"open": "Otvoriť PDF životopis",
+		"download": "Stiahnuť PDF životopis",
 		"content": [
 			{
 				"title": "M.Sc. Informatika",

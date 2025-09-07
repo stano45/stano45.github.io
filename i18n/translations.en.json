@@ -37,7 +37,8 @@
 	"work": {
 		"title": "Work",
 		"description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
-		"download": "Download PDF",
+		"open": "Open PDF Resume",
+		"download": "Download PDF Resume",
 		"content": [
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +75,8 @@
 	"education": {
 		"title": "Education",
 		"description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
-		"download": "Download full resume as PDF",
+		"open": "Open PDF Resume",
+		"download": "Download PDF Resume",
 		"content": [
 			{
 				"title": "M.Sc. Computer Science",

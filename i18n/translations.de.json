@@ -37,7 +37,8 @@
 	"work": {
 		"title": "Arbeit",
 		"description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
-		"download": "PDF herunterladen",
+		"open": "Lebenslauf als PDF öffnen",
+		"download": "Lebenslauf als PDF herunterladen",
 		"content": [
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +75,8 @@
 	"education": {
 		"title": "Bildung",
 		"description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
-		"download": "PDF herunterladen",
+		"open": "Lebenslauf als PDF öffnen",
+		"download": "Lebenslauf als PDF herunterladen",
 		"content": [
 			{
 				"title": "M.Sc. Informatik",
