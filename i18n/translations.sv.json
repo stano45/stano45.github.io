@@ -82,6 +82,16 @@
 				"type": "utbildning"
 			},
 			{
+				"title": "Kandidatuppsats: Containermigration på LEO Edge",
+				"company": "TU Berlin",
+				"date": "2024",
+				"details": "I min kandidatuppsats undersökte jag möjligheten för proaktiv container-migration i en simulerad low-Earth orbit (LEO) edge-miljö. Jag utvecklade en anpassad migrationsstrategi och utvärderade dess prestanda vad gäller latens, genomströmning och resursutnyttjande. Uppsatsen och källkoden finns tillgängliga på min GitHub.",
+				"urlLabel": "Kolla in repositoryn på GitHub",
+				"url": "https://github.com/stano45/celestial-container-migration",
+				"urlName": "github.com/stano45/celestial-container-migration",
+				"type": "kandidatuppsatsprojekt"
+			},
+			{
 				"title": "B.Sc. Datavetenskap",
 				"company": "Technische Universität Berlin",
 				"date": "okt 2020 - apr 2024",
@@ -137,16 +147,6 @@
 				"url": "https://github.com/stano45/p4containerflow",
 				"urlName": "github.com/stano45/p4containerflow",
 				"type": "GSoC-projekt"
-			},
-			{
-				"title": "Kandidatuppsats: Containermigration på LEO Edge",
-				"company": "TU Berlin",
-				"date": "2024",
-				"details": "I min kandidatuppsats undersökte jag möjligheten för proaktiv container-migration i en simulerad low-Earth orbit (LEO) edge-miljö. Jag utvecklade en anpassad migrationsstrategi och utvärderade dess prestanda vad gäller latens, genomströmning och resursutnyttjande. Uppsatsen och källkoden finns tillgängliga på min GitHub.",
-				"urlLabel": "Kolla in repositoryn på GitHub",
-				"url": "https://github.com/stano45/celestial-container-migration",
-				"urlName": "github.com/stano45/celestial-container-migration",
-				"type": "kandidatuppsatsprojekt"
 			},
 			{
 				"title": "Chrome-tillägg för visualisering av nätverkstrafik",

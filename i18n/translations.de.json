@@ -82,6 +82,16 @@
 				"type": "Bildung"
 			},
 			{
+				"title": "Bachelorarbeit: Container-Migration am LEO Edge",
+				"company": "TU Berlin",
+				"date": "2024",
+				"details": "In meiner Bachelorarbeit habe ich die Machbarkeit proaktiver Container-Migration in einer simulierten Low-Earth-Orbit (LEO) Edge-Umgebung untersucht. Ich habe eine maßgeschneiderte Migrationsstrategie entwickelt und ihre Leistung hinsichtlich Latenz, Durchsatz und Ressourcennutzung evaluiert. Die Arbeit und der Quellcode sind auf meinem GitHub verfügbar.",
+				"urlLabel": "Sieh dir das Repository auf GitHub an",
+				"url": "https://github.com/stano45/celestial-container-migration",
+				"urlName": "github.com/stano45/celestial-container-migration",
+				"type": "Bachelorarbeit"
+			},
+			{
 				"title": "B.Sc. Informatik",
 				"company": "Technische Universität Berlin",
 				"date": "Okt 2020 - Apr 2024",
@@ -137,16 +147,6 @@
 				"url": "https://github.com/stano45/p4containerflow",
 				"urlName": "github.com/stano45/p4containerflow",
 				"type": "GSoC-Projekt"
-			},
-			{
-				"title": "Bachelorarbeit: Container-Migration am LEO Edge",
-				"company": "TU Berlin",
-				"date": "2024",
-				"details": "In meiner Bachelorarbeit habe ich die Machbarkeit proaktiver Container-Migration in einer simulierten Low-Earth-Orbit (LEO) Edge-Umgebung untersucht. Ich habe eine maßgeschneiderte Migrationsstrategie entwickelt und ihre Leistung hinsichtlich Latenz, Durchsatz und Ressourcennutzung evaluiert. Die Arbeit und der Quellcode sind auf meinem GitHub verfügbar.",
-				"urlLabel": "Sieh dir das Repository auf GitHub an",
-				"url": "https://github.com/stano45/celestial-container-migration",
-				"urlName": "github.com/stano45/celestial-container-migration",
-				"type": "Bachelorarbeit"
 			},
 			{
 				"title": "Chrome-Erweiterung zur Visualisierung des Netzwerkverkehrs",

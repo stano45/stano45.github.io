@@ -82,6 +82,16 @@
 				"type": "vzdelanie"
 			},
 			{
+				"title": "Bakalárska práca: Migrácia kontajnerov na LEO Edge",
+				"company": "TU Berlin",
+				"date": "2024",
+				"details": "Vo svojej bakalárskej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom prostredí low-Earth orbit (LEO) edge. Vyvinul som vlastnú migračnú stratégiu a hodnotil jej výkon z hľadiska latencie, priepustnosti a využitia zdrojov. Práca a zdrojový kód sú k dispozícii na mojom GitHube.",
+				"urlLabel": "Pozri si projekt na GitHube",
+				"url": "https://github.com/stano45/celestial-container-migration",
+				"urlName": "github.com/stano45/celestial-container-migration",
+				"type": "bakalárska práca"
+			},
+			{
 				"title": "B.Sc. Informatika",
 				"company": "Technische Universität Berlin",
 				"date": "okt 2020 - apr 2024",
@@ -137,16 +147,6 @@
 				"url": "https://github.com/stano45/p4containerflow",
 				"urlName": "github.com/stano45/p4containerflow",
 				"type": "GSoC projekt"
-			},
-			{
-				"title": "Bakalárska práca: Migrácia kontajnerov na LEO Edge",
-				"company": "TU Berlin",
-				"date": "2024",
-				"details": "Vo svojej bakalárskej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom prostredí low-Earth orbit (LEO) edge. Vyvinul som vlastnú migračnú stratégiu a hodnotil jej výkon z hľadiska latencie, priepustnosti a využitia zdrojov. Práca a zdrojový kód sú k dispozícii na mojom GitHube.",
-				"urlLabel": "Pozri si projekt na GitHube",
-				"url": "https://github.com/stano45/celestial-container-migration",
-				"urlName": "github.com/stano45/celestial-container-migration",
-				"type": "bakalárska práca"
 			},
 			{
 				"title": "Rozšírenie Chrome pre vizualizáciu sieťovej prevádzky",

@@ -82,6 +82,16 @@
 				"type": "education"
 			},
 			{
+				"title": "Bachelor's Thesis: Container Migration on LEO Edge",
+				"company": "TU Berlin",
+				"date": "2024",
+				"details": "In my Bachelor's thesis, I explored the feasibility of proactive container migration in a simulated low-Earth orbit (LEO) edge environment. I developed a custom migration strategy and evaluated its performance in terms of latency, throughput, and resource utilization. The thesis and source code are available on my GitHub.",
+				"urlLabel": "Check out the repository on GitHub",
+				"url": "https://github.com/stano45/celestial-container-migration",
+				"urlName": "github.com/stano45/celestial-container-migration",
+				"type": "thesis project"
+			},
+			{
 				"title": "B.Sc. Computer Science",
 				"company": "Technische Universität Berlin",
 				"date": "Oct 2020 - Apr 2024",
@@ -137,16 +147,6 @@
 				"url": "https://github.com/stano45/p4containerflow",
 				"urlName": "github.com/stano45/p4containerflow",
 				"type": "GSoC project"
-			},
-			{
-				"title": "Bachelor's Thesis: Container Migration on LEO Edge",
-				"company": "TU Berlin",
-				"date": "2024",
-				"details": "In my Bachelor's thesis, I explored the feasibility of proactive container migration in a simulated low-Earth orbit (LEO) edge environment. I developed a custom migration strategy and evaluated its performance in terms of latency, throughput, and resource utilization. The thesis and source code are available on my GitHub.",
-				"urlLabel": "Check out the repository on GitHub",
-				"url": "https://github.com/stano45/celestial-container-migration",
-				"urlName": "github.com/stano45/celestial-container-migration",
-				"type": "thesis project"
 			},
 			{
 				"title": "Network Traffic Visualization Chrome Extension",
