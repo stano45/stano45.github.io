@@ -32,7 +32,7 @@ export function Navbar(): ReactElement {
 					<LanguagePicker />
 					<button
 						type="button"
-						className="inline-flex items-center justify-center rounded p-2 text-pink-200 hover:text-white focus:outline-none"
+						className="inline-flex items-center justify-center rounded p-2 text-white focus:outline-none"
 						aria-expanded={open}
 						aria-controls="mobile-menu"
 						onClick={() => setOpen(!open)}
