@@ -35,16 +35,6 @@
 		"download": "Ladda ner PDF",
 		"content": [
 			{
-				"title": "SDE Intern",
-				"company": "AWS",
-				"date": "mar 2025 - pågående",
-				"details": "Amazon Simple Storage Service (Amazon S3)",
-				"urlLabel": "Besök företagets webbplats",
-				"url": "https://aws.amazon.com/s3",
-				"urlName": "aws.amazon.com/s3",
-				"type": "work"
-			},
-			{
 				"title": "M.Sc. Datavetenskap",
 				"company": "Technische Universität Berlin",
 				"date": "apr 2024 - pågående",
@@ -53,6 +43,16 @@
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
 				"type": "utbildning"
+			},
+			{
+				"title": "Software Dev Engineer Intern",
+				"company": "AWS",
+				"date": "mar 2025 - sep 2025",
+				"details": "Utvecklade ett EMR Cluster Core Capacity Prediction System för S3 Express One Zone Metering Service, deployat i produktionsregioner och minskade metering-kostnaderna med ca 65 %, samtidigt som cluster-runtimes förblev förutsägbara.",
+				"urlLabel": "Besök S3 XOZ webbplats",
+				"url": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
+				"urlName": "aws.amazon.com/s3/storage-classes/express-one-zone/",
+				"type": "work"
 			},
 			{
 				"title": "Mjukvaruutvecklare",

@@ -35,16 +35,6 @@
 		"download": "Stianhuť PDF",
 		"content": [
 			{
-				"title": "SDE Intern",
-				"company": "AWS",
-				"date": "mar 2025 - dnes",
-				"details": "Amazon Simple Storage Service (Amazon S3)",
-				"urlLabel": "Pozri si stránku AWS",
-				"url": "https://aws.amazon.com/s3",
-				"urlName": "aws.amazon.com/s3",
-				"type": "práca"
-			},
-			{
 				"title": "M.Sc. Informatika",
 				"company": "Technische Universität Berlin",
 				"date": "apr 2024 - dnes",
@@ -53,6 +43,16 @@
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
 				"type": "vzdelanie"
+			},
+			{
+				"title": "Software Dev Engineer Intern",
+				"company": "AWS",
+				"date": "mar 2025 - sep 2025",
+				"details": "Vyvinul som EMR Cluster Core Capacity Prediction System pre S3 Express One Zone Metering Service, nasadený v produkčných regiónoch, ktorý znížil metering náklady o približne 65 % a zároveň zachoval predvídateľné cluster runtimes.",
+				"urlLabel": "Pozri si stránku S3 XOZ",
+				"url": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
+				"urlName": "aws.amazon.com/s3/storage-classes/express-one-zone/",
+				"type": "práca"
 			},
 			{
 				"title": "Softvérový inžinier",
