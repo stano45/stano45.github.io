@@ -27,6 +27,16 @@ export default function About(): ReactElement {
 						.
 					</p>
 					<p>
+						{t("about.education.intro")}
+						<Link
+							href={{ pathname: "/education", query: query }}
+							className="text-blue-500 underline"
+						>
+							{t("about.education.content")}
+						</Link>
+						{t("about.education.outro")}
+					</p>
+					<p>
 						{t("about.job.intro")}
 						<Link
 							href={{ pathname: "https://aws.amazon.com/s3" }}

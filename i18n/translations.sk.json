@@ -5,6 +5,11 @@
 		"heading": "Vitaj!",
 		"intro": "Volám sa Stano a som softvérový inžinier. Momentálne študujem masters informatiky na ",
 		"tub": "Technickej univerzite v Berlíne",
+		"education": {
+			"intro": "Viac o mojom vzdelaní sa dozvieš ",
+			"content": "tu",
+			"outro": "."
+		},
 		"job": {
 			"intro": "Momentálne robím stáž ako Software Development Engineer (SDE) v ",
 			"content": "AWS",

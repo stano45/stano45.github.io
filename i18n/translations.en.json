@@ -5,6 +5,11 @@
 		"heading": "Welcome!",
 		"intro": "My name is Stan and I'm a software engineer. I'm currently pursuing a Master's degree in Computer Science at the ",
 		"tub": "Technical University of Berlin",
+		"education": {
+			"intro": "You can learn more about my education ",
+			"content": "here",
+			"outro": "."
+		},
 		"job": {
 			"intro": "I am currently doing a Software Development Engineer (SDE) internship at ",
 			"content": "AWS",

@@ -5,6 +5,11 @@
 		"heading": "Välkommen!",
 		"intro": "Mitt namn är Stan och jag är mjukvaruingenjör. Jag studerar för närvarande en masterexamen i datavetenskap vid ",
 		"tub": "Tekniska Universitetet i Berlin",
+		"education": {
+			"intro": "Du kan läsa mer om min utbildning ",
+			"content": "här",
+			"outro": "."
+		},
 		"job": {
 			"intro": "Jag gör för närvarande en praktik som Software Development Engineer (SDE) hos ",
 			"content": "AWS",

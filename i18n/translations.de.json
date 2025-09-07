@@ -5,6 +5,11 @@
 		"heading": "Wilkommen!",
 		"intro": "Ich bin Stan und beschäftige mich mit der Softwareentwicklung. Ich studiere Master Informatik an der ",
 		"tub": "Technischen Universität Berlin",
+		"education": {
+			"intro": "Mehr über meine Ausbildung findet man ",
+			"content": "hier",
+			"outro": "."
+		},
 		"job": {
 			"intro": "Ich mache derzeit ein Praktikum als Software Development Engineer (SDE) bei ",
 			"content": "AWS",
