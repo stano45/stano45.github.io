@@ -11,8 +11,8 @@
 			"outro": ", kde pracujem na projekte so Simple Storage Service (S3) tímom v Berlíne."
 		},
 		"work": {
-			"intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si môj ",
-			"content": " životopis",
+			"intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si ",
+			"content": "stránku Práca",
 			"outro": "."
 		},
 		"projects": {
@@ -30,7 +30,7 @@
 		"heading": "Blog"
 	},
 	"work": {
-		"title": "Životopis",
+		"title": "Práca",
 		"description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
 		"download": "Stianhuť PDF",
 		"content": [

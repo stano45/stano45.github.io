@@ -11,8 +11,8 @@
 			"outro": ", wo ich an einem Projekt mit dem Simple Storage Service (S3) Team in Berlin arbeite."
 		},
 		"work": {
-			"intro": "Mehr über meine bisherige Erfahrung findet man in meinem ",
-			"content": "interaktiven Lebenslauf",
+			"intro": "Mehr über meine bisherige Erfahrung findet man auf der ",
+			"content": "Arbeit-Seite",
 			"outro": "."
 		},
 		"projects": {
@@ -30,7 +30,7 @@
 		"heading": "Blog"
 	},
 	"work": {
-		"title": "Lebenslauf",
+		"title": "Arbeit",
 		"description": "Ein interaktiver Lebenslauf von Stanislav Kosorin, der seine Ausbildung, Berufserfahrung und Fähigkeiten beschreibt",
 		"download": "PDF herunterladen",
 		"content": [

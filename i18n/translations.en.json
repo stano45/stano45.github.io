@@ -12,7 +12,7 @@
 		},
 		"work": {
 			"intro": "You can check out more of what I've been up to on my ",
-			"content": "interactive resume",
+			"content": "work page",
 			"outro": "."
 		},
 		"projects": {
@@ -30,7 +30,7 @@
 		"heading": "Blog"
 	},
 	"work": {
-		"title": "Resume",
+		"title": "Work",
 		"description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
 		"download": "Download PDF",
 		"content": [
