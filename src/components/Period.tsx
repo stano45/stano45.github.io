@@ -18,7 +18,6 @@ export function Period({
 	company,
 	details,
 	url,
-	urlName,
 	urlLabel,
 	type,
 }: PeriodProps) {
@@ -39,7 +38,9 @@ export function Period({
 					<h4 className="text-xs md:text-sm font-medium text-gray-200">
 						{date}
 					</h4>
-					<h4 className="text-xs md:text-sm text-gray-500">{type}</h4>
+					<h4 className="hidden md:block text-xs md:text-sm text-gray-500">
+						{type}
+					</h4>
 				</div>
 				<h3
 					className={`w-3/4 text-md md:text-xl font-bold transition duration-300 ease-in-out ${
@@ -82,20 +83,19 @@ export function Period({
 			</div>
 			<div
 				className={`w-3/4 ml-auto overflow-hidden transition-all duration-300 ${
-					dropdownVisible ? "max-h-[500px]" : "max-h-0"
+					dropdownVisible ? "max-h-[1000px]" : "max-h-0"
 				}`}
 			>
 				<div className="text-md md:text-md mt-4 p-4 border border-gray-200 rounded">
 					{details}
 					<div className="mt-4">
-						{urlLabel}:{" "}
 						<a
 							className="text-blue-500 underline"
 							href={url}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							{urlName}
+							{urlLabel}
 						</a>
 					</div>
 				</div>
