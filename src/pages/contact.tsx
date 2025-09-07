@@ -47,7 +47,7 @@ export default function Contact(): ReactElement {
 					>
 						<a
 							className="opacity-0 fade-in-third mx-10 mb-4 md:my-0 flex items-center justify-center"
-							href="mailto:stanokosorin4@gmail.com"
+							href="mailto:s@kosorin.com"
 						>
 							<AiOutlineMail size="5em" className="text-3xl md:text-5xl" />
 						</a>
