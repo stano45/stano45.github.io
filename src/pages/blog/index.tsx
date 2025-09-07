@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";

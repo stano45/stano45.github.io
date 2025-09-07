@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { ArticleJsonLd, NextSeo } from "next-seo";
 
 import type { BlogPostProps } from "../types";
