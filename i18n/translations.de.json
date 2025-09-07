@@ -149,16 +149,6 @@
 				"type": "GSoC-Projekt"
 			},
 			{
-				"title": "Chrome-Erweiterung zur Visualisierung des Netzwerkverkehrs",
-				"company": "net-mapper",
-				"date": "2024",
-				"details": "net-mapper ist eine Chrome-Erweiterung, die die globalen Ziele deines Internetverkehrs visualisiert. Die Erweiterung protokolliert die IP-Adressen aller Server, mit denen dein Browser kommuniziert, und stellt sie auf einer interaktiven Karte dar, sodass du die physischen Standorte der Server, die die von dir besuchten Websites hosten, sehen kannst. Leider ist die Erweiterung aufgrund wesentlicher Änderungen in den Erweiterungsberechtigungen nicht im Chrome Web Store verfügbar, aber wenn du interessiert bist, kannst du dir den Quellcode ansehen und sie lokal ausführen.",
-				"urlLabel": "Sieh dir das Repository auf GitHub an",
-				"url": "https://github.com/stano45/net-mapper",
-				"urlName": "github.com/stano45/net-mapper",
-				"type": "persönliches Projekt"
-			},
-			{
 				"title": "Portfolio-Website",
 				"company": "kosorin.com",
 				"date": "2023",

@@ -149,16 +149,6 @@
 				"type": "GSoC project"
 			},
 			{
-				"title": "Network Traffic Visualization Chrome Extension",
-				"company": "net-mapper",
-				"date": "2024",
-				"details": "net-mapper is a Chrome extension that visualizes the global destinations of your internet traffic. The extension logs the IP addresses of all servers your browser communicates with and displays them on an interactive map, allowing you to see the physical locations of the servers hosting the websites you visit. Unfortunately, the extension is not available in the Chrome Web Store due to major changes in extension permissions, but if you're interested, you can check out the source code and run it locally.",
-				"urlLabel": "Check out the repository on GitHub",
-				"url": "https://github.com/stano45/net-mapper",
-				"urlName": "github.com/stano45/net-mapper",
-				"type": "personal project"
-			},
-			{
 				"title": "Portfolio Website",
 				"company": "kosorin.com",
 				"date": "2023",

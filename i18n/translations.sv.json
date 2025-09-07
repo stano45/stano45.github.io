@@ -149,16 +149,6 @@
 				"type": "GSoC-projekt"
 			},
 			{
-				"title": "Chrome-tillägg för visualisering av nätverkstrafik",
-				"company": "net-mapper",
-				"date": "2024",
-				"details": "net-mapper är ett Chrome-tillägg som visualiserar de globala destinationerna för din internettrafik. Tillägget loggar IP-adresserna för alla servrar som din webbläsare kommunicerar med och visar dem på en interaktiv karta, så att du kan se de fysiska platserna för servrarna som hostar de webbplatser du besöker. Tyvärr är tillägget inte tillgängligt i Chrome Web Store på grund av stora ändringar i tilläggsbehörigheterna, men om du är intresserad kan du kolla in källkoden och köra det lokalt.",
-				"urlLabel": "Kolla in repositoryn på GitHub",
-				"url": "https://github.com/stano45/net-mapper",
-				"urlName": "github.com/stano45/net-mapper",
-				"type": "personligt projekt"
-			},
-			{
 				"title": "Portfolio-webbplats",
 				"company": "kosorin.com",
 				"date": "2023",

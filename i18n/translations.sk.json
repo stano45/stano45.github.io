@@ -149,16 +149,6 @@
 				"type": "GSoC projekt"
 			},
 			{
-				"title": "Rozšírenie Chrome pre vizualizáciu sieťovej prevádzky",
-				"company": "net-mapper",
-				"date": "2024",
-				"details": "net-mapper je rozšírenie pre Chrome, ktoré vizualizuje globálne destinácie tvojej internetovej prevádzky. Rozšírenie zaznamenáva IP adresy všetkých serverov, s ktorými tvoj prehliadač komunikuje, a zobrazuje ich na interaktívnej mape, čo ti umožňuje vidieť fyzické umiestnenie serverov, ktoré hostia navštevované webové stránky. Bohužiaľ, rozšírenie nie je dostupné v Chrome Web Store kvôli zásadným zmenám v povoleniach rozšírení, ale ak máš záujem, môžeš si prezrieť zdrojový kód a spustiť ho lokálne.",
-				"urlLabel": "Pozri si projekt na Githube",
-				"url": "https://github.com/stano45/net-mapper",
-				"urlName": "github.com/stano45/net-mapper",
-				"type": "osobný projekt"
-			},
-			{
 				"title": "Portfóliová webstránka",
 				"company": "kosorin.com",
 				"date": "2023",
