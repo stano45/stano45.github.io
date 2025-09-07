@@ -25,8 +25,8 @@ export default function work(): ReactElement {
 				>
 					<a
 						className="transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 opacity-0 fade-in-second"
-						href="/stanislav_kosorin_cv.pdf"
-						download="stanislav_kosorin_cv.pdf"
+						href="Stanislav_Kosorin_Resume.pdf"
+						download="Stanislav_Kosorin_Resume.pdf"
 					>
 						<AiOutlineDownload className="text-2xl md:text-4xl" />
 					</a>
