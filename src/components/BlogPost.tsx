@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { ArticleJsonLd, NextSeo } from "next-seo";
 
 import type { BlogPostProps } from "../types";
@@ -29,7 +29,6 @@ export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 				isAccessibleForFree={true}
 			/>
 			<BlogPostHeading level="h1">{post.title}</BlogPostHeading>
-
 			<div className="flex justify-between items-center mb-4">
 				<span className="hidden sm:block text-gray-500">{post.date}</span>
 				<ul className="hidden sm:flex space-x-2">
@@ -43,15 +42,17 @@ export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 					))}
 				</ul>
 			</div>
-
 			<Image
 				src={post.image}
 				alt={post.title}
 				width={1000}
 				height={1000}
 				priority
+				style={{
+					maxWidth: "100%",
+					height: "auto",
+				}}
 			/>
-
 			<div className="text-md md:text-justify">{children}</div>
 		</div>
 	);

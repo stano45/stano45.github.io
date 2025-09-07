@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
@@ -24,7 +24,13 @@ export default function Blog(): ReactElement {
 					>
 						{/* https://stackoverflow.com/a/65134645 */}
 						<div className="w-80 h-44 md:w-96 md:h-64 relative">
-							<Image src={post.image} alt={post.title} layout="fill" priority />
+							<Image
+								src={post.image}
+								alt={post.title}
+								priority
+								fill
+								sizes="100vw"
+							/>
 						</div>
 						<div className="w-full p-4 overflow-hidden">
 							<h2 className="text-lg md:text-2xl text-black font-semibold break-normal">

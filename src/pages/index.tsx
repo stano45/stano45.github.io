@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
 import { NextSeo } from "next-seo";
@@ -63,8 +63,9 @@ export default function About(): ReactElement {
 						className="rounded-full"
 						src={"/ai-campus-pic.webp"}
 						alt={"Picture of Stanislav Kosorin"}
-						layout="fill"
 						priority
+						fill
+						sizes="100vw"
 					/>
 				</div>
 			</div>

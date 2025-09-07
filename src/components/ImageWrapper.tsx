@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import type { ReactElement, ReactNode } from "react";
 
 interface ImageWrapperProps {
@@ -18,6 +18,10 @@ export function ImageWrapper({
 				className="w-full"
 				width={1000}
 				height={1000}
+				style={{
+					maxWidth: "100%",
+					height: "auto",
+				}}
 			/>
 			{description && (
 				<p className="text-sm text-gray-300 italic">{description}</p>
