@@ -42,7 +42,7 @@
 				"urlLabel": "Pozri si stránku S3 XOZ",
 				"url": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
 				"urlName": "aws.amazon.com/s3/storage-classes/express-one-zone/",
-				"type": "práca"
+				"type": "stáž"
 			},
 			{
 				"title": "Softvérový inžinier",
@@ -52,7 +52,7 @@
 				"urlLabel": "Pozri si webstránku Cresta",
 				"url": "https://www.cresta.com",
 				"urlName": "cresta.com",
-				"type": "práca"
+				"type": "študentská práca"
 			},
 			{
 				"title": "Softvérový inžinier",
@@ -62,7 +62,7 @@
 				"urlLabel": "Pozri si webstránku PTX",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
-				"type": "práca"
+				"type": "študentská práca"
 			}
 		]
 	},
@@ -79,7 +79,7 @@
 				"urlLabel": "Pozri si webstránku univerzity",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "vzdelanie"
+				"type": "magisterské štúdium"
 			},
 			{
 				"title": "Bakalárska práca: Migrácia kontajnerov na LEO Edge",
@@ -99,7 +99,7 @@
 				"urlLabel": "Pozri si webstránku univerzity",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "vzdelanie"
+				"type": "bakalárske štúdium"
 			},
 			{
 				"title": "Gymnázium",
@@ -109,7 +109,7 @@
 				"urlLabel": "Pozri si webstránku školy (iba v slovenčine)",
 				"url": "https://gymlsba.edupage.org/?lang=en",
 				"urlName": "gymlsba.edupage.org",
-				"type": "vzdelanie"
+				"type": "gymnázium"
 			}
 		]
 	},

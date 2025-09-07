@@ -42,7 +42,7 @@
 				"urlLabel": "Besuche die S3 XOZ Website",
 				"url": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
 				"urlName": "aws.amazon.com/s3/storage-classes/express-one-zone/",
-				"type": "Arbeit"
+				"type": "Praktikum"
 			},
 			{
 				"title": "Softwareentwickler",
@@ -52,7 +52,7 @@
 				"urlLabel": "Besuche die Website von Cresta",
 				"url": "https://www.cresta.com",
 				"urlName": "cresta.com",
-				"type": "Arbeit"
+				"type": "Werkstudium"
 			},
 			{
 				"title": "Softwareentwickler",
@@ -62,7 +62,7 @@
 				"urlLabel": "Besuche die Website von PTX",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
-				"type": "Arbeit"
+				"type": "Werkstudium"
 			}
 		]
 	},
@@ -79,7 +79,7 @@
 				"urlLabel": "Besuche die Website der Universität",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "Bildung"
+				"type": "Masterstudium"
 			},
 			{
 				"title": "Bachelorarbeit: Container-Migration am LEO Edge",
@@ -99,7 +99,7 @@
 				"urlLabel": "Besuche die Website der Universität",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "Bildung"
+				"type": "Bachelorstudium"
 			},
 			{
 				"title": "Gymnasium",
@@ -109,7 +109,7 @@
 				"urlLabel": "Schulwebsite (nur auf Slowakisch)",
 				"url": "https://gymlsba.edupage.org/?lang=de",
 				"urlName": "gymlsba.edupage.org",
-				"type": "Bildung"
+				"type": "Gymnasium"
 			}
 		]
 	},

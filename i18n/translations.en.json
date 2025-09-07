@@ -42,7 +42,7 @@
 				"urlLabel": "Visit the S3 XOZ website",
 				"url": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
 				"urlName": "aws.amazon.com/s3/storage-classes/express-one-zone/",
-				"type": "work"
+				"type": "internship"
 			},
 			{
 				"title": "Software Engineer",
@@ -52,7 +52,7 @@
 				"urlLabel": "Visit Cresta's website",
 				"url": "https://www.cresta.com",
 				"urlName": "cresta.com",
-				"type": "work"
+				"type": "working student"
 			},
 			{
 				"title": "Software Engineer",
@@ -62,7 +62,7 @@
 				"urlLabel": "Visit PTX's website",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
-				"type": "work"
+				"type": "working student"
 			}
 		]
 	},
@@ -79,7 +79,7 @@
 				"urlLabel": "Visit the university website",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "education"
+				"type": "master's degree"
 			},
 			{
 				"title": "Bachelor's Thesis: Container Migration on LEO Edge",
@@ -89,7 +89,7 @@
 				"urlLabel": "Check out the repository on GitHub",
 				"url": "https://github.com/stano45/celestial-container-migration",
 				"urlName": "github.com/stano45/celestial-container-migration",
-				"type": "thesis project"
+				"type": "bachelor's thesis"
 			},
 			{
 				"title": "B.Sc. Computer Science",
@@ -99,7 +99,7 @@
 				"urlLabel": "Visit the university website",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "education"
+				"type": "bachelor's degree"
 			},
 			{
 				"title": "High School",
@@ -109,7 +109,7 @@
 				"urlLabel": "School website (only in Slovak)",
 				"url": "https://gymlsba.edupage.org/?lang=en",
 				"urlName": "gymlsba.edupage.org",
-				"type": "education"
+				"type": "high school"
 			}
 		]
 	},

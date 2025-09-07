@@ -42,7 +42,7 @@
 				"urlLabel": "Besök S3 XOZ webbplats",
 				"url": "https://aws.amazon.com/s3/storage-classes/express-one-zone/",
 				"urlName": "aws.amazon.com/s3/storage-classes/express-one-zone/",
-				"type": "work"
+				"type": "praktik"
 			},
 			{
 				"title": "Mjukvaruutvecklare",
@@ -52,7 +52,7 @@
 				"urlLabel": "Besök Crestas webbplats",
 				"url": "https://www.cresta.com",
 				"urlName": "cresta.com",
-				"type": "arbete"
+				"type": "studentmedarbetare"
 			},
 			{
 				"title": "Mjukvaruutvecklare",
@@ -62,7 +62,7 @@
 				"urlLabel": "Besök PTX:s webbplats",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
-				"type": "arbete"
+				"type": "studentmedarbetare"
 			}
 		]
 	},
@@ -79,7 +79,7 @@
 				"urlLabel": "Besök universitetets webbplats",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "utbildning"
+				"type": "masterexamen"
 			},
 			{
 				"title": "Kandidatuppsats: Containermigration på LEO Edge",
@@ -99,7 +99,7 @@
 				"urlLabel": "Besök universitetets webbplats",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
-				"type": "arbete"
+				"type": "kandidatexamen"
 			},
 			{
 				"title": "Gymnasium",
@@ -109,7 +109,7 @@
 				"urlLabel": "Skolans webbplats (endast på slovakiska)",
 				"url": "https://gymlsba.edupage.org/?lang=en",
 				"urlName": "gymlsba.edupage.org",
-				"type": "utbildning"
+				"type": "gymnasieskola"
 			}
 		]
 	},
