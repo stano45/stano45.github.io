@@ -37,14 +37,14 @@ export default function About(): ReactElement {
 						{t("about.job.outro")}
 					</p>
 					<p>
-						{t("about.cv.intro")}
+						{t("about.work.intro")}
 						<Link
-							href={{ pathname: "/cv", query: query }}
+							href={{ pathname: "/work", query: query }}
 							className="text-blue-500 underline"
 						>
-							{t("about.cv.content")}
+							{t("about.work.content")}
 						</Link>
-						{t("about.cv.outro")}
+						{t("about.work.outro")}
 					</p>
 					<p>
 						{t("about.projects.intro")}

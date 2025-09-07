@@ -10,7 +10,7 @@
 			"content": "AWS",
 			"outro": ", där jag jobbar med ett projekt i Simple Storage Service (S3)-teamet i Berlin."
 		},
-		"cv": {
+		"work": {
 			"intro": "Du kan kolla in mer av vad jag har gjort på mitt ",
 			"content": "interaktiva CV",
 			"outro": "."
@@ -29,8 +29,8 @@
 		"description": "Stanislav Kosorins blogg, där du kan lära dig mer om hans intressen, upplevelser och idéer",
 		"heading": "Blogg"
 	},
-	"cv": {
-		"title": "CV",
+	"work": {
+		"title": "work",
 		"description": "En interaktiv CV för Stanislav Kosorin, som beskriver hans utbildning, arbetslivserfarenhet och färdigheter",
 		"download": "Ladda ner PDF",
 		"content": [

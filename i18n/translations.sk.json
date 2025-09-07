@@ -10,7 +10,7 @@
 			"content": "AWS",
 			"outro": ", kde pracujem na projekte so Simple Storage Service (S3) tímom v Berlíne."
 		},
-		"cv": {
+		"work": {
 			"intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si môj ",
 			"content": " životopis",
 			"outro": "."
@@ -29,7 +29,7 @@
 		"description": "Blog Stanislav Kosorin, kde sa môžete dozvedieť viac o jeho záujmoch, zážitkoch a nápadoch",
 		"heading": "Blog"
 	},
-	"cv": {
+	"work": {
 		"title": "Životopis",
 		"description": "Interaktívny životopis Stanislava Kosorina, v ktorom sú popísané jeho vzdelanie, pracovné skúsenosti a zručnosti",
 		"download": "Stianhuť PDF",

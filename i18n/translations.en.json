@@ -10,7 +10,7 @@
 			"content": "AWS",
 			"outro": ", working on a project with the Simple Storage Service (S3) team in Berlin."
 		},
-		"cv": {
+		"work": {
 			"intro": "You can check out more of what I've been up to on my ",
 			"content": "interactive resume",
 			"outro": "."
@@ -29,7 +29,7 @@
 		"description": "The personal blog of Stanislav Kosorin, including articles about programming, web development, and other topics",
 		"heading": "Blog"
 	},
-	"cv": {
+	"work": {
 		"title": "Resume",
 		"description": "An interactive resume of Stanislav Kosorin, outlining his education, work experience, and skills",
 		"download": "Download PDF",

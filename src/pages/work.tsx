@@ -7,19 +7,19 @@ import { Tooltip } from "@heroui/tooltip";
 import { type PeriodProps } from "@/components/Period";
 import { PeriodTimeline } from "@/components/PeriodTimeline";
 
-export default function CV(): ReactElement {
+export default function work(): ReactElement {
 	const { t } = useTranslation();
-	const periods: PeriodProps[] = t("cv.content");
+	const periods: PeriodProps[] = t("work.content");
 
 	return (
 		<div className="w-full h-full">
-			<NextSeo title={t("cv.title")} description={t("cv.description")} />
+			<NextSeo title={t("work.title")} description={t("work.description")} />
 			<div className="flex justify-between items-center mb-8">
 				<h1 className="text-2xl md:text-4xl font-bold text-center md:text-left leading-relaxed">
-					{t("cv.title")}
+					{t("work.title")}
 				</h1>
 				<Tooltip
-					content={<span className="text-xl">{t("cv.download")}</span>}
+					content={<span className="text-xl">{t("work.download")}</span>}
 					offset={-0.5}
 					closeDelay={150}
 				>
