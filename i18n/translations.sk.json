@@ -127,7 +127,7 @@
 				"title": "Aplikácia na učenie slovenčiny",
 				"company": "LearnSlovak.sk",
 				"date": "2025",
-				"details": "Keďže Duolingo neponúka slovenčinu, rozhodol som sa vytvoriť vlastnú aplikáciu a pomôcť mojej priateľke rýchlejšie sa naučiť po slovensky. Je to full-stack projekt s Next.js frontendom a Python (Flask) backendom. Aplikácia ponúka viacero lekcií a cvičný režim.",
+				"details": "Keďže Duolingo neponúka slovenčinu, rozhodol som sa vytvoriť vlastnú aplikáciu a pomôcť mojej priateľke rýchlejšie sa naučiť po slovensky. Je to full-stack projekt s Next.js frontendom a Go backendom. Aplikácia ponúka viacero lekcií a cvičný režim.",
 				"urlLabel": "Vyskúšaj appku tu",
 				"url": "https://learnslovak.sk",
 				"urlName": "learnslovak.sk",

@@ -127,7 +127,7 @@
 				"title": "App för inlärning av slovakiska",
 				"company": "LearnSlovak.sk",
 				"date": "2025",
-				"details": "Eftersom Duolingo inte erbjuder slovakiska bestämde jag mig för att skapa en egen app för att hjälpa min flickvän att lära sig språket enklare. Det är ett fullstack-projekt med ett Next.js-frontend och ett Python (Flask)-backend. Appen erbjuder flera lektioner och ett övningsläge.",
+				"details": "Eftersom Duolingo inte erbjuder slovakiska bestämde jag mig för att skapa en egen app för att hjälpa min flickvän att lära sig språket enklare. Det är ett fullstack-projekt med ett Next.js-frontend och ett Go-backend. Appen erbjuder flera lektioner och ett övningsläge.",
 				"urlLabel": "Prova själv, det är helt gratis",
 				"url": "https://learnslovak.sk",
 				"urlName": "learnslovak.sk",
