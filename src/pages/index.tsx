@@ -39,7 +39,7 @@ export default function About(): ReactElement {
 					<p>
 						{t("about.job.intro")}
 						<Link
-							href={{ pathname: "https://aws.amazon.com/s3" }}
+							href={{ pathname: "https://www.forgent.ai" }}
 							className="text-blue-500 underline"
 						>
 							{t("about.job.content")}

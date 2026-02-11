@@ -11,9 +11,9 @@
 			"outro": "."
 		},
 		"job": {
-			"intro": "Ich mache derzeit ein Praktikum als Software Development Engineer (SDE) bei ",
-			"content": "AWS",
-			"outro": ", wo ich an einem Projekt mit dem Simple Storage Service (S3) Team in Berlin arbeite."
+			"intro": "Ich bin Founding Engineer bei ",
+			"content": "Forgent",
+			"outro": ", wo wir KI-Agenten bauen, die das deutsche öffentliche Vergabewesen automatisieren — von wochenlangen Ausschreibungen zu Angeboten in Stunden."
 		},
 		"work": {
 			"intro": "Mehr über meine bisherige Erfahrung findet man auf der ",
@@ -40,6 +40,16 @@
 		"open": "Lebenslauf als PDF öffnen",
 		"download": "Lebenslauf als PDF herunterladen",
 		"content": [
+			{
+				"title": "Founding Engineer",
+				"company": "Forgent",
+				"date": "Okt 2025 - heute",
+				"details": "Entwickle KI-Agenten, die das deutsche öffentliche Vergabewesen End-to-End automatisieren — von der Erkennung relevanter Ausschreibungen über EU-Portale bis zur Erstellung konformer Angebote. Forgent reduziert 80 %+ der manuellen Vergabearbeit und macht aus wochenlangen Prozessen Stunden.",
+				"urlLabel": "Besuche Forgent",
+				"url": "https://www.forgent.ai",
+				"urlName": "forgent.ai",
+				"type": "Teilzeit"
+			},
 			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",

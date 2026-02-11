@@ -11,9 +11,9 @@
 			"outro": "."
 		},
 		"job": {
-			"intro": "Momentálne robím stáž ako Software Development Engineer (SDE) v ",
-			"content": "AWS",
-			"outro": ", kde pracujem na projekte so Simple Storage Service (S3) tímom v Berlíne."
+			"intro": "Som Founding Engineer vo ",
+			"content": "Forgent",
+			"outro": ", kde staviame AI agentov, ktorí automatizujú nemecké verejné obstarávanie — z týždňov ponukovania na hodiny."
 		},
 		"work": {
 			"intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si ",
@@ -40,6 +40,16 @@
 		"open": "Otvoriť PDF životopis",
 		"download": "Stiahnuť PDF životopis",
 		"content": [
+			{
+				"title": "Founding Engineer",
+				"company": "Forgent",
+				"date": "okt 2025 - dnes",
+				"details": "Staviam AI agentov, ktorí automatizujú nemecké verejné obstarávanie od A po Z — od objavovania tendrov na EU portáloch až po tvorbu víťazných ponúk. Forgent eliminuje 80 %+ manuálnej práce a mení týždne ponukovania na hodiny.",
+				"urlLabel": "Pozri si Forgent",
+				"url": "https://www.forgent.ai",
+				"urlName": "forgent.ai",
+				"type": "čiastočný úväzok"
+			},
 			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",

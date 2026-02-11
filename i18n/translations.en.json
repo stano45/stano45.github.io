@@ -11,9 +11,9 @@
 			"outro": "."
 		},
 		"job": {
-			"intro": "I am currently doing a Software Development Engineer (SDE) internship at ",
-			"content": "AWS",
-			"outro": ", working on a project with the Simple Storage Service (S3) team in Berlin."
+			"intro": "I'm a Founding Engineer at ",
+			"content": "Forgent",
+			"outro": ", building AI agents that automate German public procurement — turning weeks of bidding into hours."
 		},
 		"work": {
 			"intro": "You can check out more of what I've been up to on my ",
@@ -40,6 +40,16 @@
 		"open": "Open PDF Resume",
 		"download": "Download PDF Resume",
 		"content": [
+			{
+				"title": "Founding Engineer",
+				"company": "Forgent",
+				"date": "Oct 2025 - Present",
+				"details": "Building AI agents that automate German public procurement end-to-end — from discovering tenders across EU portals to drafting winning proposals. Forgent cuts 80%+ of manual bidding work, turning weeks-long processes into hours.",
+				"urlLabel": "Check out Forgent",
+				"url": "https://www.forgent.ai",
+				"urlName": "forgent.ai",
+				"type": "part-time"
+			},
 			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",
