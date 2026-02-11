@@ -146,16 +146,6 @@
 				"type": "personligt projekt"
 			},
 			{
-				"title": "HEIC till JPEG-omvandlare i webbläsaren",
-				"company": "heic2jpeg.eu",
-				"date": "2025",
-				"details": "Det här verktyget låter dig konvertera iPhone HEIC-bilder till JPEG direkt i din webbläsare, utan att ladda upp dina filer till en server. Jag skapade det eftersom de befintliga verktygen antingen inte tillät batchkonvertering eller krävde att bilder laddades upp till en tredjepartsserver.",
-				"urlLabel": "Prova det själv",
-				"url": "https://heic2jpeg.eu",
-				"urlName": "heic2jpeg.eu",
-				"type": "personligt projekt"
-			},
-			{
 				"title": "Google Summer of Code",
 				"company": "P4 Language Consortium",
 				"date": "2024",
