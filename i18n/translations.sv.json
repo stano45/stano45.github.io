@@ -11,9 +11,9 @@
 			"outro": "."
 		},
 		"job": {
-			"intro": "Jag gör för närvarande en praktik som Software Development Engineer (SDE) hos ",
-			"content": "AWS",
-			"outro": ", där jag jobbar med ett projekt i Simple Storage Service (S3)-teamet i Berlin."
+			"intro": "Jag är Founding Engineer på ",
+			"content": "Forgent",
+			"outro": ", där vi bygger AI-agenter som automatiserar tyska offentliga upphandlingar — från veckolånga anbudsprocesser till timmar."
 		},
 		"work": {
 			"intro": "Du kan kolla in mer av vad jag har gjort på ",
@@ -40,6 +40,16 @@
 		"open": "Öppna PDF",
 		"download": "Ladda ner PDF",
 		"content": [
+			{
+				"title": "Founding Engineer",
+				"company": "Forgent",
+				"date": "okt 2025 - pågående",
+				"details": "Bygger AI-agenter som automatiserar tyska offentliga upphandlingar från början till slut — från att hitta anbud på EU-portaler till att skriva vinnande förslag. Forgent eliminerar 80 %+ av manuellt anbudsarbete och förvandlar veckolånga processer till timmar.",
+				"urlLabel": "Kolla in Forgent",
+				"url": "https://www.forgent.ai",
+				"urlName": "forgent.ai",
+				"type": "deltid"
+			},
 			{
 				"title": "Software Dev Engineer Intern",
 				"company": "AWS",
