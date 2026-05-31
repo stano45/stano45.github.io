@@ -56,7 +56,7 @@ export function LanguagePicker(): ReactElement {
 			<button
 				type="button"
 				onClick={() => setDropdownOpen(!dropdownOpen)}
-				className="p-1 inline-flex justify-between items-center w-full text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
+				className="p-1 inline-flex justify-between items-center w-full text-sm font-medium text-white bg-blue-700 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500  "
 			>
 				<ReactCountryFlag
 					countryCode={selectedLang.flag}
@@ -69,7 +69,7 @@ export function LanguagePicker(): ReactElement {
 				/>
 			</button>
 			{dropdownOpen && (
-				<div className="origin-top-right absolute right-0 mt-2 rounded-md shadow-lg w-full bg-blue-500 ring-1 ring-black ring-opacity-5">
+				<div className="origin-top-right absolute right-0 mt-2 rounded-md shadow-lg w-full bg-blue-500 ring-1 ring-black/5">
 					<ul className="py-1 text-sm">
 						{languages.map((lang) => (
 							<>
@@ -81,7 +81,7 @@ export function LanguagePicker(): ReactElement {
 										<button
 											type="button"
 											onClick={() => onSelectLang(lang)}
-											className="inline-flex justify-between items-center w-full p-1 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+											className="inline-flex justify-between items-center w-full p-1 text-sm font-medium text-white bg-blue-500 border border-transparent rounded-md hover:bg-white hover:text-teal-500 focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
 										>
 											<ReactCountryFlag
 												countryCode={lang.flag}

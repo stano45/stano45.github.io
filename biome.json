@@ -1,22 +1,21 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.3/schema.json",
+	"$schema": "https://biomejs.dev/schemas/2.4.16/schema.json",
 	"vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": ["./.next", "./node_modules", "./out"]
+		"includes": ["**", "!.next", "!node_modules", "!out"]
 	},
 	"formatter": { "enabled": true, "indentStyle": "tab" },
-	"organizeImports": { "enabled": true },
+	"assist": { "actions": { "source": { "organizeImports": "on" } } },
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": false,
-			"a11y": { "noBlankTarget": "error" },
+			"a11y": {},
 			"complexity": {
 				"noExtraBooleanCast": "error",
-				"noMultipleSpacesInRegularExpressionLiterals": "error",
 				"noUselessCatch": "error",
-				"noWith": "error"
+				"noAdjacentSpacesInRegex": "error"
 			},
 			"correctness": {
 				"noChildrenProp": "error",
@@ -28,7 +27,6 @@
 				"noInnerDeclarations": "error",
 				"noInvalidBuiltinInstantiation": "error",
 				"noInvalidConstructorSuper": "error",
-				"noNewSymbol": "error",
 				"noNonoctalDecimalEscape": "error",
 				"noPrecisionLoss": "error",
 				"noSelfAssign": "error",
@@ -45,9 +43,13 @@
 				"useIsNan": "error",
 				"useJsxKeyInIterable": "error",
 				"useValidForDirection": "error",
-				"useYield": "error"
+				"useYield": "error",
+				"useValidTypeof": "error"
 			},
-			"security": { "noDangerouslySetInnerHtmlWithChildren": "error" },
+			"security": {
+				"noDangerouslySetInnerHtmlWithChildren": "error",
+				"noBlankTarget": "error"
+			},
 			"suspicious": {
 				"noAssignInExpressions": "error",
 				"noAsyncPromiseExecutor": "error",
@@ -75,60 +77,54 @@
 				"noSparseArray": "error",
 				"noUnsafeNegation": "error",
 				"useGetterReturn": "error",
-				"useValidTypeof": "error"
+				"noWith": "error"
 			}
 		},
-		"ignore": ["**/next.config.mjs"]
+		"includes": ["**", "!**/next.config.mjs"]
 	},
 	"javascript": { "formatter": { "quoteStyle": "double" } },
 	"overrides": [
 		{
-			"include": ["**/*.{ts,tsx}"],
+			"includes": ["**/*.{ts,tsx}"],
 			"linter": { "rules": { "complexity": { "useOptionalChain": "error" } } }
 		},
 		{
-			"ignore": ["*.test.{js,jsx,ts,tsx}"],
-			"include": ["**/*.{js,jsx,ts,tsx}"]
+			"includes": ["**/*.{js,jsx,ts,tsx}", "!**/*.test.{js,jsx,ts,tsx}"]
 		},
 		{
-			"include": ["**/*.{ts,tsx}"],
+			"includes": ["**/*.{ts,tsx}"],
 			"linter": { "rules": { "complexity": { "useOptionalChain": "error" } } }
 		},
 		{
-			"ignore": ["*.test.{js,jsx,ts,tsx}"],
-			"include": ["**/*.{js,jsx,ts,tsx}"]
+			"includes": ["**/*.{js,jsx,ts,tsx}", "!**/*.test.{js,jsx,ts,tsx}"]
 		},
 		{
-			"include": ["**/*.{ts,tsx}"],
+			"includes": ["**/*.{ts,tsx}"],
 			"linter": { "rules": { "complexity": { "useOptionalChain": "error" } } }
 		},
 		{
-			"ignore": ["*.test.{js,jsx,ts,tsx}"],
-			"include": ["**/*.{js,jsx,ts,tsx}"]
+			"includes": ["**/*.{js,jsx,ts,tsx}", "!**/*.test.{js,jsx,ts,tsx}"]
 		},
 		{
-			"include": ["**/*.{ts,tsx}"],
+			"includes": ["**/*.{ts,tsx}"],
 			"linter": { "rules": { "complexity": { "useOptionalChain": "error" } } }
 		},
 		{
-			"ignore": ["*.test.{js,jsx,ts,tsx}"],
-			"include": ["**/*.{js,jsx,ts,tsx}"]
+			"includes": ["**/*.{js,jsx,ts,tsx}", "!**/*.test.{js,jsx,ts,tsx}"]
 		},
 		{
-			"include": ["**/*.{ts,tsx}"],
+			"includes": ["**/*.{ts,tsx}"],
 			"linter": { "rules": { "complexity": { "useOptionalChain": "error" } } }
 		},
 		{
-			"ignore": ["*.test.{js,jsx,ts,tsx}"],
-			"include": ["**/*.{js,jsx,ts,tsx}"]
+			"includes": ["**/*.{js,jsx,ts,tsx}", "!**/*.test.{js,jsx,ts,tsx}"]
 		},
 		{
-			"include": ["**/*.{ts,tsx}"],
+			"includes": ["**/*.{ts,tsx}"],
 			"linter": { "rules": { "complexity": { "useOptionalChain": "error" } } }
 		},
 		{
-			"ignore": ["*.test.{js,jsx,ts,tsx}"],
-			"include": ["**/*.{js,jsx,ts,tsx}"]
+			"includes": ["**/*.{js,jsx,ts,tsx}", "!**/*.test.{js,jsx,ts,tsx}"]
 		}
 	]
 }

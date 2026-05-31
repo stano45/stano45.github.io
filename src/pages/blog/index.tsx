@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguageQuery, useTranslation } from "next-export-i18n";
-import { NextSeo } from "next-seo";
+import { Seo } from "@/components/Seo";
 import { ReactElement } from "react";
 
 import { CSGuidePost, internationalizationPost } from "@/blogposts";
@@ -14,7 +14,7 @@ export default function Blog(): ReactElement {
 
 	return (
 		<div className="w-full">
-			<NextSeo title={t("blog.title")} description={t("blog.description")} />
+			<Seo title={t("blog.title")} description={t("blog.description")} />
 			<div className="w-full flex flex-col items-center justify-center p-4 md:p-10 gap-4 md:gap-8">
 				{POSTS.map((post) => (
 					<Link

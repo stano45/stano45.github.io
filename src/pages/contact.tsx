@@ -1,6 +1,6 @@
 import { Tooltip } from "@heroui/tooltip";
 import { useTranslation } from "next-export-i18n";
-import { NextSeo } from "next-seo";
+import { Seo } from "@/components/Seo";
 import { ReactElement } from "react";
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
@@ -9,10 +9,7 @@ export default function Contact(): ReactElement {
 
 	return (
 		<div className="w-full flex flex-col items-center justify-center">
-			<NextSeo
-				title={t("contact.title")}
-				description={t("contact.description")}
-			/>
+			<Seo title={t("contact.title")} description={t("contact.description")} />
 			<div className="relative mt-4 md:top-2/3">
 				<div className="h-full w-full flex flex-col md:flex-row justify-center items-center">
 					<Tooltip

@@ -13,7 +13,7 @@
 		"job": {
 			"intro": "Ich bin Founding Engineer bei ",
 			"content": "Forgent",
-			"outro": ", wo wir KI-Agenten bauen, die das deutsche öffentliche Vergabewesen automatisieren — von wochenlangen Ausschreibungen zu Angeboten in Stunden."
+			"outro": ", wo wir KI-Agenten bauen, die das deutsche öffentliche Vergabewesen automatisieren."
 		},
 		"work": {
 			"intro": "Mehr über meine bisherige Erfahrung findet man auf der ",
@@ -44,11 +44,11 @@
 				"title": "Founding Engineer",
 				"company": "Forgent",
 				"date": "Okt 2025 - heute",
-				"details": "Entwickle KI-Agenten, die das deutsche öffentliche Vergabewesen End-to-End automatisieren — von der Erkennung relevanter Ausschreibungen über EU-Portale bis zur Erstellung konformer Angebote. Forgent reduziert 80 %+ der manuellen Vergabearbeit und macht aus wochenlangen Prozessen Stunden.",
+				"details": "Entwickle KI-Agenten, die das deutsche öffentliche Vergabewesen automatisieren: vom Finden relevanter Ausschreibungen auf EU-Portalen über das Erstellen von Angeboten bis zur Konformitätsprüfung. Die Plattform übernimmt rund 80 % der manuellen Arbeit, die eine Ausschreibung sonst erfordert.",
 				"urlLabel": "Besuche Forgent",
 				"url": "https://www.forgent.ai",
 				"urlName": "forgent.ai",
-				"type": "Teilzeit"
+				"type": "Vollzeit"
 			},
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +74,7 @@
 				"title": "Softwareentwickler",
 				"company": "PTX tech",
 				"date": "Nov 2021 - Nov 2022",
-				"details": "Bei PTX habe ich an der Entwicklung eines fortschrittlichen Echtzeit-3D-Erkennungssystems mitgewirkt. Konkret habe ich eine effiziente, multithreaded Pipeline in C++ (Qt5-Framework) entworfen, um 3D-Punktwolken effektiv zu verarbeiten. Zudem habe ich einen GPU-beschleunigten SLAM-Algorithmus (Simultaneous Localization and Mapping) in das System integriert. Diese Integration führte zu einer etwa 10-fachen Beschleunigung der Verarbeitungszeit.",
+				"details": "Bei PTX habe ich an einem Echtzeit-3D-Erkennungssystem mitgearbeitet. Ich habe eine multithreaded Pipeline in C++ (Qt5-Framework) entworfen, die 3D-Punktwolken verarbeitet, und einen GPU-beschleunigten SLAM-Algorithmus (Simultaneous Localization and Mapping) integriert, was die Verarbeitung um etwa das 10-fache beschleunigt hat.",
 				"urlLabel": "Besuche die Website von PTX",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
@@ -112,7 +112,7 @@
 				"title": "B.Sc. Informatik",
 				"company": "Technische Universität Berlin",
 				"date": "Okt 2020 - Apr 2024",
-				"details": "Während meines Bachelorstudiums habe ich mir eine solide Grundlage in Programmierung, Algorithmen und Softwareentwicklung erarbeitet, mit Schwerpunkt auf der Lösung komplexer Probleme und effektiver Teamarbeit. In meiner Abschlussarbeit habe ich die Machbarkeit einer proaktiven Container-Migration in einer simulierten LEO-Edge-Umgebung (Low-Earth Orbit) untersucht. Die vollständige Arbeit sowie der Quellcode sind auf meinem GitHub verfügbar.",
+				"details": "Während meines Bachelorstudiums habe ich mir eine solide Grundlage in Programmierung, Algorithmen und Softwareentwicklung erarbeitet, mit vielen praktischen Projekten im Team. In meiner Abschlussarbeit habe ich die Machbarkeit einer proaktiven Container-Migration in einer simulierten LEO-Edge-Umgebung (Low-Earth Orbit) untersucht. Die vollständige Arbeit sowie der Quellcode sind auf meinem GitHub verfügbar.",
 				"urlLabel": "Besuche die Website der Universität",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
@@ -169,7 +169,7 @@
 				"title": "Rust Microservice-Codegenerator",
 				"company": "TU Berlin",
 				"date": "2023",
-				"details": "Crustagen ist ein Rust-Codegenerator, der AsyncAPI-Spezifikationen als Eingabe nimmt und Rust-Code zusammen mit allen erforderlichen Abhängigkeiten und automatisch generierter Dokumentation erzeugt. Er wurde als effizientes Tool entwickelt, um AsyncAPI-Spezifikationen in Rust-Projekte umzuwandeln, die bereit sind, gebaut und ausgeführt zu werden.",
+				"details": "Crustagen ist ein Rust-Codegenerator, der AsyncAPI-Spezifikationen als Eingabe nimmt und Rust-Code zusammen mit allen erforderlichen Abhängigkeiten und automatisch generierter Dokumentation erzeugt. Er wandelt AsyncAPI-Spezifikationen in Rust-Projekte um, die direkt gebaut und ausgeführt werden können.",
 				"urlLabel": "Sieh dir das Repository auf GitHub an",
 				"url": "https://github.com/Programmierpraktikum-MVA/AsyncAPI",
 				"urlName": "github.com/Programmierpraktikum-MVA/AsyncAPI",

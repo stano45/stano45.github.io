@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { useTranslation } from "next-export-i18n";
-import { NextSeo } from "next-seo";
+import { Seo } from "@/components/Seo";
 import { AiOutlineDownload, AiOutlineFilePdf } from "react-icons/ai";
 import { Tooltip } from "@heroui/tooltip";
 
@@ -13,7 +13,7 @@ export default function Education(): ReactElement {
 
 	return (
 		<div className="w-full h-full">
-			<NextSeo
+			<Seo
 				title={t("education.title")}
 				description={t("education.description")}
 			/>

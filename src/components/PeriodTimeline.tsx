@@ -1,6 +1,5 @@
 import { Fragment, ReactElement } from "react";
 import { useTranslation } from "next-export-i18n";
-import { NextSeo } from "next-seo";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Tooltip } from "@heroui/tooltip";
 
@@ -12,7 +11,7 @@ interface PeriodTimelineProps {
 
 export function PeriodTimeline({ periods }: PeriodTimelineProps): ReactElement {
 	return (
-		<div className="grid grid-cols-[auto,1fr] gap-x-4">
+		<div className="grid grid-cols-[auto_1fr] gap-x-4">
 			{periods.map((period, index) => (
 				<Fragment key={`${period.title}-${period.date}`}>
 					<div className="relative flex flex-col items-center">
