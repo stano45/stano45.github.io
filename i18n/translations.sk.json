@@ -13,7 +13,7 @@
 		"job": {
 			"intro": "Som Founding Engineer vo ",
 			"content": "Forgent",
-			"outro": ", kde staviame AI agentov, ktorí automatizujú nemecké verejné obstarávanie — z týždňov ponukovania na hodiny."
+			"outro": ", kde staviame AI agentov, ktorí automatizujú nemecké verejné obstarávanie."
 		},
 		"work": {
 			"intro": "Ak chceš vedieť viac o mojej doterajšej práci, pozri si ",
@@ -44,11 +44,11 @@
 				"title": "Founding Engineer",
 				"company": "Forgent",
 				"date": "okt 2025 - dnes",
-				"details": "Staviam AI agentov, ktorí automatizujú nemecké verejné obstarávanie od A po Z — od objavovania tendrov na EU portáloch až po tvorbu víťazných ponúk. Forgent eliminuje 80 %+ manuálnej práce a mení týždne ponukovania na hodiny.",
+				"details": "Staviam AI agentov, ktorí automatizujú nemecké verejné obstarávanie: od hľadania relevantných tendrov na EU portáloch cez tvorbu ponúk až po kontrolu súladu. Platforma preberá približne 80 % manuálnej práce, ktorú tender bežne vyžaduje.",
 				"urlLabel": "Pozri si Forgent",
 				"url": "https://www.forgent.ai",
 				"urlName": "forgent.ai",
-				"type": "čiastočný úväzok"
+				"type": "plný úväzok"
 			},
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +74,7 @@
 				"title": "Softvérový inžinier",
 				"company": "PTX tech",
 				"date": "nov 2021 - nov 2022",
-				"details": "V PTX tech som prispel k vývoju pokročilého 3D detekčného systému v reálnom čase. Konkrétne som navrhol efektívnu, viacvláknovú pipeline v C++ (Qt5 framework) na spracovanie 3D bodových oblakov. Tiež som integroval GPU-akcelerovaný algoritmus pre simultánnu lokalizáciu a mapovanie (SLAM) do systému. Táto úspešná integrácia viedla celkovo k približne 10-násobnému zrýchleniu.",
+				"details": "V PTX tech som pracoval na 3D detekčnom systéme v reálnom čase. Navrhol som viacvláknovú pipeline v C++ (Qt5 framework) na spracovanie 3D bodových oblakov a integroval GPU-akcelerovaný algoritmus pre simultánnu lokalizáciu a mapovanie (SLAM), čím sa spracovanie zrýchlilo približne 10-násobne.",
 				"urlLabel": "Pozri si webstránku PTX",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
@@ -112,7 +112,7 @@
 				"title": "B.Sc. Informatika",
 				"company": "Technische Universität Berlin",
 				"date": "okt 2020 - apr 2024",
-				"details": "Počas bakalárskeho štúdia som získal solídne základy v programovaní, algoritmoch a vývoji softvéru, so zameraním na riešenie zložitých problémov a efektívnu tímovú spoluprácu. Vo svojej diplomovej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom LEO edge prostredí. Celá práca a zdrojový kód sú dostupné na mojom GitHub-e.",
+				"details": "Počas bakalárskeho štúdia som získal solídne základy v programovaní, algoritmoch a vývoji softvéru, spolu s množstvom praktických tímových projektov. Vo svojej diplomovej práci som skúmal uskutočniteľnosť proaktívnej migrácie kontajnerov v simulovanom LEO edge prostredí. Celá práca a zdrojový kód sú dostupné na mojom GitHub-e.",
 				"urlLabel": "Pozri si webstránku univerzity",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
@@ -169,7 +169,7 @@
 				"title": "Rust generátor kódu pre mikroslužby",
 				"company": "TU Berlin",
 				"date": "2023",
-				"details": "Crustagen je generátor kódu v jazyku Rust, ktorý berie ako vstup AsyncAPI špecifikácie a generuje Rust kód spolu so všetkými potrebnými dependencies a automaticky generovanou dokumentáciou. Je navrhnutý ako efektívny nástroj na konverziu AsyncAPI špecifikácií do Rust projektov, ktoré sú pripravené na zostavenie a spustenie.",
+				"details": "Crustagen je generátor kódu v jazyku Rust, ktorý berie ako vstup AsyncAPI špecifikácie a generuje Rust kód spolu so všetkými potrebnými dependencies a automaticky generovanou dokumentáciou. Premieňa AsyncAPI špecifikácie na Rust projekty pripravené na zostavenie a spustenie.",
 				"urlLabel": "Pozri si projekt na Githube",
 				"url": "https://github.com/Programmierpraktikum-MVA/AsyncAPI",
 				"urlName": "github.com/Programmierpraktikum-MVA/AsyncAPI",

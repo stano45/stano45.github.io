@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { useTranslation } from "next-export-i18n";
-import { NextSeo } from "next-seo";
+import { Seo } from "@/components/Seo";
 import {
 	AiOutlineGithub,
 	AiOutlineDownload,
@@ -17,7 +17,7 @@ export default function Projects(): ReactElement {
 
 	return (
 		<div className="w-full h-full">
-			<NextSeo
+			<Seo
 				title={t("projects.title")}
 				description={t("projects.description")}
 			/>

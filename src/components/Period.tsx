@@ -86,7 +86,7 @@ export function Period({
 					dropdownVisible ? "max-h-[1000px]" : "max-h-0"
 				}`}
 			>
-				<div className="text-md md:text-md mt-4 p-4 border border-gray-200 rounded">
+				<div className="text-md md:text-md mt-4 p-4 border border-gray-200 rounded-sm">
 					{details}
 					<div className="mt-4">
 						<a

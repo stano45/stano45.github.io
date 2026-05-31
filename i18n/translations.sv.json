@@ -13,7 +13,7 @@
 		"job": {
 			"intro": "Jag är Founding Engineer på ",
 			"content": "Forgent",
-			"outro": ", där vi bygger AI-agenter som automatiserar tyska offentliga upphandlingar — från veckolånga anbudsprocesser till timmar."
+			"outro": ", där vi bygger AI-agenter som automatiserar tyska offentliga upphandlingar."
 		},
 		"work": {
 			"intro": "Du kan kolla in mer av vad jag har gjort på ",
@@ -44,11 +44,11 @@
 				"title": "Founding Engineer",
 				"company": "Forgent",
 				"date": "okt 2025 - pågående",
-				"details": "Bygger AI-agenter som automatiserar tyska offentliga upphandlingar från början till slut — från att hitta anbud på EU-portaler till att skriva vinnande förslag. Forgent eliminerar 80 %+ av manuellt anbudsarbete och förvandlar veckolånga processer till timmar.",
+				"details": "Bygger AI-agenter som automatiserar tyska offentliga upphandlingar: från att hitta relevanta upphandlingar på EU-portaler till att skriva anbud och kontrollera att kraven uppfylls. Plattformen tar hand om ungefär 80 % av det manuella arbetet som en upphandling annars kräver.",
 				"urlLabel": "Kolla in Forgent",
 				"url": "https://www.forgent.ai",
 				"urlName": "forgent.ai",
-				"type": "deltid"
+				"type": "heltid"
 			},
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +74,7 @@
 				"title": "Mjukvaruutvecklare",
 				"company": "PTX tech",
 				"date": "nov 2021 - nov 2022",
-				"details": "På PTX bidrog jag till utvecklingen av ett avancerat, realtids-3D-upptäcktsystem. Specifikt designade jag en effektiv, multitrådad pipeline i C++ (Qt5-ramverket) för att bearbeta 3D-punktmoln på ett effektivt sätt. Jag integrerade också en GPU-accelererad SLAM-algoritm (Simultaneous Localization and Mapping) i systemet. Denna integration resulterade i en ungefär 10-faldig ökning av bearbetningshastigheten.",
+				"details": "På PTX arbetade jag med ett realtids-3D-detekteringssystem. Jag designade en multitrådad pipeline i C++ (Qt5-ramverket) för att bearbeta 3D-punktmoln och integrerade en GPU-accelererad SLAM-algoritm (Simultaneous Localization and Mapping), vilket snabbade upp bearbetningen ungefär 10 gånger.",
 				"urlLabel": "Besök PTX:s webbplats",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
@@ -112,7 +112,7 @@
 				"title": "B.Sc. Datavetenskap",
 				"company": "Technische Universität Berlin",
 				"date": "okt 2020 - apr 2024",
-				"details": "Under mina kandidatstudier fick jag en solid grund inom programmering, algoritmer och mjukvaruutveckling, med fokus på att lösa komplexa problem och samarbeta effektivt i team. I mitt examensarbete undersökte jag möjligheten till proaktiv container-migration i en simulerad LEO-edge-miljö (Low-Earth Orbit). Hela arbetet samt källkoden finns tillgänglig på min GitHub.",
+				"details": "Under mina kandidatstudier fick jag en solid grund inom programmering, algoritmer och mjukvaruutveckling, med många praktiska teamprojekt på vägen. I mitt examensarbete undersökte jag möjligheten till proaktiv container-migration i en simulerad LEO-edge-miljö (Low-Earth Orbit). Hela arbetet samt källkoden finns tillgänglig på min GitHub.",
 				"urlLabel": "Besök universitetets webbplats",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
@@ -169,7 +169,7 @@
 				"title": "Rust-mikrotjänstekodgenerator",
 				"company": "TU Berlin",
 				"date": "2023",
-				"details": "Crustagen är en Rust-kodgenerator som tar AsyncAPI-specifikationer som indata och genererar Rust-kod tillsammans med alla nödvändiga beroenden och automatiskt genererad dokumentation. Den är designad för att vara ett effektivt verktyg för att konvertera AsyncAPI-specifikationer till Rust-projekt som är redo att byggas och köras.",
+				"details": "Crustagen är en Rust-kodgenerator som tar AsyncAPI-specifikationer som indata och genererar Rust-kod tillsammans med alla nödvändiga beroenden och automatiskt genererad dokumentation. Den omvandlar AsyncAPI-specifikationer till Rust-projekt som är redo att byggas och köras.",
 				"urlLabel": "Kolla in repositoryn på GitHub",
 				"url": "https://github.com/Programmierpraktikum-MVA/AsyncAPI",
 				"urlName": "github.com/Programmierpraktikum-MVA/AsyncAPI",

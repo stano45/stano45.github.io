@@ -13,7 +13,7 @@
 		"job": {
 			"intro": "I'm a Founding Engineer at ",
 			"content": "Forgent",
-			"outro": ", building AI agents that automate German public procurement — turning weeks of bidding into hours."
+			"outro": ", building AI agents that automate German public procurement."
 		},
 		"work": {
 			"intro": "You can check out more of what I've been up to on my ",
@@ -26,7 +26,7 @@
 			"outro": "."
 		},
 		"sports": {
-			"content": "During my free time, I like to do sports, such as working out at the gym, running, or swimming. I also have a passion for learning languages, currently focusing on Persian and Swedish."
+			"content": "During my free time, I like to do sports, such as working out at the gym, running, or swimming. I also enjoy learning languages, and I'm currently working on Persian and Swedish."
 		}
 	},
 	"blog": {
@@ -44,11 +44,11 @@
 				"title": "Founding Engineer",
 				"company": "Forgent",
 				"date": "Oct 2025 - Present",
-				"details": "Building AI agents that automate German public procurement end-to-end — from discovering tenders across EU portals to drafting winning proposals. Forgent cuts 80%+ of manual bidding work, turning weeks-long processes into hours.",
+				"details": "Building AI agents that automate German public procurement: finding relevant tenders on EU portals, drafting bids, and checking compliance. It takes over roughly 80% of the manual work that bidding usually involves.",
 				"urlLabel": "Check out Forgent",
 				"url": "https://www.forgent.ai",
 				"urlName": "forgent.ai",
-				"type": "part-time"
+				"type": "full-time"
 			},
 			{
 				"title": "Software Dev Engineer Intern",
@@ -74,7 +74,7 @@
 				"title": "Software Engineer",
 				"company": "PTX tech",
 				"date": "Nov 2021 - Nov 2022",
-				"details": "At PTX, I contributed to the development of a cutting-edge, real-time 3D detection system. Specifically, I designed an efficient, multi-threaded pipeline in C++ (Qt5 framework) to process 3D point clouds effectively. I also integrated a GPU-accelerated Simultaneous Localization and Mapping (SLAM) algorithm into the system. This successful integration resulted in a ~10x speedup in processing time.",
+				"details": "At PTX, I worked on a real-time 3D detection system. I designed a multi-threaded C++ (Qt5) pipeline to process 3D point clouds, and integrated a GPU-accelerated SLAM (Simultaneous Localization and Mapping) algorithm, which sped up processing by roughly 10x.",
 				"urlLabel": "Visit PTX's website",
 				"url": "https://www.ptx-tech.de",
 				"urlName": "ptx-tech.de",
@@ -112,7 +112,7 @@
 				"title": "B.Sc. Computer Science",
 				"company": "Technische Universität Berlin",
 				"date": "Oct 2020 - Apr 2024",
-				"details": "During my bachelor studies, I gained a strong foundation in programming, algorithms, and software development, with a focus on solving complex problems and collaborating effectively in team environments. In my thesis, I explored the feasibility of proactive container migration on a simulated low-Earth orbit (LEO) edge environment. The entire thesis and source code are available on my GitHub.",
+				"details": "During my bachelor studies, I built a solid foundation in programming, algorithms, and software development, with plenty of hands-on team projects along the way. In my thesis, I explored the feasibility of proactive container migration on a simulated low-Earth orbit (LEO) edge environment. The entire thesis and source code are available on my GitHub.",
 				"urlLabel": "Visit the university website",
 				"url": "https://www.tu.berlin",
 				"urlName": "tu.berlin",
@@ -169,7 +169,7 @@
 				"title": "Rust Microservice Code Generator",
 				"company": "TU Berlin",
 				"date": "2023",
-				"details": "Crustagen is a Rust code generator that takes AsyncAPI specifications as input and generates Rust code along with all the required dependencies and auto-generated documentation. It's designed to be an efficient tool to convert AsyncAPI specs into Rust projects ready to build and run.",
+				"details": "Crustagen is a Rust code generator that takes AsyncAPI specifications as input and generates Rust code along with all the required dependencies and auto-generated documentation. It turns AsyncAPI specs into Rust projects that are ready to build and run.",
 				"urlLabel": "Check out the repository on GitHub",
 				"url": "https://github.com/Programmierpraktikum-MVA/AsyncAPI",
 				"urlName": "github.com/Programmierpraktikum-MVA/AsyncAPI",

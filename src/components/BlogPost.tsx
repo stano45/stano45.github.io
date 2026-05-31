@@ -1,30 +1,31 @@
 import Image from "next/image";
-import { ArticleJsonLd, NextSeo } from "next-seo";
+import { ArticleJsonLd } from "next-seo";
 
 import type { BlogPostProps } from "../types";
 
 import { BlogPostHeading } from "./BlogPostHeading";
+import { Seo } from "./Seo";
 import { ReactElement } from "react";
 
 export function BlogPost({ post, children }: BlogPostProps): ReactElement {
 	return (
 		<div>
-			<NextSeo title={post.title} description={post.description} />
+			<Seo title={post.title} description={post.description} />
 			<ArticleJsonLd
-				useAppDir={false}
+				type="BlogPosting"
 				url={`https://kosorin.com/blog/${post.id}`}
-				title={post.title}
-				images={[`https://kosorin.com${post.image}`]}
+				headline={post.title}
+				image={[`https://kosorin.com${post.image}`]}
 				datePublished={new Date(post.date).toISOString()}
 				dateModified={new Date(post.date).toISOString()}
-				authorName={[
-					{
-						name: "Stanislav Kosorin",
-						url: "https://kosorin.com",
-					},
-				]}
-				publisherName="Stanislav Kosorin"
-				publisherLogo="https://kosorin.com/favicon.ico"
+				author={{
+					name: "Stanislav Kosorin",
+					url: "https://kosorin.com",
+				}}
+				publisher={{
+					name: "Stanislav Kosorin",
+					logo: "https://kosorin.com/favicon.ico",
+				}}
 				description={post.description ?? ""}
 				isAccessibleForFree={true}
 			/>
