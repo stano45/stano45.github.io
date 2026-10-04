@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Internationalization for static Next.js</title>
+<meta name="description" content="Implementing Internationalization in Static Next.js Websites with Next-Export-I18n">
+<meta name="author" content="Stanislav Kosorin">
+<link rel="canonical" href="https://kosorin.com/blog/internationalizaton-for-static-nextjs">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Stanislav Kosorin">
+<meta property="og:title" content="Internationalization for static Next.js">
+<meta property="og:description" content="Implementing Internationalization in Static Next.js Websites with Next-Export-I18n">
+<meta property="og:url" content="https://kosorin.com/blog/internationalizaton-for-static-nextjs">
+<meta property="og:image" content="https://kosorin.com/internationalization.webp">
+<meta property="article:published_time" content="2023-03-27">
+<meta property="article:author" content="https://kosorin.com/">
+<meta name="twitter:card" content="summary">
+</head>
+<body>
+<header>
+<nav aria-label="Main">
+<a href="/">Home</a> ·
+<a href="/work">Work</a> ·
+<a href="/education">Education</a> ·
+<a href="/projects">Projects</a> ·
+<a href="/blog">Blog</a> ·
+<a href="/contact">Contact</a>
+</nav>
+</header>
+<hr>
+<main>
+<article itemscope itemtype="https://schema.org/BlogPosting">
+<meta itemprop="description" content="Implementing Internationalization in Static Next.js Websites with Next-Export-I18n">
+<h1 itemprop="headline">Internationalization for static Next.js</h1>
+<p>By <span itemprop="author" itemscope itemtype="https://schema.org/Person"><a itemprop="url" href="/"><span itemprop="name">Stanislav Kosorin</span></a></span> · <time itemprop="datePublished" datetime="2023-03-27">27 March 2023</time></p>
+<p>
+<picture>
+<source media="(min-width: 700px)" srcset="/internationalization.webp" width="640" height="425">
+<img src="/internationalization.webp" width="300" height="199" alt="Close-up of rows of metal letterpress type" itemprop="image" fetchpriority="high" decoding="async">
+</picture>
+</p>
+<p><em>This post is about an earlier version of this website. Back then, the site was a Next.js app available in English, German, Slovak and Swedish. It has since been rewritten as plain HTML in English only, so the language picker mentioned below is gone. The <a href="https://github.com/stano45/stano45.github.io/tree/df00646a7734218bd040b543aa9a46df01f080cc">old code</a> is still on GitHub.</em></p>
+
+<h2 id="background">Background</h2>
+<p>While working on my personal website, I decided to add internationalization for fun. I wanted a simple language picker on the top right of the website, which would switch the top navbar's strings to the translated versions.</p>
+<p>I chose a tech stack for my website that was both simple and flexible in terms of styling: <strong>Next.js</strong> with <strong>Tailwind CSS</strong> on the frontend, and GitHub Pages as the host. With Next.js, it's possible to generate the content statically (SSG). GitHub provides a fantastic <a href="https://github.com/actions/starter-workflows/blob/main/pages/nextjs.yml">.yml template</a> for actions that handles everything for you; all you need to do is push the code to your repo, and voila, it's up and running.</p>
+<p>Next.js has supported internationalization out of the box (<a href="https://nextjs.org/docs/advanced-features/i18n-routing">since v10</a>). With a few config files, your site will automatically redirect users to the appropriate <strong>sub-path</strong> or <strong>sub-domain</strong>. The user's preferred language will be detected automatically (if enabled), and they will be redirected accordingly. For instance, a user with French as their preferred language would be redirected from example.com to example.com/fr (sub-path) or example.fr (sub-domain).</p>
+<p>However, Next.js doesn't provide the actual management of translations and hooks to integrate them into your application. Fortunately, there's a library specifically designed for this purpose: <a href="https://github.com/i18next/next-i18next">next-i18next</a>. With just a couple of lines of code, this library allows you to easily set up localization. There is a catch, though.</p>
+
+<h2 id="the-catch">The catch</h2>
+<p>As I mentioned earlier, I wanted to statically generate the site content. However, next-i18next provides translations via server-side rendering (SSR), which makes it impossible to export the site statically since we rely on network calls for our translations.</p>
+<p>One option to provide translations locally is to route to another HTML page on changing language. So if we have 3 languages which we want to support, we would have 3 versions of each page. This solution is not very elegant and definitely not scalable in the long run.</p>
+<p>Luckily, some awesome folks built <a href="https://github.com/martinkr/next-export-i18n">next-export-i18n</a> to address this exact issue. It provides convenient internationalization with a <code>useTranslation</code> hook, exactly as with i18next, but does not rely on SSR. It achieves this by saving the localization as a query parameter instead of using sub-paths or sub-domains.</p>
+<p>I will not be providing a tutorial for the setup in this post, as the devs of the module have already done a great job explaining it in the readme of their repo. Instead, here is how I integrated it into my site.</p>
+<p>The languages that I supported on my website were English, German, Slovak and Swedish. I created a <code>translations.X.json</code> file for each of the languages, where the X is the 2-letter code of the language. As the module supports nesting in the .json files, I split up my translations into views, such as home, about, etc.</p>
+<pre><code>{
+  "home": {
+    "title": "Stanislav Kosorin",
+    "description": "My personal site."
+  },
+  "contact": {
+    "title": "Contact",
+    "linkedin": "Find me on LinkedIn",
+    "github": "My projects on GitHub",
+    "email": "Send me an email"
+  }
+}</code></pre>
+<p>Then, in each component, I used the <code>useTranslation</code> hook and picked the right localization string using <code>t()</code>, e.g. <code>t('view.title')</code>.</p>
+<pre><code>const { t } = useTranslation();
+return (
+  &lt;&gt;
+    &lt;NextSeo
+      title={t('contact.title')}
+      description={
+        t('contact.description')
+      }
+    /&gt;
+    {/* other components */}
+  &lt;/&gt;
+);</code></pre>
+<p>I also created a minimal language picker, which you can still find <a href="https://github.com/stano45/stano45.github.io/blob/df00646a7734218bd040b543aa9a46df01f080cc/src/components/LanguagePicker.tsx">on GitHub</a>.</p>
+
+<h2 id="summary">Summary</h2>
+<p>With the help of <a href="https://github.com/martinkr/next-export-i18n">next-export-i18n</a>, you can easily add internationalization to a <strong>statically exported</strong> Next.js site, without relying on server-side rendering. The library allows convenient localization with a <code>useTranslation</code> hook and saves the localization as a query parameter instead of using sub-paths or sub-domains.</p>
+<p>Thank you for reading, and happy translating!</p>
+</article>
+</main>
+<hr>
+<footer>
+<address>
+Stanislav Kosorin ·
+<a href="mailto:s@kosorin.com">s@kosorin.com</a> ·
+<a href="https://github.com/stano45" rel="me">GitHub</a> ·
+<a href="https://www.linkedin.com/in/kosorin" rel="me">LinkedIn</a> ·
+<a href="/Stanislav_Kosorin_Resume.pdf">Résumé (PDF)</a>
+</address>
+</footer>
+</body>
+</html>
