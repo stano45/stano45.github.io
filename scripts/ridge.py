@@ -155,18 +155,26 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}">
 '''
 open("ridge.svg", "w", encoding="utf-8", newline="\n").write(svg)
 
-# the easter egg names only the best known of them (all of them still set the heights above): every strip goes to the
-# nearest of those, so anywhere along the line shows one. a top sits on the line on the point of the line that is its
-# top. Rysy and Kežmarský would belong here too, but from Kozie chrbty they hide behind Vysoká and Lomnický
+# the easter egg names only the best known of them (all of them still set the heights above): a strip within REACH
+# units of one of those goes to the nearest, so the cursor has to be near a summit to show it; the rest stay plain. a
+# top sits on the line on the point of the line that is its top. Rysy and Kežmarský would belong here too, but from Kozie chrbty they hide behind Vysoká and Lomnický
 LABELLED = {"Kriváň", "Kôprovský štít", "Satan", "Vysoká", "Gerlachovský štít", "Slavkovský štít", "Lomnický štít"}
 spots = {k: p for k, p in spots.items() if PEAKS[k][0] in LABELLED}
+REACH = 16
 width = W / STRIPS
-owner = [min(spots, key=lambda p: abs(spots[p][0] - (k + .5) * width)) for k in range(STRIPS)]
+owner = []
+for k in range(STRIPS):
+    near = min(spots, key=lambda p: abs(spots[p][0] - (k + .5) * width))
+    owner.append(near if abs(spots[near][0] - (k + .5) * width) <= REACH else None)
 html, k = "", 0
 while k < STRIPS:
     n = 1
     while k + n < STRIPS and owner[k + n] == owner[k]:
         n += 1
+    if owner[k] is None:
+        html += "<i></i>" * n
+        k += n
+        continue
     name, official, _, _ = PEAKS[owner[k]]
     x, y = spots[owner[k]]
     html += (f'<b data-peak="{name}" data-h="{official} m" style="flex:{n};--x:{x:g};--y:{y:g}">'
