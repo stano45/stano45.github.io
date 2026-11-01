@@ -1,57 +1,166 @@
 <!doctype html>
+<!--
+  hi, curious human (or LLM) reading the source.
+  this site is hand-written HTML and one CSS file: no JavaScript, no build step.
+  machine-readable: /llms.txt · /llms-full.txt · /index.md · /feed.xml
+  say hi: s@kosorin.com
+-->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>Stanislav Kosorin – Software Engineer</title>
-<meta name="description" content="Software engineer and Founding Engineer at Forgent, building AI agents that automate German public procurement. Computer science at TU Berlin.">
+<meta name="color-scheme" content="light">
+<title>Stanislav Kosorin – Founding Engineer at Forgent</title>
+<meta name="description" content="Stanislav Kosorin is a founding engineer at Forgent, building AI agents for German public procurement end to end. Previously AWS (S3), Cresta and PTX tech.">
 <meta name="author" content="Stanislav Kosorin">
 <link rel="canonical" href="https://kosorin.com/">
-<link rel="icon" href="/favicon.ico">
-<meta property="og:type" content="website">
+<link rel="me" href="https://github.com/stano45">
+<link rel="me" href="https://www.linkedin.com/in/kosorin">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="text/markdown" href="/index.md" title="This page as Markdown">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Blog feed">
+<link rel="help" type="text/plain" href="/llms.txt" title="llms.txt">
+<meta property="og:type" content="profile">
 <meta property="og:site_name" content="Stanislav Kosorin">
-<meta property="og:title" content="Stanislav Kosorin – Software Engineer">
-<meta property="og:description" content="Software engineer and Founding Engineer at Forgent, building AI agents that automate German public procurement. Computer science at TU Berlin.">
+<meta property="og:title" content="Stanislav Kosorin – Founding Engineer at Forgent">
+<meta property="og:description" content="Founding engineer at Forgent, building AI agents for German public procurement end to end. Previously AWS (S3), Cresta and PTX tech.">
 <meta property="og:url" content="https://kosorin.com/">
-<meta property="og:image" content="https://kosorin.com/ai-campus-pic.webp">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://kosorin.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Stanislav Kosorin: I build AI agents end to end, from the platform up.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://kosorin.com/#website",
+      "name": "Stanislav Kosorin",
+      "alternateName": ["Stan Kosorin", "kosorin.com"],
+      "url": "https://kosorin.com/",
+      "publisher": {"@id": "https://kosorin.com/#person"}
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://kosorin.com/#profile",
+      "url": "https://kosorin.com/",
+      "name": "Stanislav Kosorin – Founding Engineer at Forgent",
+      "isPartOf": {"@id": "https://kosorin.com/#website"},
+      "dateModified": "2026-11-01",
+      "mainEntity": {"@id": "https://kosorin.com/#person"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://kosorin.com/#person",
+      "name": "Stanislav Kosorin",
+      "givenName": "Stanislav",
+      "familyName": "Kosorin",
+      "alternateName": "Stan Kosorin",
+      "description": "Founding engineer at Forgent, building AI agents for German public procurement end to end. Previously AWS (S3), Cresta and PTX tech.",
+      "url": "https://kosorin.com/",
+      "image": "https://kosorin.com/ai-campus-pic.webp",
+      "email": "mailto:s@kosorin.com",
+      "jobTitle": "Founding Engineer",
+      "worksFor": {"@type": "Organization", "name": "Forgent", "url": "https://www.forgent.ai", "description": "Startup building AI agents that automate German public procurement"},
+      "alumniOf": {"@type": "CollegeOrUniversity", "name": "Technische Universität Berlin", "alternateName": "TU Berlin", "url": "https://www.tu.berlin/en"},
+      "knowsAbout": ["AI agents", "Platform engineering", "Distributed systems", "Information security", "Amazon Web Services", "Kubernetes", "P4 programmable networking", "Go", "Rust"],
+      "knowsLanguage": ["sk", "en", "de"],
+      "sameAs": ["https://github.com/stano45", "https://www.linkedin.com/in/kosorin"]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header>
 <nav aria-label="Main">
-<strong aria-current="page">Home</strong> ·
-<a href="/work">Work</a> ·
-<a href="/education">Education</a> ·
-<a href="/projects">Projects</a> ·
-<a href="/blog">Blog</a> ·
+<a class="home" href="/" aria-current="page">Stanislav Kosorin</a>
+<a href="/work">Work</a>
+<a href="/projects">Projects</a>
+<a href="/education">Education</a>
+<a href="/blog">Blog</a>
 <a href="/contact">Contact</a>
 </nav>
+<div class="ridge" aria-hidden="true"><b data-peak="Kriváň" data-h="2494 m" style="flex:42;--x:179;--y:28.2"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b data-peak="Satan" data-h="2421 m" style="flex:7;--x:240;--y:34.7"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b data-peak="Kôprovský štít" data-h="2367 m" style="flex:6;--x:250;--y:39.4"><i></i><i></i><i></i><i></i><i></i><i></i></b><b data-peak="Vysoká" data-h="2547 m" style="flex:11;--x:301.5;--y:23.5"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b data-peak="Gerlachovský štít" data-h="2655 m" style="flex:13;--x:357;--y:14"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b data-peak="Slavkovský štít" data-h="2452 m" style="flex:10;--x:433;--y:31.9"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b data-peak="Lomnický štít" data-h="2633 m" style="flex:39;--x:458.5;--y:15.9"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b></div>
 </header>
 <hr>
-<main itemscope itemtype="https://schema.org/Person">
-<link itemprop="url" href="https://kosorin.com/">
-<link itemprop="sameAs" href="https://github.com/stano45">
-<link itemprop="sameAs" href="https://www.linkedin.com/in/kosorin">
-<h1 itemprop="name">Stanislav Kosorin</h1>
-<p><img itemprop="image" src="/ai-campus-pic.webp" alt="Photo of Stanislav Kosorin" width="200" height="200"></p>
-<p>My name is Stan and I'm a software engineer. I'm pursuing a Master's degree in Computer Science at the <span itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity"><a itemprop="url" href="https://www.tu.berlin/en"><span itemprop="name">Technical University of Berlin</span></a></span>.</p>
-<p>You can learn more about <a href="/education">my education</a>.</p>
-<p>I'm a <span itemprop="jobTitle">Founding Engineer</span> at <span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization"><a itemprop="url" href="https://www.forgent.ai"><span itemprop="name">Forgent</span></a></span>, building AI agents that automate German public procurement.</p>
-<p>You can check out more of what I've been up to on my <a href="/work">work page</a>.</p>
-<p>I have worked on various projects, including Google Summer of Code 2024. You can find more info on the <a href="/projects">projects page</a>.</p>
-<p>I also wrote a few <a href="/blog">articles</a>, including <a href="/blog/tu-berlin-cs-guide">a guide to the computer science bachelor's at TU Berlin</a>.</p>
-<p>During my free time, I like to do sports, such as working out at the gym, running, or swimming. I also enjoy learning languages, and I'm working on Persian and Swedish.</p>
+<main>
+<h1 class="hero">Stanislav Kosorin</h1>
+<p class="pitch">I build <em>AI agents</em> end to end, from the platform up.</p>
+<p class="lede">Right now that's at <a href="https://www.forgent.ai"><strong>Forgent</strong></a>, where our agents do most of the work behind German public tenders. Before that I worked on S3 at <a href="https://aws.amazon.com/s3/"><strong>AWS</strong></a>, at <a href="https://www.cresta.com"><strong>Cresta</strong></a> and at <a href="https://www.ptx-tech.de"><strong>PTX tech</strong></a>, and I'm finishing my master's in computer science at <a href="https://www.tu.berlin"><strong>TU Berlin</strong></a>.</p>
+
+<h2 class="label">Path</h2>
+<ol class="path" reversed>
+<li style="--x:408;--y:120;--ox:6.4;--oy:6.4;--ax:0;--ay:0;--al:start"><time datetime="2025-10">2025 – now</time> <div><a href="/work#forgent">Forgent</a> <span><small>· </small>AI agents for public tenders</span></div></li>
+<li style="--x:372;--y:178;--ox:0.0;--oy:9.0;--ax:0.5;--ay:0;--al:center"><time datetime="2025-03">2025</time> <div><a href="/work#aws">AWS</a> <span><small>· </small>−65% S3 metering costs</span></div></li>
+<li style="--x:306;--y:182;--ox:-6.4;--oy:6.4;--ax:1;--ay:0;--al:end"><time datetime="2022-11">2022 – 2025</time> <div><a href="/work#cresta">Cresta</a> <span><small>· </small>data pipelines in Go</span></div></li>
+<li style="--x:246;--y:152;--ox:6.4;--oy:-6.4;--ax:0;--ay:1;--al:start"><time datetime="2021-11">2021 – 2022</time> <div><a href="/work#ptx">PTX tech</a> <span><small>· </small>10× faster 3D point clouds</span></div></li>
+<li style="--x:132;--y:186;--ox:-6.4;--oy:-6.4;--ax:1;--ay:1;--al:end"><time datetime="2020-10">2020 – now</time> <div><a href="/education">TU Berlin</a> <span><small>· </small>B.Sc. thesis on satellite edge</span></div></li>
+</ol>
+
+<h2 class="label">Highlights</h2>
+<dl class="stats">
+<div><dt>−65%</dt><dd>metering costs for S3 Express One Zone, from a capacity predictor I shipped at AWS.</dd></div>
+<div><dt>10×</dt><dd>faster 3D point-cloud processing after I integrated GPU SLAM at PTX.</dd></div>
+<div><dt>~80%</dt><dd>of the manual work in a public tender bid, handled by the agents we build at Forgent.</dd></div>
+<div><dt>0</dt><dd>dropped TCP connections across 20 live container migrations through a Tofino 2 switch.</dd></div>
+</dl>
+
+<h2 class="label">Quick facts</h2>
+<dl class="facts">
+<div><dt>Role</dt><dd>Founding Engineer at <a href="https://www.forgent.ai">Forgent</a> (AI agents for public procurement)</dd></div>
+<div><dt>Focus</dt><dd>Platform &amp; infrastructure, security, distributed systems, AI agents</dd></div>
+<div><dt>Before</dt><dd><a href="https://aws.amazon.com/s3/">AWS</a> (S3), <a href="https://www.cresta.com">Cresta</a>, <a href="https://www.ptx-tech.de">PTX tech</a></dd></div>
+<div><dt>Education</dt><dd>M.Sc. Computer Science, TU Berlin (in progress) · B.Sc. Computer Science, TU Berlin (2024)</dd></div>
+<div><dt>Stack</dt><dd>Go, Rust, C++, React / Next.js, AWS, Terraform, Kubernetes</dd></div>
+<div><dt>Languages</dt><dd>Slovak, English, German (C1) · learning Persian</dd></div>
+<div class="wide"><dt>Contact</dt><dd><a href="mailto:s@kosorin.com">s@kosorin.com</a> · <a href="https://www.linkedin.com/in/kosorin">LinkedIn</a> · <a href="https://github.com/stano45">GitHub</a></dd></div>
+</dl>
+
+<h2 class="label">Things I've built</h2>
+<ul class="list cards">
+<li><a href="https://github.com/stano45/p4containerflow">p4containerflow</a><span class="sep"> — </span>a CNI plugin that load-balances traffic during live container migration, in software and on a Tofino 2 switch (GSoC 2024).</li>
+<li><a href="https://github.com/stano45/celestial-container-migration">Container migration on LEO edge</a><span class="sep"> — </span>my bachelor's thesis, on satellites.</li>
+<li><a href="https://github.com/stano45/backpressure">backpressure</a><span class="sep"> — </span>rate limiting for Temporal and other workers that share rate-limited APIs, with priority classes and fair share between tenants, in Python and Go.</li>
+</ul>
+<p class="more"><a href="/projects">All projects →</a></p>
+
+<h2 class="label">Writing</h2>
+<ul class="list">
+<li><a href="/blog/tu-berlin-cs-guide">TU Berlin Bachelor of Computer Science: A Comprehensive Guide</a></li>
+<li><a href="/blog/internationalizaton-for-static-nextjs">Internationalization for static Next.js</a></li>
+</ul>
+
+<h2 class="label">Outside work</h2>
+<p>Hiking, as you might have guessed. When I'm not in the mountains, I'm running in the forests around Berlin, pretending the hills are mountains. Back at the keyboard, I play TF2 and CS2. And I'm learning Persian for my girlfriend, which means learning to read and write all over again, in a script that runs right to left.</p>
 </main>
 <hr>
 <footer>
 <address>
-Stanislav Kosorin ·
-<a href="mailto:s@kosorin.com">s@kosorin.com</a> ·
-<a href="https://github.com/stano45" rel="me">GitHub</a> ·
-<a href="https://www.linkedin.com/in/kosorin" rel="me">LinkedIn</a> ·
-<a href="/Stanislav_Kosorin_Resume.pdf">Résumé (PDF)</a>
+<p><a href="mailto:s@kosorin.com">s@kosorin.com</a> · <a href="https://github.com/stano45" rel="me">GitHub</a> · <a href="https://www.linkedin.com/in/kosorin" rel="me">LinkedIn</a> · <a href="/Stanislav_Kosorin_Resume.pdf">Résumé (PDF)</a></p>
 </address>
+<p>Last updated <time datetime="2026-10-31">31 October 2026</time></p>
+<details class="legend">
+<summary aria-label="What the trail markers mean" title="What the trail markers mean"><i class="m stripe"></i><i class="m ruin"></i><i class="m spring"></i><i class="m learning"></i><i class="m shelter"></i><i class="m peak"></i><i class="m object"></i><i class="m roundtrip"></i></summary>
+<p>The markers on this site are the real ones from Slovak hiking trails, painted by the <a href="https://www.kst.sk/kst/sekcie/znacenie/"><span lang="sk">Klub slovenských turistov</span></a>: the colour says which trail you're on, the shape says where it leads (<a href="https://wiki.openstreetmap.org/wiki/WikiProject_Slovakia/Hiking_routes#Hiking_Routes_Marker_Symbols">all of them</a>).</p>
+<dl>
+<dt><i class="m stripe"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:Kct-major-red.svg"><b lang="sk">Pásová</b></a>: the main trail, a band of colour between two white ones. Here: work, the main ridge</dd>
+<dt><i class="m ruin"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:Kct-ruin-blue.svg"><b lang="sk">Hrubé L</b></a>: a side trail to a castle ruin. Here: the things I've built</dd>
+<dt><i class="m spring"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:Kct-spring-yellow.svg"><b lang="sk">Korýtko</b></a>: a side trail to a spring. Here: writing</dd>
+<dt><i class="m learning"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:Kct-learning-green.svg"><b lang="sk">Náučný chodník</b></a>: an educational trail, always green. Here: education</dd>
+<dt><i class="m shelter"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:KST-shelter-red.svg"><b lang="sk">Domček</b></a>: a side trail to a mountain hut. Here: contact, where you can drop in</dd>
+<dt><i class="m peak"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:Kct-peak-red.svg"><b lang="sk">Trojuholník</b></a>: a side trail to a summit or a viewpoint. Here: highlights</dd>
+<dt><i class="m object"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:Kct-interesting_object-red.svg"><b lang="sk">Obrátené T</b></a>: a side trail to some other sight. Here: quick facts</dd>
+<dt><i class="m roundtrip"></i></dt><dd><a href="https://wiki.openstreetmap.org/wiki/File:KST-roundtrip-green.svg"><b lang="sk">Okružná</b></a>: a loop that brings you back where you started. Here: outside work</dd>
+</dl>
+</details>
+<p class="bots">Peaks © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · terrain from SRTM and EU-DEM</p>
+<p class="bots">For machines: <a href="/llms.txt">llms.txt</a> · <a href="/index.md">index.md</a> · <a href="/feed.xml">feed</a> · <a href="/sitemap.xml">sitemap</a></p>
 </footer>
 </body>
 </html>

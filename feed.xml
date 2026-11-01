@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Stanislav Kosorin – Blog</title>
+<link href="https://kosorin.com/blog"/>
+<link rel="self" href="https://kosorin.com/feed.xml"/>
+<id>https://kosorin.com/</id>
+<updated>2024-04-05T00:00:00Z</updated>
+<author><name>Stanislav Kosorin</name></author>
+<entry>
+<title>TU Berlin Bachelor of Computer Science: A Comprehensive Guide</title>
+<link href="https://kosorin.com/blog/tu-berlin-cs-guide"/>
+<link rel="alternate" type="text/markdown" href="https://kosorin.com/blog/tu-berlin-cs-guide.md"/>
+<id>https://kosorin.com/blog/tu-berlin-cs-guide</id>
+<published>2024-04-05T00:00:00Z</published>
+<updated>2024-04-05T00:00:00Z</updated>
+<summary>Curious about the computer science program at TU Berlin? This article tells you all you need to know, including insider advice and tips.</summary>
+</entry>
+<entry>
+<title>Internationalization for static Next.js</title>
+<link href="https://kosorin.com/blog/internationalizaton-for-static-nextjs"/>
+<link rel="alternate" type="text/markdown" href="https://kosorin.com/blog/internationalizaton-for-static-nextjs.md"/>
+<id>https://kosorin.com/blog/internationalizaton-for-static-nextjs</id>
+<published>2023-03-27T00:00:00Z</published>
+<updated>2023-03-27T00:00:00Z</updated>
+<summary>How the earlier Next.js version of this site was translated into four languages while staying statically exported, using next-export-i18n.</summary>
+</entry>
+</feed>

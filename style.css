@@ -1,0 +1,232 @@
+/* kosorin.com: one small stylesheet. No JS, no web fonts.
+   The feeling of a warm Tatra cabin, not a picture of one: candle-warm paper, soft brown ink, a bookish serif,
+   condensed uppercase headings like trail signs, and Slovak trail markers that actually mean something. */
+:root {
+  color-scheme: light;
+  --bg: #f5ede0; --fg: #3d322a; --muted: #82725f; --faint: #b3a593; --rule: #e6dac8;
+  --pine: #4a6553; --warm: #8a5d3f; --blaze: #fff; --blaze-edge: #cdbba2;
+  --t-red: #b0463f; --t-blue: #3d6898; --t-green: #4b7a4f; --t-yellow: #d6a01c; --c: var(--t-red);
+  --serif: "Iowan Old Style", Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --cond: "Bahnschrift Condensed", "Bahnschrift", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+/* soft warm light falling across the page from one side */
+html {
+  -webkit-text-size-adjust: 100%; min-height: 100%; background-attachment: fixed;
+  background: radial-gradient(70rem 50rem at 12% 8%, #fbf4e8, transparent 65%), radial-gradient(60rem 40rem at 100% 100%, #efe0cb, transparent 70%), var(--bg);
+}
+body {
+  margin: 0 auto; max-width: 40rem; padding: 1.5rem 1.25rem 4rem;
+  color: var(--fg); font: 1.1rem/1.75 var(--serif); overflow-wrap: break-word;
+}
+::selection { background: var(--fg); color: var(--bg); }
+a { color: inherit; text-decoration-color: color-mix(in srgb, var(--warm) 40%, transparent); text-decoration-thickness: 1px; text-underline-offset: .22em; }
+a:hover { text-decoration-color: var(--warm); }
+img { max-width: 100%; height: auto; }
+hr { display: none; }
+h1, h2, h3 {
+  font-family: var(--cond); font-stretch: condensed; font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
+  line-height: 1.25; margin: 2.75rem 0 .5rem; text-wrap: balance;
+}
+h1 { font-size: clamp(1.75rem, 5vw, 2.25rem); }
+h2 { font-size: 1.15rem; letter-spacing: .12em; color: var(--pine); }
+h3 { font-size: 1.1rem; }
+p, li { text-wrap: pretty; }
+strong { font-weight: 600; }
+code, pre { font-family: var(--mono); font-size: .88em; }
+code { background: #3d322a0d; padding: .1em .3em; border-radius: .25rem; }
+pre { overflow-x: auto; background: #3d322a0a; padding: 1rem; border-radius: .5rem; }
+pre code { background: none; padding: 0; }
+blockquote { margin-left: 0; padding-left: 1rem; border-left: 2px solid var(--rule); color: var(--muted); }
+
+/* header + footer */
+header nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; align-items: baseline; }
+header nav a { text-decoration: none; color: var(--muted); font: .78rem var(--cond); text-transform: uppercase; letter-spacing: .1em; }
+header nav a:hover, header nav [aria-current] { color: var(--fg); }
+header nav .home { margin-right: auto; color: var(--fg); font-size: 1.05rem; font-weight: 700; letter-spacing: .08em; }
+/* the home page already says the name in big letters, so the bar doesn't repeat it */
+header nav .home[aria-current="page"] { display: none; }
+footer { margin-top: 5rem; padding-top: 1.25rem; border-top: 1px dotted var(--faint); color: var(--muted); font-size: .875rem; }
+footer address { font-style: normal; }
+footer p { margin: .25rem 0; }
+.bots { color: var(--faint); }
+.meta { margin-top: 0; color: var(--warm); font-family: var(--mono); font-size: .8rem; }
+
+/* the ridge: one thin line under the bar that crosses the High Tatras */
+header::after, .ridge::before {
+  content: ""; display: block; aspect-ratio: 640 / 120; margin-top: 1.25rem; background: var(--warm);
+  -webkit-mask: url(/ridge.svg) center / 100% 100% no-repeat;
+          mask: url(/ridge.svg) center / 100% 100% no-repeat;
+}
+/* home page easter egg: there the ridge is real markup, 128 thin strips. near a named summit a dot lands on the
+   summit, and its name and height show in the middle of the mountain, down by its foot */
+header:has(.ridge)::after { content: none; }
+.ridge { display: flex; position: relative; aspect-ratio: 640 / 120; margin-top: 2.75rem; container-type: inline-size; }
+.ridge::before { position: absolute; inset: 0; margin: 0; pointer-events: none; }
+.ridge i, .ridge b { display: flex; }
+.ridge i { flex: 1; }
+.ridge b::before, .ridge b::after { position: absolute; opacity: 0; transition: opacity .2s; pointer-events: none; }
+/* --x and --y are the summit in the 640-wide viewBox. a transform, unlike left and top, isn't snapped to whole
+   pixels, so the dot's middle lands exactly on the summit */
+.ridge b::before {
+  content: ""; left: 0; top: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--t-red);
+  translate: calc(var(--x) / 640 * 100cqw - 50%) calc(var(--y) / 640 * 100cqw - 50%);
+}
+.ridge b::after {
+  content: attr(data-peak) " · " attr(data-h); left: 50%; bottom: 7%; transform: translateX(-50%);
+  white-space: nowrap; font: 600 .74rem/1.35 var(--cond); letter-spacing: .04em; color: var(--fg);
+}
+@container (width < 36rem) { .ridge b::after { font-size: .68rem; } }
+.ridge b:hover::before, .ridge b:hover::after { opacity: 1; }
+
+/* landing */
+.hero { font-size: clamp(2.75rem, 11vw, 4.75rem); line-height: .95; letter-spacing: .01em; margin: 1.5rem 0 1rem; }
+.pitch { font-size: clamp(1.3rem, 3.6vw, 1.6rem); line-height: 1.35; margin: 0 0 1.25rem; }
+.pitch em { font-style: italic; color: var(--pine); }
+.lede { margin: 0; color: var(--muted); }
+.lede strong { color: var(--fg); font-weight: 500; }
+.label { margin-top: 3.75rem; }
+
+/* quick facts as a small sheet of labelled boxes, two across, so it reads at a glance rather than as a table */
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1px; margin: 1.25rem 0 0; background: var(--rule); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; }
+.facts div { padding: .7rem 1rem .8rem; background: #fbf6ee; }
+.facts .wide { grid-column: 1 / -1; }
+.facts dt { font: 700 .68rem var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.facts dd { margin: .15rem 0 0; font-size: .95rem; line-height: 1.5; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1.75rem 2.5rem; margin: 1.25rem 0 0; }
+.stats dt { font: 700 2.6rem/1 var(--cond); font-stretch: condensed; color: var(--warm); }
+.stats dd { margin: .5rem 0 0; padding-top: .5rem; border-top: 1px dotted var(--rule); color: var(--muted); font-size: .95rem; line-height: 1.55; }
+
+/* the career path drawn as a trail with waypoints (filled = where I am now) */
+.path { list-style: none; padding: 0 0 0 1.4rem; margin: 1rem 0 0 .4rem; border-left: 2px dashed var(--faint); }
+.path li { position: relative; display: grid; grid-template-columns: 7.5rem 1fr; gap: 1.5rem; padding: .3rem 0; }
+.path li::before {
+  content: ""; position: absolute; left: calc(-1.4rem - 7px); top: .72rem; width: 12px; height: 12px;
+  border-radius: 50%; background: var(--bg); border: 2px solid var(--warm);
+}
+.path li:first-child::before { background: var(--warm); }
+.path time { color: var(--warm); font-family: var(--mono); font-size: .8rem; padding-top: .3rem; }
+.path span { color: var(--muted); }
+
+/* with room to spare, the same list becomes a little hiking map (map.svg): one red marked trail along the ridge of
+   the High Tatras, a waypoint on each summit with its name and years, and "you are here" on the last one. each stop
+   sits at its --x/--y on the 640x300 map; scripts/map.py picks the side of it its label goes on, so the label is the
+   same distance from every stop and off the trail: the point --ax/--ay of the way across and down the label goes
+   --ox/--oy px from the stop, and its lines line up on that side (--al). hover or tab to one for the role, which
+   shows in the bottom left corner (kept clear for it), so the highlighted label stays the size it was placed at */
+@media (min-width: 36rem) {
+  .path {
+    position: relative; aspect-ratio: 640 / 300; margin: 1.25rem 0 0; padding: 0; border: 1px solid var(--rule); border-radius: 10px;
+    container-type: inline-size;
+    background: url(/map.svg) center / 100% 100% no-repeat, #fbf6ee;
+  }
+  .path li {
+    position: absolute; left: calc(var(--x) / 640 * 100%); top: calc(var(--y) / 300 * 100%);
+    display: flex; flex-direction: column; align-items: var(--al); text-align: var(--al); gap: 0; width: max-content; max-width: 16rem;
+    padding: .15rem .4rem; line-height: 1.3;
+    transform: translate(calc(var(--ox) * 1px - var(--ax) * 100%), calc(var(--oy) * 1px - var(--ay) * 100%)); border-radius: 4px;
+  }
+  .path li::before {
+    left: calc(var(--ax) * 100% - var(--ox) * 1px); top: calc(var(--ay) * 100% - var(--oy) * 1px); translate: -50% -50%; border-color: var(--t-red);
+  }
+  .path li:first-child::before { background: var(--t-red); }
+  .path li > * { text-shadow: 0 0 2px #fbf6ee, 0 0 4px #fbf6ee, 0 0 6px #fbf6ee; }
+  .path li div { order: 1; }
+  .path a { font: 700 .82rem var(--cond); letter-spacing: .07em; text-transform: uppercase; text-decoration: none; }
+  /* the link stretches over the whole label, so anywhere in the highlighted box opens it */
+  .path a::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+  .path time { order: 2; padding: 0; font-size: .7rem; }
+  .path span, .path small { display: none; }
+  .path li:first-child::after {
+    content: "You are here"; order: 0; font: 700 .62rem var(--cond); letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
+  }
+  .path li:is(:hover, :focus-within) {
+    z-index: 1; background: var(--blaze); box-shadow: 0 0 0 1px var(--rule), 0 8px 20px -10px #3d322a80;
+  }
+  .path li:is(:hover, :focus-within) > * { text-shadow: none; }
+  /* the role, 10 px in from the bottom left corner: from the stop (as for the dot) back to the corner of the map */
+  .path li:is(:hover, :focus-within) span {
+    display: block; position: absolute; translate: 0 -100%; white-space: nowrap; text-align: left; font-size: .85rem; color: var(--fg);
+    left: calc(var(--ax) * 100% - var(--ox) * 1px - var(--x) / 640 * 100cqw + 10px);
+    top: calc(var(--ay) * 100% - var(--oy) * 1px + (300 - var(--y)) / 640 * 100cqw - 10px);
+  }
+}
+.list { padding-left: 1.1rem; }
+.list li { margin: .5rem 0; }
+.list li::marker { color: var(--c); }
+.more { margin-top: 1rem; }
+/* the projects as cards, the name on top like a trail sign, in the colour of the trail they lead to */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: 1rem; padding: 0; margin: 1.25rem 0 0; list-style: none; }
+.cards li { position: relative; margin: 0; padding: .8rem 1rem 1rem; background: #fbf6ee; border: 1px solid var(--rule); border-top: 3px solid var(--c); border-radius: 4px 4px 10px 10px; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+.cards a { display: block; margin-bottom: .35rem; color: var(--fg); font: 700 .95rem/1.25 var(--cond); letter-spacing: .05em; text-transform: uppercase; text-decoration: none; }
+/* the link stretches over the whole card, so anywhere on it opens the project */
+.cards a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+.cards li:hover { border-color: color-mix(in srgb, var(--c) 45%, var(--rule)); border-top-color: var(--c); }
+.cards .sep { display: none; }
+
+/* Trail markers, after the Slovak KST system: the colour says which trail you're on, the shape says where it leads.
+   every page is its own trail with its own marker: work is the red stripe of the main ridge trail, projects the blue
+   branch to a castle (a thick L: the things I've built), education the green náučný chodník (educational trail), the
+   blog the yellow branch to a spring, and contact the branch to a mountain hut (a little house), where you drop in.
+   the home page is the junction where they all meet, so each section there wears the marker of the trail it leads
+   to, and the rest take the other branches: a summit for the highlights, some other sight (an upside-down T) for the
+   quick facts and a green loop (a dot) for outside work. on the 404 page the paint has worn off */
+body:has(nav [href^="/projects"][aria-current]) { --c: var(--t-blue); }
+body:has(nav [href^="/education"][aria-current]) { --c: var(--t-green); }
+body:has(nav [href^="/blog"][aria-current]), body:has([itemprop="headline"]) { --c: var(--t-yellow); }
+
+/* the markers are the drawings from the OpenStreetMap wiki, in the site's colours (scripts/markers.py) */
+h2::before, main > h1:not(.hero)::before, article h1::before, header nav a:not(.home)::before, .legend .m {
+  content: ""; display: inline-block; width: .95em; height: .95em; margin-right: .7em; vertical-align: -.1em;
+  background: var(--mark, url(/markers/major-red.svg)) center / 100% 100% no-repeat; box-shadow: 0 0 0 1px var(--blaze-edge);
+}
+main > h1:not(.hero)::before, article h1::before { width: .55em; height: .55em; margin-right: .45em; vertical-align: .12em; }
+body:not(:has(nav [aria-current])):not(:has([itemprop="headline"])) h1::before { opacity: .3; filter: grayscale(.5); }
+
+/* each trail's marker, on its own pages, in the nav and at the junction */
+body:has(nav [href^="/projects"][aria-current]) :is(h1, h2), header nav [href^="/projects"],
+.label:has(+ .list + .more [href^="/projects"]), .legend .ruin { --mark: url(/markers/ruin-blue.svg); }
+body:has(nav [href^="/education"][aria-current]) :is(h1, h2), header nav [href^="/education"], .legend .learning { --mark: url(/markers/learning-green.svg); }
+body:has(nav [href^="/blog"][aria-current]) :is(h1, h2), body:has([itemprop="headline"]) :is(h1, h2), header nav [href^="/blog"],
+.label:has(+ .list [href^="/blog/"]), .legend .spring { --mark: url(/markers/spring-yellow.svg); }
+body:has(nav [href^="/contact"][aria-current]) h1, header nav [href^="/contact"], .legend .shelter { --mark: url(/markers/shelter-red.svg); }
+
+/* the junction */
+.label:has(+ .list + .more [href^="/projects"]), .list:has(+ .more [href^="/projects"]) { --c: var(--t-blue); }
+.label:has(+ .list [href^="/blog/"]), .list:has([href^="/blog/"]) { --c: var(--t-yellow); }
+.label:has(+ .stats), .legend .peak { --mark: url(/markers/peak-red.svg); }
+.label:has(+ .facts), .legend .object { --mark: url(/markers/interesting_object-red.svg); }
+.label:has(+ p:last-child) { --c: var(--t-green); }
+.label:has(+ p:last-child), .legend .roundtrip { --mark: url(/markers/roundtrip-green.svg); }
+
+/* the nav doubles as the signpost legend */
+header nav [href^="/work"], header nav [href^="/contact"] { --c: var(--t-red); }
+header nav [href^="/projects"] { --c: var(--t-blue); }
+header nav [href^="/education"] { --c: var(--t-green); }
+header nav [href^="/blog"] { --c: var(--t-yellow); }
+header nav a:not(.home)::before { width: .8em; height: .8em; margin-right: .45em; vertical-align: -.1em; }
+header nav a[aria-current]:not(.home) { text-decoration: underline 2px var(--c); text-underline-offset: .45em; }
+
+/* home page easter egg: the row of markers in the footer opens up into what each one means on a real trail */
+.legend { margin: .9rem 0 .6rem; }
+.legend summary { display: inline-flex; gap: .45rem; padding: .25rem 0; list-style: none; cursor: pointer; opacity: .55; transition: opacity .2s; }
+.legend summary::-webkit-details-marker { display: none; }
+.legend summary:hover, .legend[open] summary { opacity: 1; }
+.legend .m { margin: 0; }
+.legend dl { display: grid; grid-template-columns: .95em 1fr; gap: .45rem .8rem; margin: .6rem 0 0; }
+.legend dt { justify-self: center; }
+.legend dd { margin: 0; line-height: 1.5; }
+.legend b { color: var(--fg); font-weight: 600; }
+
+@media (max-width: 30rem) {
+  /* phones: the links make one slim row; the name steps down to sit above the page title, like on the home page */
+  header nav { justify-content: space-between; gap: 0; white-space: nowrap; }
+  header nav a { letter-spacing: .06em; }
+  header nav a:not(.home)::before { content: none; }
+  header nav .home { order: 1; flex-basis: 100%; margin: 2.5rem 0 0; font-size: .95rem; }
+  .facts { grid-template-columns: 1fr; gap: 0; }
+  .facts dd { margin-bottom: .6rem; }
+  .path li { grid-template-columns: 1fr; gap: 0; }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.33 354.33">
+<!-- Kct-peak-red.svg from the OpenStreetMap wiki (public domain), in the site's colours; drawn by scripts/markers.py -->
+<path d="M 1.76,1.76 L 1.76,352.56 L 352.56,352.56 L 352.56,1.76 L 1.76,1.76 z M 177.16,71.92 L 317.48,299.94 L 36.84,299.94 L 177.16,71.92 z" fill="#fff" stroke="#cdbba2" stroke-width="3.54"/>
+<path d="M 71.92,282.40 L 282.40,282.40 L 177.16,107.00 L 71.92,282.40 z" fill="#b0463f" fill-rule="evenodd" stroke="#cdbba2" stroke-width="3.51"/>
+</svg>

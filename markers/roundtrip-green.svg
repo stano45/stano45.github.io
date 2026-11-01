@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.33 354.33">
+<!-- KST-roundtrip-green.svg from the OpenStreetMap wiki (public domain), in the site's colours; drawn by scripts/markers.py -->
+<path d="M 1.75,1.75 L 1.75,352.57 L 352.57,352.57 L 352.57,1.75 z" fill="#fff" stroke="#cdbba2" stroke-width="3.51"/>
+<path d="M 263.63,170.49 A 88.88,88.88 0 1 1 85.85,170.49 A 88.88,88.88 0 1 1 263.63,170.49 z" transform="matrix(1.375,0,0,1.375,-62.500006,-60.904316)" fill="#fff" stroke="#cdbba2" stroke-width="2.55"/>
+<path d="M 263.63,170.49 A 88.88,88.88 0 1 1 85.85,170.49 A 88.88,88.88 0 1 1 263.63,170.49 z" transform="matrix(1.1590909,0,0,1.1590909,-24.770434,-24.093475)" fill="#4b7a4f" stroke="#cdbba2" stroke-width="3.03"/>
+</svg>

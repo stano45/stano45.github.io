@@ -1,0 +1,5 @@
+# Everyone, including AI crawlers, is welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://kosorin.com/sitemap.xml

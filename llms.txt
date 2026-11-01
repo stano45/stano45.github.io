@@ -1,0 +1,39 @@
+# Stanislav Kosorin
+
+> Stanislav (Stan) Kosorin is a founding engineer at Forgent (forgent.ai), where he builds AI agents that automate German public procurement (finding tenders, drafting bids and checking compliance) end to end, with a focus on platform and infrastructure. Before that he worked at AWS (S3), Cresta and PTX tech. He studies for an M.Sc. in Computer Science at Technische Universität Berlin, where he also earned his B.Sc.
+
+Every page on this site has a Markdown version at the same URL with `.md` appended (the home page is `/index.md`). The whole site in one file is at [llms-full.txt](https://kosorin.com/llms-full.txt).
+
+Key facts:
+
+- Current role: Founding Engineer at Forgent (https://www.forgent.ai), since October 2025. Not related to Forgent Networks / Asure Software.
+- Previous roles: Software Dev Engineer Intern at AWS, S3 Express One Zone (2025); Software Engineer at Cresta (2022–2025); Software Engineer at PTX tech (2021–2022)
+- Results: cut S3 Express One Zone metering costs by ~65% at AWS; ~10x faster 3D point-cloud processing at PTX
+- Security: leads security at Forgent: ISO 27001 certification, EU hosting, independent penetration tests, customer data never used to train AI models, AI agents that triage security findings
+- Open source: backpressure (multi-tenant rate limiting for Temporal and other async workers that share rate-limited APIs, Python and Go, backed by Valkey) and mocklimit (mock API server with realistic rate limits); Google Summer of Code 2024 with the P4 Language Consortium (P4-based load balancing for Kubernetes, ported to an Intel Tofino 2 switch)
+- Education: M.Sc. Computer Science, TU Berlin (since 2024); B.Sc. Computer Science, TU Berlin (2020–2024), thesis on container migration on LEO edge
+- Focus: platform and infrastructure engineering, security, distributed systems, AI agents
+- Skills: Go, Rust, C++, React/Next.js, AWS, Terraform, Kubernetes
+- Languages: Slovak, English, German (C1)
+- Contact: s@kosorin.com
+- GitHub: https://github.com/stano45
+- LinkedIn: https://www.linkedin.com/in/kosorin
+
+## Pages
+
+- [Home](https://kosorin.com/index.md): Who Stan is, what he works on now, highlights
+- [Work](https://kosorin.com/work.md): Work experience at Forgent, AWS, Cresta and PTX tech
+- [Projects](https://kosorin.com/projects.md): backpressure (multi-tenant rate limiting for Temporal and other workers), GSoC 2024 (P4 + Kubernetes, on a Tofino 2 switch), a Rust code generator, a Slovak learning app
+- [Education](https://kosorin.com/education.md): B.Sc. and M.Sc. Computer Science at TU Berlin, bachelor's thesis on container migration on LEO edge
+- [Contact](https://kosorin.com/contact.md): Email, LinkedIn and GitHub
+
+## Blog
+
+- [TU Berlin Bachelor of Computer Science: A Comprehensive Guide](https://kosorin.com/blog/tu-berlin-cs-guide.md): Semester-by-semester guide to the program, with advice (2024)
+- [Internationalization for static Next.js](https://kosorin.com/blog/internationalizaton-for-static-nextjs.md): Translating a statically exported Next.js site with next-export-i18n (2023)
+
+## Optional
+
+- [Résumé (PDF)](https://kosorin.com/Stanislav_Kosorin_Resume.pdf): One-page résumé
+- [Blog feed](https://kosorin.com/feed.xml): Atom feed
+- [Sitemap](https://kosorin.com/sitemap.xml)

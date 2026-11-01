@@ -3,28 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
 <title>Work – Stanislav Kosorin</title>
 <meta name="description" content="Work experience of Stanislav Kosorin: Founding Engineer at Forgent, and software engineering at AWS, Cresta and PTX tech.">
 <meta name="author" content="Stanislav Kosorin">
 <link rel="canonical" href="https://kosorin.com/work">
-<link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="text/markdown" href="/work.md" title="This page as Markdown">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Blog feed">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Stanislav Kosorin">
 <meta property="og:title" content="Work – Stanislav Kosorin">
 <meta property="og:description" content="Work experience of Stanislav Kosorin: Founding Engineer at Forgent, and software engineering at AWS, Cresta and PTX tech.">
 <meta property="og:url" content="https://kosorin.com/work">
-<meta property="og:image" content="https://kosorin.com/ai-campus-pic.webp">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://kosorin.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Stanislav Kosorin: AI agents and distributed systems">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 <header>
 <nav aria-label="Main">
-<a href="/">Home</a> ·
-<strong aria-current="page">Work</strong> ·
-<a href="/education">Education</a> ·
-<a href="/projects">Projects</a> ·
-<a href="/blog">Blog</a> ·
+<a class="home" href="/">Stanislav Kosorin</a>
+<a href="/work" aria-current="page">Work</a>
+<a href="/projects">Projects</a>
+<a href="/education">Education</a>
+<a href="/blog">Blog</a>
 <a href="/contact">Contact</a>
 </nav>
 </header>
@@ -33,35 +41,33 @@
 <h1>Work</h1>
 <p>Also available as a <a href="/Stanislav_Kosorin_Resume.pdf">PDF résumé</a> (<a href="/Stanislav_Kosorin_Resume.pdf" download>download</a>).</p>
 
-<h2>Founding Engineer at Forgent</h2>
-<p><time datetime="2025-10">Oct 2025</time> – present · full-time</p>
-<p>Building AI agents that automate German public procurement: finding relevant tenders on EU portals, drafting bids, and checking compliance. It takes over roughly 80% of the manual work that bidding usually involves.</p>
+<h2 id="forgent">Founding Engineer at Forgent</h2>
+<p class="meta"><time datetime="2025-10">Oct 2025</time> – present · full-time</p>
+<p>I build the AI agents that find tenders on EU portals, draft the bids and check them for compliance, and the platform they run on. Together they take over about 80% of the manual work in a German public tender bid.</p>
+<p>I also lead our security work: ISO 27001 certification, EU hosting, independent penetration tests, and a hard rule that customer data never trains our models. AI agents already triage our security findings, and AI-driven penetration testing is next.</p>
 <p><a href="https://www.forgent.ai">Check out Forgent</a></p>
 
-<h2>Software Dev Engineer Intern at AWS</h2>
-<p><time datetime="2025-03">Mar 2025</time> – <time datetime="2025-09">Sep 2025</time> · internship</p>
-<p>Built an EMR cluster core capacity prediction system for the S3 Express One Zone metering service, deployed to production regions and cut metering costs by ~65% while keeping cluster runtimes predictable.</p>
+<h2 id="aws">Software Dev Engineer Intern at AWS</h2>
+<p class="meta"><time datetime="2025-03">Mar 2025</time> – <time datetime="2025-09">Sep 2025</time> · internship</p>
+<p>Built a predictor for the core capacity of the EMR clusters behind S3 Express One Zone metering and shipped it to production regions. Metering costs fell by about 65%, and cluster run times stayed predictable.</p>
 <p><a href="https://aws.amazon.com/s3/storage-classes/express-one-zone/">Visit the S3 Express One Zone website</a></p>
 
-<h2>Software Engineer at Cresta</h2>
-<p><time datetime="2022-11">Nov 2022</time> – <time datetime="2025-03">Mar 2025</time> · working student</p>
-<p>At Cresta, I supported the development of data integrations and pipelines, across the frontend (React) and backend (Go). I gained a solid understanding of cloud technologies, particularly AWS, and Infrastructure as Code using Terraform. I also developed CI/CD pipelines using GitHub Actions and a custom E2E testing framework using Playwright.</p>
+<h2 id="cresta">Software Engineer at Cresta</h2>
+<p class="meta"><time datetime="2022-11">Nov 2022</time> – <time datetime="2025-03">Mar 2025</time> · working student</p>
+<p>Built data integrations and pipelines end to end, from the React frontend to the Go backend, on AWS with Terraform. Set up CI/CD in GitHub Actions and wrote the Playwright end-to-end test framework the team used.</p>
 <p><a href="https://www.cresta.com">Visit Cresta's website</a></p>
 
-<h2>Software Engineer at PTX tech</h2>
-<p><time datetime="2021-11">Nov 2021</time> – <time datetime="2022-11">Nov 2022</time> · working student</p>
-<p>At PTX, I worked on a real-time 3D detection system. I designed a multi-threaded C++ (Qt5) pipeline to process 3D point clouds, and integrated a GPU-accelerated SLAM (Simultaneous Localization and Mapping) algorithm, which sped up processing by roughly 10x.</p>
+<h2 id="ptx">Software Engineer at PTX tech</h2>
+<p class="meta"><time datetime="2021-11">Nov 2021</time> – <time datetime="2022-11">Nov 2022</time> · working student</p>
+<p>Built a multi-threaded C++/Qt5 pipeline for real-time 3D detection on point clouds, and brought in GPU-accelerated SLAM (simultaneous localization and mapping), which made processing about 10× faster.</p>
 <p><a href="https://www.ptx-tech.de">Visit PTX's website</a></p>
 </main>
 <hr>
 <footer>
 <address>
-Stanislav Kosorin ·
-<a href="mailto:s@kosorin.com">s@kosorin.com</a> ·
-<a href="https://github.com/stano45" rel="me">GitHub</a> ·
-<a href="https://www.linkedin.com/in/kosorin" rel="me">LinkedIn</a> ·
-<a href="/Stanislav_Kosorin_Resume.pdf">Résumé (PDF)</a>
+<p><a href="mailto:s@kosorin.com">s@kosorin.com</a> · <a href="https://github.com/stano45" rel="me">GitHub</a> · <a href="https://www.linkedin.com/in/kosorin" rel="me">LinkedIn</a> · <a href="/Stanislav_Kosorin_Resume.pdf">Résumé (PDF)</a></p>
 </address>
+<p class="bots">For machines: <a href="/llms.txt">llms.txt</a> · <a href="/work.md">work.md</a> · <a href="/feed.xml">feed</a> · <a href="/sitemap.xml">sitemap</a></p>
 </footer>
 </body>
 </html>

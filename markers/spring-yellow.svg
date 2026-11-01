@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.33 354.33">
+<!-- Kct-spring-yellow.svg from the OpenStreetMap wiki (public domain), in the site's colours; drawn by scripts/markers.py -->
+<path d="M 1.75,1.75 L 1.75,352.57 L 352.57,352.57 L 352.57,1.75 L 1.75,1.75 z M 55.65,159.60 L 298.68,159.60 C 299.50,165.33 299.94,171.19 299.94,177.14 C 299.94,244.92 244.92,299.94 177.14,299.94 C 109.37,299.94 54.38,244.92 54.38,177.14 C 54.38,171.19 54.82,165.33 55.65,159.60 z" fill="#fff" stroke="#cdbba2" stroke-width="3.51"/>
+<path d="M 71.92,177.14 C 71.92,235.24 119.05,282.40 177.14,282.40 C 235.24,282.40 282.40,235.24 282.40,177.14 L 71.92,177.14 z" fill="#d6a01c" stroke="#cdbba2" stroke-width="3.51"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+<!-- the red main trail marker on a tree; drawn by scripts/favicon.py -->
+<rect width="16" height="16" rx="3" fill="#8a5d3f"/>
+<rect x="2" y="2" width="12" height="12" fill="#fff"/>
+<rect x="2" y="6" width="12" height="4" fill="#b0463f"/>
+</svg>
